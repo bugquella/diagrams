@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T08:10:25.744Z" agent="5.0 (Windows)" etag="OzRZ9Ts9CBLMV6ezXyN7" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T08:11:07.561Z" agent="5.0 (Windows)" etag="tttHT6TeGUz02-PM0AIj" version="14.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="586" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -15,7 +15,7 @@
         <mxCell id="pVdlfNSVQghq543598hL-3" value="变量备注" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="590" y="30" width="280" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="pVdlfNSVQghq543598hL-5" value="&lt;div align=&quot;left&quot;&gt;h: 目标在相机坐标系的高度&lt;br&gt;w: 目标在相机坐标系的宽度&lt;br&gt;l：目标在相机坐标系的长度&lt;br&gt;alpha_deg： 目标在相机坐标系的航向角&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;upper_left： 目标在图像中的2D box 的左上角角&lt;br&gt;lower_right：目标在图像中的2D box 的右下角点&lt;br&gt;&lt;div&gt;camera_model_：相机内参、畸变系数、图像宽高&lt;/div&gt;&lt;div&gt;box_center_pixel：图像中目标2D box的中心&lt;/div&gt;&lt;div&gt;corners：目标在相机坐标系的3D box的8个顶点&lt;/div&gt;&lt;div&gt;distance：目标到相机的距离&lt;/div&gt;&lt;div&gt;mass_center_pixel：目标质心&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="pVdlfNSVQghq543598hL-3">
+        <mxCell id="pVdlfNSVQghq543598hL-5" value="&lt;div align=&quot;left&quot;&gt;h: 目标在相机坐标系的高度&lt;br&gt;w: 目标在相机坐标系的宽度&lt;br&gt;l：目标在相机坐标系的长度&lt;br&gt;alpha_deg： 目标在相机坐标系的航向角&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;upper_left： 目标在图像中的2D box 的左上角角&lt;br&gt;lower_right：目标在图像中的2D box 的右下角点&lt;br&gt;&lt;div&gt;camera_model_：相机内参、畸变系数、图像宽高&lt;/div&gt;&lt;div&gt;box_center_pixel：图像中目标2D box的中心&lt;/div&gt;&lt;div&gt;corners：目标在相机坐标系的3D box的8个顶点&lt;/div&gt;&lt;div&gt;distance：目标到相机的距离&lt;/div&gt;&lt;div&gt;mass_center_pixel：目标在图像中的质心&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="pVdlfNSVQghq543598hL-3">
           <mxGeometry y="35" width="280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pVdlfNSVQghq543598hL-13" target="pVdlfNSVQghq543598hL-29">
@@ -86,8 +86,8 @@
         <mxCell id="pVdlfNSVQghq543598hL-55" value="&lt;div&gt;camera_model_&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1020" y="340" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pVdlfNSVQghq543598hL-56" value="&lt;div&gt;1.box_center_pixel&lt;/div&gt;&lt;div&gt;2.corners&lt;/div&gt;&lt;div&gt;3.根据corners、corners、lower_right初步估计目标在图像中的质心&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1150" y="260" width="220" height="60" as="geometry" />
+        <mxCell id="pVdlfNSVQghq543598hL-56" value="&lt;div&gt;1.box_center_pixel&lt;/div&gt;&lt;div&gt;2.corners&lt;/div&gt;&lt;div&gt;3.根据corners、corners、lower_right初步估计目标在图像中的质心mass_center_pixel&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1140" y="260" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pVdlfNSVQghq543598hL-63" target="pVdlfNSVQghq543598hL-56">
           <mxGeometry relative="1" as="geometry" />
