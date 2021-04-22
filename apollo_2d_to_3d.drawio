@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T03:22:35.740Z" agent="5.0 (Windows)" etag="_jdXbpgh4HPvEMq7867L" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T03:23:06.022Z" agent="5.0 (Windows)" etag="UiMx9AM2pNIkI0-piFo0" version="14.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,6 +65,9 @@
           <mxGeometry x="-0.4722" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pVdlfNSVQghq543598hL-42" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pVdlfNSVQghq543598hL-34" target="pVdlfNSVQghq543598hL-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-34" value="目标在图像中的宽度是否被截断" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="370" width="80" height="80" as="geometry" />
