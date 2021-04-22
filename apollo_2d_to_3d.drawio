@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T08:45:04.497Z" agent="5.0 (Windows)" etag="FgFE56RqQcFOPLOB2iaR" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T08:56:16.956Z" agent="5.0 (Windows)" etag="0mc0tKxNhRrvOb75w1eL" version="14.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -83,7 +83,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pVdlfNSVQghq543598hL-80" value="&lt;font style=&quot;font-size: 46px&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="pVdlfNSVQghq543598hL-79">
+        <mxCell id="pVdlfNSVQghq543598hL-80" value="&lt;font style=&quot;font-size: 46px&quot; color=&quot;#3333FF&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="pVdlfNSVQghq543598hL-79">
           <mxGeometry x="130" y="125" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-84" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="pVdlfNSVQghq543598hL-79">
@@ -177,11 +177,23 @@
         <mxCell id="pVdlfNSVQghq543598hL-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="pVdlfNSVQghq543598hL-87" source="pVdlfNSVQghq543598hL-68" target="pVdlfNSVQghq543598hL-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pVdlfNSVQghq543598hL-114" value="&lt;font style=&quot;font-size: 46px&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="pVdlfNSVQghq543598hL-87">
+        <mxCell id="pVdlfNSVQghq543598hL-114" value="&lt;font style=&quot;font-size: 46px&quot; color=&quot;#3333FF&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="pVdlfNSVQghq543598hL-87">
           <mxGeometry x="60" y="70" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pVdlfNSVQghq543598hL-120" value="开始" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="pVdlfNSVQghq543598hL-122" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="610" width="330" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pVdlfNSVQghq543598hL-121" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="pVdlfNSVQghq543598hL-122">
+          <mxGeometry width="330" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pVdlfNSVQghq543598hL-120" value="&amp;nbsp;pt2d[0] = pt3d[0] / pt3d[2];&lt;br&gt;&lt;div&gt;&amp;nbsp;pt2d[1] = pt3d[1] / pt3d[2];&lt;/div&gt;&lt;div&gt;&amp;nbsp;p[0] = pt2d[0] * focal_length_x_ + center_x_;&lt;br&gt;&amp;nbsp;p[1] = pt2d[1] * focal_length_y_ + center_y_;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="pVdlfNSVQghq543598hL-122">
+          <mxGeometry x="10" y="20" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pVdlfNSVQghq543598hL-123" value="&lt;div align=&quot;left&quot;&gt;3D转2D：既是相机坐标系转到图像坐标系,小孔成像过程&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- 未考虑畸变情况&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pVdlfNSVQghq543598hL-122">
+          <mxGeometry x="20" y="110" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pVdlfNSVQghq543598hL-124" value="&lt;font style=&quot;font-size: 46px&quot; color=&quot;#3333FF&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pVdlfNSVQghq543598hL-122">
+          <mxGeometry x="290" y="10" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
