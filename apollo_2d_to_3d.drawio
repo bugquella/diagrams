@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T02:27:59.923Z" agent="5.0 (Windows)" etag="FxbtAAALG7RBdzxagaPB" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T02:29:36.199Z" agent="5.0 (Windows)" etag="KW4h4ciiA4XltWqttl1-" version="14.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="593" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,17 +12,17 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Deep Network" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="20" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pVdlfNSVQghq543598hL-0" value="&lt;div&gt;获取相机的内参&lt;/div&gt;&lt;div&gt;获取畸变系数&lt;br&gt;获取图像宽高&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pVdlfNSVQghq543598hL-0" value="&lt;div&gt;camera_model_&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry y="240" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-2" value="&lt;div align=&quot;left&quot;&gt;h&lt;br&gt;w&lt;br&gt;l&lt;br&gt;alpha_deg&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;upper_left&lt;br&gt;lower_right&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="167.5" y="110" width="85" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-3" value="变量备注" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="20" width="270" height="200" as="geometry" />
+          <mxGeometry x="450" y="20" width="275" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="pVdlfNSVQghq543598hL-5" value="&lt;div align=&quot;left&quot;&gt;h: 目标在相机坐标系的高度&lt;br&gt;w: 目标在相机坐标系的宽度&lt;br&gt;l：目标在相机坐标系的长度&lt;br&gt;alpha_deg： 目标在相机坐标系的航向角&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;upper_left： 目标在图像中的2D box 的左上角角&lt;br&gt;lower_right：目标在图像中的2D box 的右下角点&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="pVdlfNSVQghq543598hL-3">
-          <mxGeometry y="30" width="270" height="90" as="geometry" />
+        <mxCell id="pVdlfNSVQghq543598hL-5" value="&lt;div align=&quot;left&quot;&gt;h: 目标在相机坐标系的高度&lt;br&gt;w: 目标在相机坐标系的宽度&lt;br&gt;l：目标在相机坐标系的长度&lt;br&gt;alpha_deg： 目标在相机坐标系的航向角&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;upper_left： 目标在图像中的2D box 的左上角角&lt;br&gt;lower_right：目标在图像中的2D box 的右下角点&lt;br&gt;&lt;div&gt;camera_model_：相机内参、畸变系数、图像宽高&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="pVdlfNSVQghq543598hL-3">
+          <mxGeometry x="-5" y="25" width="280" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
