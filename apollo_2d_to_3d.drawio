@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T03:23:06.022Z" agent="5.0 (Windows)" etag="UiMx9AM2pNIkI0-piFo0" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T03:24:35.288Z" agent="5.0 (Windows)" etag="tPXbYNh_wDuTAvhM6Rcr" version="14.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
           <mxGeometry x="335" y="290" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-24" value="使用高度信息计算目标的物理距离distance和像素中心mass_center_pixel" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="495" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pVdlfNSVQghq543598hL-29" target="pVdlfNSVQghq543598hL-20">
           <mxGeometry relative="1" as="geometry" />
@@ -67,16 +67,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-42" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pVdlfNSVQghq543598hL-34" target="pVdlfNSVQghq543598hL-39">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="460" />
+              <mxPoint x="255" y="460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-34" value="目标在图像中的宽度是否被截断" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="230" y="370" width="80" height="80" as="geometry" />
+          <mxGeometry x="200" y="370" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-37" value="目标的物理距离distance设置为10m，像素中心mass_center_pixel设置为2D图像中心" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="460" width="160" height="60" as="geometry" />
+          <mxGeometry x="20" y="480" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pVdlfNSVQghq543598hL-39" value="使用高度信息计算目标的物理距离distance和像素中心mass_center_pixel" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="215" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
