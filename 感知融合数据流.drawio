@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T01:40:25.133Z" agent="5.0 (Windows)" etag="PZCuecf4f958IjhjnzSY" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T01:46:44.291Z" agent="5.0 (Windows)" etag="KlrFRJYz1iVnwZz2hYlJ" version="14.6.6" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,30 @@
         </mxCell>
         <mxCell id="VZLRnFolR8Kp3jFQuF8l-9" value="视觉预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLRnFolR8Kp3jFQuF8l-10" value="空间同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLRnFolR8Kp3jFQuF8l-11" value="运动补偿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="120" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLRnFolR8Kp3jFQuF8l-12" value="视觉目标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLRnFolR8Kp3jFQuF8l-13" value="雷达目标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLRnFolR8Kp3jFQuF8l-14" value="视觉车道线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLRnFolR8Kp3jFQuF8l-15" value="视觉目标与最优估计目标关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLRnFolR8Kp3jFQuF8l-16" value="雷达目标与最优估计目标关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLRnFolR8Kp3jFQuF8l-17" value="视觉目标、雷达目标、进行融合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
