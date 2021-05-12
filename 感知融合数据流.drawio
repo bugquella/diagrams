@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T05:48:22.917Z" agent="5.0 (Windows)" etag="apZi478jselYgCjEnOaQ" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T05:50:53.723Z" agent="5.0 (Windows)" etag="BV50wH5ioa-xxndXjdYh" version="14.6.6" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -398,7 +398,7 @@
         <mxCell id="p5pBbZ0yBpqNF_2-EAFT-161" value="目标管理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#6c8ebf;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-160">
           <mxGeometry width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p5pBbZ0yBpqNF_2-EAFT-162" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-160">
+        <mxCell id="p5pBbZ0yBpqNF_2-EAFT-162" value="融合中心中对目标的增、删、改" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-160">
           <mxGeometry x="210" width="650" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p5pBbZ0yBpqNF_2-EAFT-157" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-103">
@@ -407,7 +407,7 @@
         <mxCell id="p5pBbZ0yBpqNF_2-EAFT-158" value="轨迹预测" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#b85450;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-157">
           <mxGeometry width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p5pBbZ0yBpqNF_2-EAFT-159" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-157">
+        <mxCell id="p5pBbZ0yBpqNF_2-EAFT-159" value="对融合后的目标进行轨迹预测" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-157">
           <mxGeometry x="210" width="650" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p5pBbZ0yBpqNF_2-EAFT-154" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-103">
@@ -416,7 +416,7 @@
         <mxCell id="p5pBbZ0yBpqNF_2-EAFT-155" value="输出处理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#6c8ebf;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-154">
           <mxGeometry width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p5pBbZ0yBpqNF_2-EAFT-156" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-154">
+        <mxCell id="p5pBbZ0yBpqNF_2-EAFT-156" value="对目标进行打标签，车道打标签功能。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-154">
           <mxGeometry x="210" width="650" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p5pBbZ0yBpqNF_2-EAFT-151" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="p5pBbZ0yBpqNF_2-EAFT-103">
