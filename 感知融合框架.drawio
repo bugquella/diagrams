@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T07:50:47.412Z" agent="5.0 (Windows)" etag="i4bcS9ueARm1fuF4-UBg" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T08:26:55.928Z" agent="5.0 (Windows)" etag="usWyp5fydWsxL8FTwoXt" version="14.6.12" type="github">
   <diagram id="O4AEN3zp3_15e8FMVuli" name="第 1 页">
-    <mxGraphModel dx="711" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1007" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,53 +100,41 @@
         <mxCell id="3C201Es5-cZDIYYvgIIJ-66" value="运动补偿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3C201Es5-cZDIYYvgIIJ-67" value="局部航迹管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="720" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3C201Es5-cZDIYYvgIIJ-68" value="局部航迹形成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3C201Es5-cZDIYYvgIIJ-69" value="关联质量设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="880" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3C201Es5-cZDIYYvgIIJ-70" value="关联判决形成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="960" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-71" value="航迹融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="1040" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-72" value="航迹融合逻辑设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1040" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-73" value="航迹融合算法设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="1040" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-74" value="航迹融合质量评价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="1040" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-78" value="系统航迹管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="1190" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-79" value="系统航迹形成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1190" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-80" value="系统航迹更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="1190" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-81" value="系统航迹终止" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="1190" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-82" value="航迹与车道线融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-83" value="融合模式选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-84" value="车道线内航迹分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-85" value="系统航迹选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3C201Es5-cZDIYYvgIIJ-86" value="格式化输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="720" width="120" height="300" as="geometry" />
@@ -154,14 +142,56 @@
         <mxCell id="3C201Es5-cZDIYYvgIIJ-88" value="融合中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="670" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3C201Es5-cZDIYYvgIIJ-89" value="车道线状态判定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="880" width="120" height="60" as="geometry" />
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-95" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690" y="980" width="160" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="3C201Es5-cZDIYYvgIIJ-90" value="车道线跟踪与预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="960" width="120" height="60" as="geometry" />
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-92" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-95">
+          <mxGeometry width="160" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="3C201Es5-cZDIYYvgIIJ-91" value="车道线质量管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1040" width="120" height="60" as="geometry" />
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-89" value="车道线状态判定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-95">
+          <mxGeometry x="20" y="41.42857142857143" width="120" height="62.142857142857146" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-90" value="车道线跟踪与预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-95">
+          <mxGeometry x="20" y="124.28571428571429" width="120" height="62.142857142857146" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-91" value="车道线质量管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-95">
+          <mxGeometry x="20" y="207.14285714285717" width="120" height="62.142857142857146" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-93" value="&lt;h1&gt;车道线模块&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-95">
+          <mxGeometry x="20" y="10.357142857142858" width="130" height="20.714285714285715" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-98" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690" y="590" width="160" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-96" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-98">
+          <mxGeometry width="160" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-67" value="局部航迹管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-98">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-68" value="局部航迹形成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-98">
+          <mxGeometry x="20" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-69" value="关联质量设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-98">
+          <mxGeometry x="20" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-70" value="关联判决形成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-98">
+          <mxGeometry x="20" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-97" value="&lt;h1&gt;局部航迹管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3C201Es5-cZDIYYvgIIJ-98">
+          <mxGeometry y="10" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-99" value="航迹融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-100" value="航迹融合逻辑设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-101" value="航迹融合算法设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3C201Es5-cZDIYYvgIIJ-102" value="航迹融合质量评价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
