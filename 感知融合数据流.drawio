@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T07:04:14.735Z" agent="5.0 (Windows)" etag="Ii8M94IziL4XzRezvwSq" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T07:05:52.896Z" agent="5.0 (Windows)" etag="zWagE8fNUkBxb-IrZaFL" version="14.6.12" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
     <mxGraphModel dx="826" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -726,16 +726,29 @@
         <mxCell id="ex3rl4rScIDg8g3LuaP0-102" value="最优估计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2240" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ex3rl4rScIDg8g3LuaP0-104" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ex3rl4rScIDg8g3LuaP0-102" target="ex3rl4rScIDg8g3LuaP0-97">
+        <mxCell id="ex3rl4rScIDg8g3LuaP0-104" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.848;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ex3rl4rScIDg8g3LuaP0-102" target="ex3rl4rScIDg8g3LuaP0-97">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2290" y="1780" as="sourcePoint" />
             <mxPoint x="2340" y="1730" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2300" y="1880" />
               <mxPoint x="1960" y="1880" />
-              <mxPoint x="1960" y="1690" />
+              <mxPoint x="1960" y="1702" />
+              <mxPoint x="2020" y="1702" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ex3rl4rScIDg8g3LuaP0-106" value="传感器1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1590" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ex3rl4rScIDg8g3LuaP0-107" value="传感器2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1620" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ex3rl4rScIDg8g3LuaP0-108" value="传感器3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1650" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ex3rl4rScIDg8g3LuaP0-110" value="最优估计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1680" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
