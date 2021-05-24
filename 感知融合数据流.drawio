@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T01:33:22.650Z" agent="5.0 (Windows)" etag="ZLd6GGKUz8jFIc7MtBWc" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T01:42:22.940Z" agent="5.0 (Windows)" etag="aI17CwkddHyDLrCcHe8U" version="14.7.0" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
-    <mxGraphModel dx="1198" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1409" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-179" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="2220" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-177" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="2080" width="110" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="p5pBbZ0yBpqNF_2-EAFT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VZLRnFolR8Kp3jFQuF8l-5" target="VZLRnFolR8Kp3jFQuF8l-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -902,38 +896,56 @@
         <mxCell id="1P6DrTnQSgqbbItH3dGf-134" value="身份估计" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-173">
           <mxGeometry x="47.701863354037414" y="10" width="64.59627329192547" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-136" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="2140" width="161" height="390" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-196" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1020" y="1800" width="140" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-137" value="未关联传感器目标管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670.5" y="2010" width="120" height="60" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-195" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-196">
+          <mxGeometry width="140" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-138" value="已关联目标管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670.5" y="1830" width="120" height="60" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-194" value="" style="group" vertex="1" connectable="0" parent="1P6DrTnQSgqbbItH3dGf-196">
+          <mxGeometry x="10" y="10" width="120" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-140" value="未关联跟踪目标关联" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670.5" y="1920" width="120" height="60" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-190" value="航迹管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-194">
+          <mxGeometry x="25" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-142" value="目标管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="698" y="1800" width="65" height="20" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-184" value="" style="group" vertex="1" connectable="0" parent="1P6DrTnQSgqbbItH3dGf-194">
+          <mxGeometry y="140" width="120" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-143" value="跟踪列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670.5" y="2100" width="120" height="60" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-177" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-184">
+          <mxGeometry width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-174" value="局部-全局航迹融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="1960" width="110" height="40" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-176" value="创建新全局航迹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-184">
+          <mxGeometry x="15" y="30" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-175" value="运动补偿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="2250" width="80" height="40" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-178" value="未匹配局部航迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-184">
+          <mxGeometry x="12.5" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-176" value="创建新全局航迹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="2110" width="90" height="40" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-186" value="" style="group" vertex="1" connectable="0" parent="1P6DrTnQSgqbbItH3dGf-194">
+          <mxGeometry y="30" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-178" value="未匹配局部航迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="845" y="2080" width="95" height="30" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-181" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-186">
+          <mxGeometry width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1P6DrTnQSgqbbItH3dGf-180" value="未匹配全局航迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="845" y="2220" width="95" height="30" as="geometry" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-174" value="局部-全局航迹融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-186">
+          <mxGeometry x="5" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-182" value="已匹配航迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-186">
+          <mxGeometry x="17.5" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-193" value="" style="group" vertex="1" connectable="0" parent="1P6DrTnQSgqbbItH3dGf-194">
+          <mxGeometry y="240" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-179" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-193">
+          <mxGeometry width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-175" value="航迹删除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-193">
+          <mxGeometry x="20" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-180" value="未匹配全局航迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-193">
+          <mxGeometry x="15" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-192" value="运动补偿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1P6DrTnQSgqbbItH3dGf-193">
+          <mxGeometry x="20" y="80" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
