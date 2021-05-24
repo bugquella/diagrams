@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T01:04:45.469Z" agent="5.0 (Windows)" etag="TNRQNH0gatBwL4AKn26P" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T01:08:38.189Z" agent="5.0 (Windows)" etag="h3-IM0tUcOsJTwWnCVhu" version="14.7.0" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
-    <mxGraphModel dx="792" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1198" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -916,6 +916,30 @@
         </mxCell>
         <mxCell id="1P6DrTnQSgqbbItH3dGf-154" value="车道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1560" y="2000" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-155" value="模型参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-156" value="起点终点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-157" value="质量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1940" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-158" value="可视长度i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1940" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-159" value="本车到车道线距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2000" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-160" value="类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2000" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-161" value="是否存在" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2060" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-162" value="形状" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2060" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
