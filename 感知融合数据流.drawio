@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T01:25:49.760Z" agent="5.0 (Windows)" etag="m9R40Vx7GD3_OzJUDP58" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T01:33:22.650Z" agent="5.0 (Windows)" etag="ZLd6GGKUz8jFIc7MtBWc" version="14.7.0" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
     <mxGraphModel dx="1198" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-179" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2220" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-177" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2080" width="110" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="p5pBbZ0yBpqNF_2-EAFT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VZLRnFolR8Kp3jFQuF8l-5" target="VZLRnFolR8Kp3jFQuF8l-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -913,6 +919,21 @@
         </mxCell>
         <mxCell id="1P6DrTnQSgqbbItH3dGf-143" value="跟踪列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670.5" y="2100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-174" value="局部-全局航迹融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1960" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-175" value="运动补偿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="2250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-176" value="创建新全局航迹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="2110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-178" value="未匹配局部航迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="845" y="2080" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1P6DrTnQSgqbbItH3dGf-180" value="未匹配全局航迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="845" y="2220" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
