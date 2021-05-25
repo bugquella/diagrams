@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T03:32:36.827Z" agent="5.0 (Windows)" etag="hAaeRyNrYXWK9lrvH2Iu" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T03:35:02.006Z" agent="5.0 (Windows)" etag="nWFAg3le6m0W_Q2y73KD" version="14.7.0" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
     <mxGraphModel dx="998" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -1085,8 +1085,8 @@
         <mxCell id="hf7BkqKbFeDIjEsx_IDA-240" value="&lt;b&gt;混合式&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hf7BkqKbFeDIjEsx_IDA-218">
           <mxGeometry x="230" y="11" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hf7BkqKbFeDIjEsx_IDA-242" value="&lt;b&gt;融合结构&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1550" width="60" height="20" as="geometry" />
+        <mxCell id="hf7BkqKbFeDIjEsx_IDA-242" value="&lt;b&gt;融合系统结构&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1550" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
