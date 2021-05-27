@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T04:51:05.163Z" agent="5.0 (Windows)" etag="j01Nxq4yshkkK5C7hPOt" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T04:55:21.131Z" agent="5.0 (Windows)" etag="eseRTPEZQ_Pj_DPpM3x1" version="14.7.1" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
     <mxGraphModel dx="1198" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -1343,17 +1343,23 @@
         <mxCell id="vSwKoLHCCDqwnG_7eEK1-102" value="决策规划控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1390" y="2570" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vSwKoLHCCDqwnG_7eEK1-105" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="vSwKoLHCCDqwnG_7eEK1-93">
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-105" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#FFB366;" edge="1" parent="1" target="vSwKoLHCCDqwnG_7eEK1-93">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="919" y="2160" as="sourcePoint" />
             <mxPoint x="840" y="2150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vSwKoLHCCDqwnG_7eEK1-106" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSwKoLHCCDqwnG_7eEK1-93" target="vSwKoLHCCDqwnG_7eEK1-74">
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-106" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fillColor=#3333FF;" edge="1" parent="1" source="vSwKoLHCCDqwnG_7eEK1-93" target="vSwKoLHCCDqwnG_7eEK1-74">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="2310" as="sourcePoint" />
             <mxPoint x="827" y="2350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-111" value="&lt;font style=&quot;font-size: 11px&quot; color=&quot;#FFB366&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; text-align: left ; direction: ltr ; unicode-bidi: embed ; word-break: normal ; font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#FFB366&quot;&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;传感初始化数据&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#FFB366&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2115" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-112" value="&lt;font color=&quot;#3333FF&quot;&gt;特征信息&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="842" y="2370" width="58" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
