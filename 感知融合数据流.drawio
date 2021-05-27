@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T03:38:36.713Z" agent="5.0 (Windows)" etag="5JLRCRc0vJPhegHPMLJZ" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T03:41:27.327Z" agent="5.0 (Windows)" etag="633C-NHTdcN3ELBMU86v" version="14.7.1" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
-    <mxGraphModel dx="998" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vSwKoLHCCDqwnG_7eEK1-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="1270" y="2040" width="120" height="470" as="geometry" />
-        </mxCell>
-        <mxCell id="vSwKoLHCCDqwnG_7eEK1-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="2480" width="410" height="480" as="geometry" />
         </mxCell>
         <mxCell id="vSwKoLHCCDqwnG_7eEK1-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
           <mxGeometry x="1120" y="2040" width="120" height="470" as="geometry" />
@@ -1294,6 +1291,42 @@
         </mxCell>
         <mxCell id="vSwKoLHCCDqwnG_7eEK1-71" value="障碍物感知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vSwKoLHCCDqwnG_7eEK1-75">
           <mxGeometry x="19.5" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2220" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-80" value="障碍物分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="747.75" y="2240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-81" value="车道线感知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-83" value="交通信号感知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-84" value="环境感知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-85" value="AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="784.5" y="2050" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-86" value="视觉感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="777.5" y="2220" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-88" value="障碍物感知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-89" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2080" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-90" value="可行驶区域分割" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="749.75" y="2150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-91" value="激光雷达感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="772.25" y="2080" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vSwKoLHCCDqwnG_7eEK1-92" value="障碍物特征提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="749.75" y="2100" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
