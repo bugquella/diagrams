@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T02:16:06.705Z" agent="5.0 (Windows)" etag="O9dkniSzYRF6HAUCM7rb" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-01T02:16:45.429Z" agent="5.0 (Windows)" etag="BLRBMfsZDEeUwo-seCos" version="14.7.1" type="github">
   <diagram id="tYAOXSe1ugyFTrOcEhq6" name="第 1 页">
     <mxGraphModel dx="1409" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -1505,7 +1505,7 @@
         <mxCell id="vNnxS0phGWRsl0YDaitU-124" value="基础软件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vNnxS0phGWRsl0YDaitU-121">
           <mxGeometry x="66.25" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vNnxS0phGWRsl0YDaitU-125" value="车辆信息缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vNnxS0phGWRsl0YDaitU-121">
+        <mxCell id="vNnxS0phGWRsl0YDaitU-125" value="本车信息缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vNnxS0phGWRsl0YDaitU-121">
           <mxGeometry x="41.25" y="80" width="98.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vNnxS0phGWRsl0YDaitU-126" value="定位信息缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vNnxS0phGWRsl0YDaitU-121">
