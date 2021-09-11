@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-11T07:27:15.318Z" agent="5.0 (Windows)" etag="mrumvo4_who0B7C9POR4" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-11T07:35:08.260Z" agent="5.0 (Windows)" etag="cn66Fb2RQJ0-17aMH7hI" version="14.9.0" type="github">
   <diagram id="8UxI5zDDSqNZYO5CYFuw" name="第 1 页">
-    <mxGraphModel dx="3423" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -347,6 +347,27 @@
         </mxCell>
         <mxCell id="hynaGmhpuU8hfWFkTGDj-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="hynaGmhpuU8hfWFkTGDj-25" source="hynaGmhpuU8hfWFkTGDj-33" target="hynaGmhpuU8hfWFkTGDj-35" edge="1">
           <mxGeometry y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="zM6WOUxZVbB425My2PGX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zM6WOUxZVbB425My2PGX-6" target="zM6WOUxZVbB425My2PGX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zM6WOUxZVbB425My2PGX-6" value="创建继承TensorRT 插件声明类IPluginCreator的ResizePluginCreator类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="860" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zM6WOUxZVbB425My2PGX-7" value="实现ResizePluginCreator类中的成员函数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="860" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zM6WOUxZVbB425My2PGX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zM6WOUxZVbB425My2PGX-9" target="zM6WOUxZVbB425My2PGX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zM6WOUxZVbB425My2PGX-9" value="创建继承TensorRT 插件类IPluginV2的ResizePlugin类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="860" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zM6WOUxZVbB425My2PGX-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zM6WOUxZVbB425My2PGX-10" target="zM6WOUxZVbB425My2PGX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zM6WOUxZVbB425My2PGX-10" value="实现ResizePlugin类中的成员函数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="860" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
