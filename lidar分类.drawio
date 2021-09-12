@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T10:08:37.877Z" agent="5.0 (Windows)" etag="73FJoNEu7KzWlQkBP_fK" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-12T10:11:22.437Z" agent="5.0 (Windows)" etag="oxVWcAyCUae2p7oY1pfQ" version="15.1.4" type="github">
   <diagram id="8UxI5zDDSqNZYO5CYFuw" name="第 1 页">
     <mxGraphModel dx="685" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -517,7 +517,10 @@
           <mxGeometry x="720" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DqQ50yFkWeVbov1-j2S-2" value="Inputs(3,608,608)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2420" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="2280" y="160" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-DqQ50yFkWeVbov1-j2S-3" value="Conv_BatchNorm_ReLU(64, 304, 304)x1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="240" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
