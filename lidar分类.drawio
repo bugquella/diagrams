@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T09:01:44.445Z" agent="5.0 (Windows)" etag="bdY5a_MlnE5UWfeyHCc4" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-12T09:04:55.719Z" agent="5.0 (Windows)" etag="dX5vKwTetxrZwWwS9m_T" version="15.1.4" type="github">
   <diagram id="8UxI5zDDSqNZYO5CYFuw" name="第 1 页">
     <mxGraphModel dx="1198" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -441,38 +441,80 @@
         <mxCell id="S02xbwRRGeU0A3v8oR35-4" value="存储为engine格式文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1700" y="1030" width="210" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-1" target="yogwxDKvkyeA2El64vvN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-2" target="yogwxDKvkyeA2El64vvN-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-2" value="&lt;span lang=&quot;EN-US&quot;&gt;加载TensorRT Engine&lt;/span&gt;&lt;span&gt;文件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-3" target="yogwxDKvkyeA2El64vvN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-3" value="&lt;br&gt;&lt;span lang=&quot;EN-US&quot;&gt;根据TensorRT Engine&lt;/span&gt;&lt;span&gt;文件为输入输出tensor开辟显存&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-4" target="yogwxDKvkyeA2El64vvN-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-4" value="创建CUDA流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-5" target="yogwxDKvkyeA2El64vvN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-5" value="加载图像数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-6" target="yogwxDKvkyeA2El64vvN-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-6" value="加载图像数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-7" target="yogwxDKvkyeA2El64vvN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-7" target="yogwxDKvkyeA2El64vvN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-7" value="图像预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-8" target="yogwxDKvkyeA2El64vvN-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-8" value="将图像数据复制到CUDA流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-9" target="yogwxDKvkyeA2El64vvN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-9" value="对CUDA流中的图像进行TensorRT推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1590" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-10" target="yogwxDKvkyeA2El64vvN-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-10" value="复制CUDA流中推理结果数据到CPU内存中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1690" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yogwxDKvkyeA2El64vvN-11" target="yogwxDKvkyeA2El64vvN-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-11" value="对推理结果进行最大化池化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1790" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-12" value="极大值抑制获取可靠性最大可能性的目标数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-13" value="可视化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
