@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T08:57:46.338Z" agent="5.0 (Windows)" etag="a6D-xnqkPqsbZ5hWohf_" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-12T08:59:02.674Z" agent="5.0 (Windows)" etag="97xSlkzH4Pk-YxU0Tcyp" version="15.1.4" type="github">
   <diagram id="8UxI5zDDSqNZYO5CYFuw" name="第 1 页">
     <mxGraphModel dx="1198" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -467,6 +467,9 @@
         </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-9" value="对CUDA流中的图像进行TensorRT推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-10" value="复制CUDA流中推理结果数据到CPU内存中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
