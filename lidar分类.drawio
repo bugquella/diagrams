@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T08:48:46.437Z" agent="5.0 (Windows)" etag="7VT-SFWMNpqI7aSEdfWh" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-12T08:57:46.338Z" agent="5.0 (Windows)" etag="a6D-xnqkPqsbZ5hWohf_" version="15.1.4" type="github">
   <diagram id="8UxI5zDDSqNZYO5CYFuw" name="第 1 页">
     <mxGraphModel dx="1198" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -445,7 +445,28 @@
           <mxGeometry x="360" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yogwxDKvkyeA2El64vvN-2" value="&lt;span lang=&quot;EN-US&quot;&gt;加载TensorRT Engine&lt;/span&gt;&lt;span&gt;文件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1520" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-3" value="&lt;br&gt;&lt;span lang=&quot;EN-US&quot;&gt;根据TensorRT Engine&lt;/span&gt;&lt;span&gt;文件为输入输出tensor开辟显存&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-4" value="创建CUDA流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-5" value="加载图像数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-6" value="加载图像数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-7" value="图像预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-8" value="将图像数据复制到CUDA流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yogwxDKvkyeA2El64vvN-9" value="对CUDA流中的图像进行TensorRT推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
