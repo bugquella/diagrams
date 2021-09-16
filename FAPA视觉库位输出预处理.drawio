@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T08:14:11.921Z" agent="5.0 (Windows)" etag="OoYkZYaGFkD7zms7F7Hx" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T08:18:59.100Z" agent="5.0 (Windows)" etag="K-ioYvAfBf4XGAzmwEPt" version="15.2.7" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
     <mxGraphModel dx="826" dy="1801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" background="none" math="0" shadow="0">
       <root>
@@ -338,35 +338,49 @@
           <mxGeometry y="52" width="470" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EZox7gK0a6Xs82-B16z0-258" value="歧义库位处理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="680" width="430" height="212" as="geometry">
+          <mxGeometry x="680" y="10" width="510" height="212" as="geometry">
             <mxRectangle x="680" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EZox7gK0a6Xs82-B16z0-262" value="方案一" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="EZox7gK0a6Xs82-B16z0-258">
-          <mxGeometry y="26" width="430" height="30" as="geometry">
+          <mxGeometry y="26" width="510" height="30" as="geometry">
             <mxRectangle y="26" width="320" height="52" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EZox7gK0a6Xs82-B16z0-263" value="选取置信度最高的一个" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-262">
-          <mxGeometry y="26" width="430" height="26" as="geometry" />
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EZox7gK0a6Xs82-B16z0-266" value="方案二" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-258">
-          <mxGeometry y="56" width="430" height="156" as="geometry" />
+          <mxGeometry y="56" width="510" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="EZox7gK0a6Xs82-B16z0-270" value="本地库位没有非歧义库位" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-266">
-          <mxGeometry y="26" width="430" height="130" as="geometry" />
+        <mxCell id="EZox7gK0a6Xs82-B16z0-270" value="本地同侧库位没有非歧义库位" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" collapsed="1" parent="EZox7gK0a6Xs82-B16z0-266">
+          <mxGeometry y="26" width="510" height="26" as="geometry">
+            <mxRectangle y="26" width="510" height="130" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EZox7gK0a6Xs82-B16z0-271" value="1. 若歧义库位里的有 库位重叠更新次数 大于等于3次则该视觉库位过滤" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-270">
-          <mxGeometry y="26" width="430" height="26" as="geometry" />
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EZox7gK0a6Xs82-B16z0-272" value="2. 若歧义库位只有一个，重叠次数为0；则选择置信度高的为可靠库位 " style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-270">
-          <mxGeometry y="52" width="430" height="26" as="geometry" />
+          <mxGeometry y="52" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EZox7gK0a6Xs82-B16z0-273" value="3. 若歧义库位只有一个，重叠次数为0；两库位置信度相等；选择视觉库位为可靠库位" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-270">
-          <mxGeometry y="78" width="430" height="26" as="geometry" />
+          <mxGeometry y="78" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EZox7gK0a6Xs82-B16z0-274" value="4.  不满足以上条件；加权投票；重叠次数小于三，判断A库位角点在不在B库位角点延长线上，若在则投票有效值为B库的重叠次数+1" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-270">
-          <mxGeometry y="104" width="430" height="26" as="geometry" />
+          <mxGeometry y="104" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EZox7gK0a6Xs82-B16z0-275" value="本地同侧库位有小于2个非歧义库位" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-266">
+          <mxGeometry y="52" width="510" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="EZox7gK0a6Xs82-B16z0-276" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-275">
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EZox7gK0a6Xs82-B16z0-277" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-275">
+          <mxGeometry y="52" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EZox7gK0a6Xs82-B16z0-278" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EZox7gK0a6Xs82-B16z0-275">
+          <mxGeometry y="78" width="510" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
