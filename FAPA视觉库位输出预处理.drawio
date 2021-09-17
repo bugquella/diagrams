@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T12:24:53.554Z" agent="5.0 (Windows)" etag="JsmJg7HBDymtncbroQ6Q" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T12:31:42.306Z" agent="5.0 (Windows)" etag="fEZlgVxudGkobOH6n6oK" version="15.2.9" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
     <mxGraphModel dx="3198" dy="2610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" background="none" math="0" shadow="0">
       <root>
@@ -443,7 +443,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XFPekIAIAkDohFwAzR7S-1" value="3.相交" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=20;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2990" y="-1590" width="610" height="817" as="geometry">
+          <mxGeometry x="2990" y="-1590" width="610" height="881" as="geometry">
             <mxRectangle x="820" y="-90" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -462,7 +462,7 @@
           <mxGeometry y="78" width="610" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XFPekIAIAkDohFwAzR7S-6" value="3.2 相交处理" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-1">
-          <mxGeometry y="133" width="610" height="632" as="geometry">
+          <mxGeometry y="133" width="610" height="696" as="geometry">
             <mxRectangle y="133" width="460" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -475,29 +475,41 @@
           <mxGeometry y="26" width="610" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XFPekIAIAkDohFwAzR7S-9" value="3.2.2 方案二" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-6">
-          <mxGeometry y="56" width="610" height="576" as="geometry">
+          <mxGeometry y="56" width="610" height="640" as="geometry">
             <mxRectangle y="108" width="510" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XFPekIAIAkDohFwAzR7S-10" value="3.2.2.1 名词说明" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-9">
-          <mxGeometry y="26" width="610" height="220" as="geometry">
+          <mxGeometry y="26" width="610" height="284" as="geometry">
             <mxRectangle y="26" width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XFPekIAIAkDohFwAzR7S-11" value="1. 若歧义库位中最高重叠次数大于4；则删除视觉新库位，保留歧义库位，歧义库位的歧义次数+1；&#xa;    否则继续；[重叠次数(4，5，6...),歧义次数(....)]" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
-          <mxGeometry y="26" width="610" height="44" as="geometry" />
+        <mxCell id="XFPekIAIAkDohFwAzR7S-11" value="1. 歧义库位重叠次数： 歧义库位列表中最大的重叠次数" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
+          <mxGeometry y="26" width="610" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="XFPekIAIAkDohFwAzR7S-12" value="2. 若歧义库位最高重叠次数小于等于4，且歧义库位(重叠次数-歧义次数)的大于等于2次； &#xa;    则删除视觉新库位，保留歧义库位，歧义库位的歧义次数+1；&#xa;    否继续；[重叠次数(2,3,4),歧义次数(0,1,2)]" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
-          <mxGeometry y="70" width="610" height="50" as="geometry" />
+        <mxCell id="XFPekIAIAkDohFwAzR7S-25" value="1. 歧义次数：歧义库位列表中最大的歧义次数 " style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
+          <mxGeometry y="60" width="610" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="XFPekIAIAkDohFwAzR7S-13" value="3. 若歧义库位最高重叠次数小于等于4，且歧义库位(重叠次数-歧义次数)的最大值大于等于1次； &#xa;    则删除视觉新库位，保留歧义库位，歧义库位的歧义次数+1；&#xa;否继续；[重叠次数(1,2,3,4),歧义次数(0,1,2,3)]。" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
-          <mxGeometry y="120" width="610" height="60" as="geometry" />
+        <mxCell id="XFPekIAIAkDohFwAzR7S-26" value="2. 歧义库位的置信度：歧义库位列表中最大置信度" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
+          <mxGeometry y="94" width="610" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XFPekIAIAkDohFwAzR7S-14" value="4. 若歧义库位的最大置信度大于视觉库位置信度，则删除视觉新库位，保留歧义库位，歧义库位的歧义次数+1；&#xa;    否，则保留视觉新库位，删除歧义库位，视觉新库位的歧义次数+1。" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
-          <mxGeometry y="180" width="610" height="40" as="geometry" />
+        <mxCell id="XFPekIAIAkDohFwAzR7S-27" value="2. 视觉新库位置信度：视觉新库位自带的置信度" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
+          <mxGeometry y="124" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPekIAIAkDohFwAzR7S-28" value="2. 歧义库位的投票值：" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
+          <mxGeometry y="154" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPekIAIAkDohFwAzR7S-12" value="2. 视觉新库位投票值：" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
+          <mxGeometry y="184" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPekIAIAkDohFwAzR7S-13" value="3. 歧义库位有效：删除视觉新库位，保留歧义库位，歧义库位的歧义次数+1" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
+          <mxGeometry y="214" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPekIAIAkDohFwAzR7S-14" value="4. 视觉新库位有效： 删除歧义库位，保留视觉新库位，歧义库位的歧义次数+1" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-10">
+          <mxGeometry y="244" width="610" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XFPekIAIAkDohFwAzR7S-15" value="3.2.2.2 处理策略" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-9">
-          <mxGeometry y="246" width="610" height="270" as="geometry">
+          <mxGeometry y="310" width="610" height="270" as="geometry">
             <mxRectangle y="226" width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -517,7 +529,7 @@
           <mxGeometry y="230" width="610" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XFPekIAIAkDohFwAzR7S-21" value="3.2.2.3 其他情况(大于四)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-9">
-          <mxGeometry y="516" width="610" height="60" as="geometry">
+          <mxGeometry y="580" width="610" height="60" as="geometry">
             <mxRectangle y="496" width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -525,7 +537,7 @@
           <mxGeometry y="26" width="610" height="34" as="geometry" />
         </mxCell>
         <mxCell id="XFPekIAIAkDohFwAzR7S-23" value="3.3 更新标志位" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XFPekIAIAkDohFwAzR7S-1">
-          <mxGeometry y="765" width="610" height="52" as="geometry">
+          <mxGeometry y="829" width="610" height="52" as="geometry">
             <mxRectangle y="745" width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
