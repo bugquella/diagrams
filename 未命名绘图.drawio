@@ -1,47 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T06:54:06.296Z" agent="5.0 (Windows)" etag="JRr3JdCQrBA7Xl7PmzGK" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T06:59:02.185Z" agent="5.0 (Windows)" etag="YW9V3_JNptkmr_7x91rD" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="642" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="818" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jrK2h-31VooN953HkJox-1" value="本地库位" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=24;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="200" y="80" width="300" height="338" as="geometry" />
+        <mxCell id="jrK2h-31VooN953HkJox-1" value="本地库位" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=24;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="300" height="352" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-3" value="两角点" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="26" width="300" height="26" as="geometry" />
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-7" value="中心点(质心)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="52" width="300" height="26" as="geometry" />
+          <mxGeometry y="66" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-8" value="库位方位角" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="78" width="300" height="26" as="geometry" />
+          <mxGeometry y="92" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-9" value="尺寸(宽度和深度)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="104" width="300" height="26" as="geometry" />
+          <mxGeometry y="118" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-10" value="库位类型(平行/垂直/斜)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="130" width="300" height="26" as="geometry" />
+          <mxGeometry y="144" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-11" value="库位余车辆的位置关系(左/右)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="156" width="300" height="26" as="geometry" />
+          <mxGeometry y="170" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-12" value="视觉测距的精度(可靠性)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="182" width="300" height="26" as="geometry" />
+          <mxGeometry y="196" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-13" value="是否有轮挡" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="208" width="300" height="26" as="geometry" />
+          <mxGeometry y="222" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-14" value="轮挡在视觉探测位置戳坐标系下的坐标" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="234" width="300" height="26" as="geometry" />
+          <mxGeometry y="248" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-15" value="是否有障碍物(车辆、雪糕筒)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="260" width="300" height="26" as="geometry" />
+          <mxGeometry y="274" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-16" value="重叠次数" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="286" width="300" height="26" as="geometry" />
+          <mxGeometry y="300" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-4" value="歧义次数" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-1">
-          <mxGeometry y="312" width="300" height="26" as="geometry" />
+          <mxGeometry y="326" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-17" value="视觉检测时本车位置戳" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=24;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-18" value="视觉探测时本车坐标系与朝向" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-17">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-21" value="当前时刻车辆位置戳" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=24;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-22" value="视觉探测时本车坐标系与朝向" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-21">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-23" value="触发信号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=24;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-24" value="模块启动信号" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-23">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
