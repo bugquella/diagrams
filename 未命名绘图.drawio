@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T18:51:35.716Z" agent="5.0 (Windows)" etag="nCjQg1AKg8CdEIjG5prf" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-19T18:52:00.314Z" agent="5.0 (Windows)" etag="8Dj8FraCYSQJAPE0o3wA" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
     <mxGraphModel dx="1409" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -436,8 +436,11 @@
         <mxCell id="VgWYN8n7LNtqtZWlq0ul-241" value="使用左侧超声波雷达进行障碍物检测" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="2800" y="80" width="222.5" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="VgWYN8n7LNtqtZWlq0ul-242" value="&lt;div&gt;&lt;div&gt;LocalParkingSport[j].ObjType == 0 &amp;amp;&amp;amp;&lt;br&gt;&lt;/div&gt;LocalParkingSport[j].LeftSensorId0Flags == 0&lt;/div&gt;&lt;div&gt;该库位没有障碍物&lt;br&gt;左侧1号/2号超声波没有对该库位进行障碍物检测&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-242" value="&lt;div&gt;&lt;div&gt;LocalParkingSport[j].ObjType == 0 &amp;amp;&amp;amp;&lt;br&gt;&lt;/div&gt;LocalParkingSport[j].LeftSensorId0Flags == 0&lt;/div&gt;&lt;div&gt;该库位没有障碍物&lt;br&gt;左侧2号超声波没有对该库位进行障碍物检测&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="2703.75" y="280" width="415" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-243" value="&lt;div&gt;&lt;div&gt;LocalParkingSport[j].ObjType == 0 &amp;amp;&amp;amp;&lt;br&gt;&lt;/div&gt;LocalParkingSport[j].LeftSensorId1Flags == 0&lt;/div&gt;&lt;div&gt;该库位没有障碍物&lt;br&gt;左侧2号超声波没有对该库位进行障碍物检测&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="3340" y="260" width="415" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
