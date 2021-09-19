@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T16:22:52.108Z" agent="5.0 (Windows)" etag="iekZZd5eUT913_qh4tWr" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-19T16:33:04.031Z" agent="5.0 (Windows)" etag="6BHqmewJClIhrHPhL175" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="4792" dy="2440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="998" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,6 +176,42 @@
         </mxCell>
         <mxCell id="VgWYN8n7LNtqtZWlq0ul-51" value="&lt;font style=&quot;font-size: 20px&quot;&gt;超声波雷达数据预处理&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="VgWYN8n7LNtqtZWlq0ul-49">
           <mxGeometry x="-58.75" y="-10" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="VgWYN8n7LNtqtZWlq0ul-53" target="VgWYN8n7LNtqtZWlq0ul-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-53" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-54" value="&lt;div&gt;左侧1号或2号&lt;br&gt;超声波没有对&lt;br&gt;本地视觉库位&lt;br&gt;&amp;nbsp; 进行障碍物检测&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1407.5" y="180" width="205" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="VgWYN8n7LNtqtZWlq0ul-57" target="VgWYN8n7LNtqtZWlq0ul-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-57" value="&lt;div&gt;左侧1号&lt;br&gt;超声波没有对&lt;br&gt;本地视觉库位&lt;br&gt;&amp;nbsp; 进行障碍物检测&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1407.5" y="430" width="205" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-60" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1500" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="VgWYN8n7LNtqtZWlq0ul-60" source="VgWYN8n7LNtqtZWlq0ul-54" target="VgWYN8n7LNtqtZWlq0ul-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-59" value="&lt;font color=&quot;#FF3333&quot;&gt;真&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="VgWYN8n7LNtqtZWlq0ul-60">
+          <mxGeometry width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-61" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1500" y="646" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="VgWYN8n7LNtqtZWlq0ul-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-63" value="&lt;font color=&quot;#FF3333&quot;&gt;真&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="VgWYN8n7LNtqtZWlq0ul-61">
+          <mxGeometry width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="681" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
