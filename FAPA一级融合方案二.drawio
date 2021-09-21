@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T19:03:25.403Z" agent="5.0 (Windows)" etag="K54cGoRLkYvfMWE_jgaJ" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T19:11:02.375Z" agent="5.0 (Windows)" etag="xLEpAF8jY8Xs4wqpmO0_" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="1198" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="685" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -625,6 +625,11 @@
         <mxCell id="reUhdALE0_eWzsfr5-1L-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="reUhdALE0_eWzsfr5-1L-76" target="reUhdALE0_eWzsfr5-1L-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="reUhdALE0_eWzsfr5-1L-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="reUhdALE0_eWzsfr5-1L-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2425" y="1086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="reUhdALE0_eWzsfr5-1L-76" value="前进/静止--&amp;gt;后退(状态切换)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2265" y="940" width="320" height="102" as="geometry" />
         </mxCell>
@@ -642,6 +647,9 @@
         </mxCell>
         <mxCell id="reUhdALE0_eWzsfr5-1L-81" value="后退" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3200" y="937" width="140" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="reUhdALE0_eWzsfr5-1L-88" value="LeftRadarCQueueId1.front&lt;br&gt;LeftRadarCQueueId1.rear" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2332.5" y="1086" width="185" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
