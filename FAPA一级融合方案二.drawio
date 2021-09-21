@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T17:06:34.625Z" agent="5.0 (Windows)" etag="ft_AGrcfgNvEhx9VBXnc" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T18:04:23.756Z" agent="5.0 (Windows)" etag="L-s1qf5BEp2Huisq2DL4" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="1198" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="3993" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -500,9 +500,6 @@
               <mxPoint x="1260" y="585" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="leuu1m-iNAbnX1D4mWZV-53" value="使用两个超声波雷达，对未检测到障碍物的库位每一次循环都进行障碍物检测" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="5840" y="230" width="660" height="569" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
