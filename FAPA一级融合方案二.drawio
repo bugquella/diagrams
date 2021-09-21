@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T18:49:37.571Z" agent="5.0 (Windows)" etag="FOl9B8mtmvfIkR4Mq8AK" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T18:53:32.176Z" agent="5.0 (Windows)" etag="MZVY3CFjzisRc4wIsake" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="1997" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -305,8 +305,11 @@
         <mxCell id="qisY4M1OJLYSLH0alggS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="qisY4M1OJLYSLH0alggS-1" target="qisY4M1OJLYSLH0alggS-4" edge="1">
           <mxGeometry x="1780" y="212" as="geometry" />
         </mxCell>
-        <mxCell id="qisY4M1OJLYSLH0alggS-5" value="LeftRadarCQueueId1.data[LeftRadarCQueueId1.rear] = e;&lt;br&gt;&lt;div&gt;LeftRadarCQueueId1.rear = ((LeftRadarCQueueId1.rear +1) % 251 ) + ( (LeftRadarCQueueId1.rear +1) / 251);&lt;/div&gt;&lt;div&gt;(雷达数据e从队尾入队列，队尾指针+1)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2260" y="727" width="330" height="96" as="geometry" />
+        <mxCell id="reUhdALE0_eWzsfr5-1L-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qisY4M1OJLYSLH0alggS-5" target="reUhdALE0_eWzsfr5-1L-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qisY4M1OJLYSLH0alggS-5" value="LeftRadarCQueueId1.x[LeftRadarCQueueId1.rear] = x;&lt;br&gt;LeftRadarCQueueId1.y[LeftRadarCQueueId1.rear] = y;&lt;br&gt;&lt;div&gt;LeftRadarCQueueId1.q[LeftRadarCQueueId1.rear] = q;&lt;/div&gt;&lt;div&gt;LeftRadarCQueueId1.dim[LeftRadarCQueueId1.rear] = dim;&lt;/div&gt;&lt;div&gt;LeftRadarCQueueId1.rear = ((LeftRadarCQueueId1.rear +1) % 251 ) + ( (LeftRadarCQueueId1.rear +1) / 251);&lt;/div&gt;&lt;div&gt;(雷达数据e从队尾入队列，队尾指针+1)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2230" y="740" width="390" height="143" as="geometry" />
         </mxCell>
         <mxCell id="qisY4M1OJLYSLH0alggS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="qisY4M1OJLYSLH0alggS-4" target="qisY4M1OJLYSLH0alggS-5" edge="1">
           <mxGeometry x="1780" y="212" as="geometry" />
@@ -618,6 +621,9 @@
         </mxCell>
         <mxCell id="reUhdALE0_eWzsfr5-1L-74" value="RightSensorId2Flags：0-右侧2号雷达没有对该库位进行障碍物检测，1-有进行" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="reUhdALE0_eWzsfr5-1L-58">
           <mxGeometry y="430" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="reUhdALE0_eWzsfr5-1L-76" value="前进/静止" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="940" width="320" height="102" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
