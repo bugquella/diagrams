@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T03:53:12.369Z" agent="5.0 (Windows)" etag="bsj7u744d1217Z4tTm6R" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T03:56:13.429Z" agent="5.0 (Windows)" etag="v88GHPi-FIpXylZwo7Jn" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="1409" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="998" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -529,7 +529,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VgWYN8n7LNtqtZWlq0ul-99" value="&lt;div&gt;LeftRadarCQueueId1[i].dim&amp;lt;=3.1 &amp;amp;&amp;amp;&amp;nbsp; &lt;br&gt;LocalParkingSport[j].maxX = LocalParkingSport[j].minX=0&lt;br&gt;LocalParkingSport[j].maxY = LocalParkingSport[j].minY=0&lt;br&gt;(LeftRadarCQueueId1[i+1].dim - LeftRadarCQueueId1[i].dim)&amp;gt;0.5&lt;br&gt;(雷达dim有效，且前后数据有跳变)&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-99" value="&lt;div&gt;LeftRadarCQueueId1[i].dim&amp;lt;=3.1 &amp;amp;&amp;amp;&amp;nbsp; &lt;br&gt;LeftRadarCQueueId1[i].x &amp;lt;= LocalParkingSport[j].maxX&lt;br&gt;LeftRadarCQueueId1[i].x &amp;gt;=LocalParkingSport[j].minX&lt;br&gt;(LeftRadarCQueueId1[i].y+dim) &amp;lt;=  LocalParkingSport[j].maxY = (LeftRadarCQueueId1[i].y+dim) &amp;gt;=  LocalParkingSport[j].minY&lt;br&gt;(LeftRadarCQueueId1[i+1].dim - LeftRadarCQueueId1[i].dim)&amp;gt;0.5&lt;br&gt;(雷达dim有效，且在视觉库位外接矩形内部且前后数据有跳变)&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="5200.33" y="1340" width="620" height="370" as="geometry" />
         </mxCell>
         <mxCell id="VgWYN8n7LNtqtZWlq0ul-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" parent="1" source="VgWYN8n7LNtqtZWlq0ul-86" target="VgWYN8n7LNtqtZWlq0ul-99" edge="1">
