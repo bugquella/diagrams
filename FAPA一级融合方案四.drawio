@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T06:45:12.564Z" agent="5.0 (Windows)" etag="jQO8mZ9qoeouumVDj7Nj" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T06:54:46.906Z" agent="5.0 (Windows)" etag="XRh72V1DRR7HB0mHmq7D" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="2031" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,36 +96,42 @@
           <mxGeometry y="352" width="400" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-17" value="视觉检测时本车位置戳" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1600" width="520" height="66" as="geometry" />
+          <mxGeometry x="620" y="2194" width="520" height="66" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-18" value="视觉探测时本车坐标系与朝向" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-17" vertex="1">
           <mxGeometry y="40" width="520" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-21" value="当前时刻车辆位置戳" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1690" width="520" height="66" as="geometry" />
+          <mxGeometry x="590" y="1660" width="520" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="jrK2h-31VooN953HkJox-22" value="视觉探测时本车坐标系与朝向" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-21" vertex="1">
+        <mxCell id="PpEH4e9-SN8Gfu_vvwJx-35" value="PosX：当前时刻本车X方向坐标" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-21">
           <mxGeometry y="40" width="520" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="PpEH4e9-SN8Gfu_vvwJx-36" value="PosY：当前时刻本车Y方向坐标" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-21">
+          <mxGeometry y="66" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-22" value="当前时刻本车在全局坐标系的朝向yaw" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-21" vertex="1">
+          <mxGeometry y="92" width="520" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-23" value="触发信号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1780" width="520" height="66" as="geometry" />
+          <mxGeometry x="660" y="2342" width="520" height="66" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-24" value="模块启动信号" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-23" vertex="1">
           <mxGeometry y="40" width="520" height="26" as="geometry" />
         </mxCell>
         <mxCell id="leuu1m-iNAbnX1D4mWZV-41" value="传感器" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#A0522D;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1865" width="520" height="139" as="geometry" />
+          <mxGeometry x="630" y="1970" width="520" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="leuu1m-iNAbnX1D4mWZV-42" value="左侧1号超声波(靠近车尾)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
+        <mxCell id="leuu1m-iNAbnX1D4mWZV-42" value="左侧1号超声波(靠近车尾)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
           <mxGeometry y="35" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="leuu1m-iNAbnX1D4mWZV-43" value="左侧2号超声波(靠近车头)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
+        <mxCell id="leuu1m-iNAbnX1D4mWZV-43" value="左侧2号超声波(靠近车头)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
           <mxGeometry y="61" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="leuu1m-iNAbnX1D4mWZV-45" value="右侧1号超声波(靠近车尾)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
+        <mxCell id="leuu1m-iNAbnX1D4mWZV-45" value="右侧1号超声波(靠近车尾)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
           <mxGeometry y="87" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="leuu1m-iNAbnX1D4mWZV-44" value="右侧2号超声波(靠近车头)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
+        <mxCell id="leuu1m-iNAbnX1D4mWZV-44" value="右侧2号超声波(靠近车头)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
           <mxGeometry y="113" width="520" height="26" as="geometry" />
         </mxCell>
         <mxCell id="leuu1m-iNAbnX1D4mWZV-49" value="&lt;b&gt;输入&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
