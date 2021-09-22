@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T05:46:07.083Z" agent="5.0 (Windows)" etag="V3ZMrm6FO5Dk_yTg2L1h" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T05:50:03.375Z" agent="5.0 (Windows)" etag="XT3lKnRU4IOjOB1MHLIS" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="5990" dy="3050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1198" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,7 +363,7 @@
         <mxCell id="VgWYN8n7LNtqtZWlq0ul-2" value="左侧1号超声波是否有新数据" style="rhombus;whiteSpace=wrap;html=1;" parent="leuu1m-iNAbnX1D4mWZV-39" vertex="1">
           <mxGeometry x="246.25" y="165" width="170" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="VgWYN8n7LNtqtZWlq0ul-4" value="将超声波数据转到全局坐标系(x,y,q,dim)" style="rounded=0;whiteSpace=wrap;html=1;" parent="leuu1m-iNAbnX1D4mWZV-39" vertex="1">
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-4" value="将超声波数据转到全局坐标系(Posx,Posy,yaw,dim)" style="rounded=0;whiteSpace=wrap;html=1;" parent="leuu1m-iNAbnX1D4mWZV-39" vertex="1">
           <mxGeometry x="91.25" y="255" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VgWYN8n7LNtqtZWlq0ul-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="leuu1m-iNAbnX1D4mWZV-39" source="VgWYN8n7LNtqtZWlq0ul-2" target="VgWYN8n7LNtqtZWlq0ul-4" edge="1">
@@ -374,7 +374,7 @@
             <mxPoint x="331" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VgWYN8n7LNtqtZWlq0ul-21" value="将超声波数据转到全局坐标系(x,y,q,dim)" style="rounded=0;whiteSpace=wrap;html=1;" parent="leuu1m-iNAbnX1D4mWZV-39" vertex="1">
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-21" value="将超声波数据转到全局坐标系(Posx,Posy,yaw,dim)" style="rounded=0;whiteSpace=wrap;html=1;" parent="leuu1m-iNAbnX1D4mWZV-39" vertex="1">
           <mxGeometry x="91.25999999999999" y="533" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VgWYN8n7LNtqtZWlq0ul-23" value="右侧1号超声波是否有新数据" style="rhombus;whiteSpace=wrap;html=1;" parent="leuu1m-iNAbnX1D4mWZV-39" vertex="1">
@@ -413,10 +413,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="leuu1m-iNAbnX1D4mWZV-50" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="790" y="160" width="450" height="880" as="geometry" />
+          <mxGeometry x="790" y="160" width="450" height="930" as="geometry" />
         </mxCell>
         <mxCell id="leuu1m-iNAbnX1D4mWZV-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="leuu1m-iNAbnX1D4mWZV-50" vertex="1">
-          <mxGeometry width="450" height="880" as="geometry" />
+          <mxGeometry width="450" height="930" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-1" value="本地库位" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="leuu1m-iNAbnX1D4mWZV-50" vertex="1">
           <mxGeometry x="60" y="40" width="300" height="300" as="geometry" />
@@ -457,20 +457,14 @@
         <mxCell id="jrK2h-31VooN953HkJox-18" value="视觉探测时本车坐标系与朝向" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-17" vertex="1">
           <mxGeometry y="40" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jrK2h-31VooN953HkJox-21" value="当前时刻车辆位置戳" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="leuu1m-iNAbnX1D4mWZV-50" vertex="1">
-          <mxGeometry x="60" y="510" width="300" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="jrK2h-31VooN953HkJox-22" value="视觉探测时本车坐标系与朝向" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-21" vertex="1">
-          <mxGeometry y="40" width="300" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-23" value="触发信号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="leuu1m-iNAbnX1D4mWZV-50" vertex="1">
-          <mxGeometry x="60" y="600" width="300" height="66" as="geometry" />
+          <mxGeometry x="60" y="670" width="300" height="66" as="geometry" />
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-24" value="模块启动信号" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-23" vertex="1">
           <mxGeometry y="40" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="leuu1m-iNAbnX1D4mWZV-41" value="传感器" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#A0522D;fontColor=#FFFFFF;" parent="leuu1m-iNAbnX1D4mWZV-50" vertex="1">
-          <mxGeometry x="60" y="685" width="300" height="139" as="geometry" />
+          <mxGeometry x="60" y="755" width="300" height="139" as="geometry" />
         </mxCell>
         <mxCell id="leuu1m-iNAbnX1D4mWZV-42" value="左侧1号超声波(靠近车尾)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="leuu1m-iNAbnX1D4mWZV-41" vertex="1">
           <mxGeometry y="35" width="300" height="26" as="geometry" />
@@ -486,6 +480,18 @@
         </mxCell>
         <mxCell id="leuu1m-iNAbnX1D4mWZV-49" value="&lt;b&gt;输入&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="leuu1m-iNAbnX1D4mWZV-50" vertex="1">
           <mxGeometry x="165" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-21" value="当前时刻车辆位置戳" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;fillColor=#A0522D;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="leuu1m-iNAbnX1D4mWZV-50" vertex="1">
+          <mxGeometry x="60" y="510" width="300" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="_mxWHUpELOTDCrx8q8tH-6" value="视觉探测时本车X方向的坐标PosX" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-21">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_mxWHUpELOTDCrx8q8tH-7" value="视觉探测时本车Y方向的坐标PosY" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" vertex="1" parent="jrK2h-31VooN953HkJox-21">
+          <mxGeometry y="66" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jrK2h-31VooN953HkJox-22" value="视觉探测时本车在全局坐标系的朝向yaw" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-21" vertex="1">
+          <mxGeometry y="92" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="leuu1m-iNAbnX1D4mWZV-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;fontColor=#FFFFFF;" parent="1" source="leuu1m-iNAbnX1D4mWZV-46" target="VgWYN8n7LNtqtZWlq0ul-50" edge="1">
           <mxGeometry relative="1" as="geometry">
