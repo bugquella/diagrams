@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T07:14:11.210Z" agent="5.0 (Windows)" etag="fr_W3UBMX6RhRB11dvaj" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T07:14:56.608Z" agent="5.0 (Windows)" etag="IBxjCV5zDJaURUMN1Y6z" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="1422" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2844" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -518,7 +518,7 @@
         <mxCell id="PpEH4e9-SN8Gfu_vvwJx-13" value="&lt;div&gt;LocalParkingSport[j].ObjType == 0&lt;/div&gt;&lt;div&gt;该库位没有障碍物&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" parent="PpEH4e9-SN8Gfu_vvwJx-47" vertex="1">
           <mxGeometry x="355" y="286" width="330" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="VgWYN8n7LNtqtZWlq0ul-66" value="PosX&amp;gt;=LocalParkingSport[j].minX&lt;br&gt;(当前车辆坐标X大于等于库位最小的x)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=18;" parent="PpEH4e9-SN8Gfu_vvwJx-47" vertex="1">
+        <mxCell id="VgWYN8n7LNtqtZWlq0ul-66" value="PosX&amp;gt;=LocalParkingSport[j].X1&lt;br&gt;(当前车辆坐标X大于等于库位最小的x)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=18;" parent="PpEH4e9-SN8Gfu_vvwJx-47" vertex="1">
           <mxGeometry x="250" y="478" width="540" height="250" as="geometry" />
         </mxCell>
         <mxCell id="PpEH4e9-SN8Gfu_vvwJx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PpEH4e9-SN8Gfu_vvwJx-47" source="PpEH4e9-SN8Gfu_vvwJx-13" target="VgWYN8n7LNtqtZWlq0ul-66" edge="1">
