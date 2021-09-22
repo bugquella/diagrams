@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T06:56:27.577Z" agent="5.0 (Windows)" etag="9qhm45lbJmFGvjd-Yrhc" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T07:05:13.362Z" agent="5.0 (Windows)" etag="p8VfaAwsLSMz_zFtao5N" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="569" dy="286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,6 +457,16 @@
         <mxCell id="PpEH4e9-SN8Gfu_vvwJx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpEH4e9-SN8Gfu_vvwJx-3" target="PpEH4e9-SN8Gfu_vvwJx-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PpEH4e9-SN8Gfu_vvwJx-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpEH4e9-SN8Gfu_vvwJx-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3648" y="1410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3980" y="1150" />
+              <mxPoint x="3980" y="1410" />
+              <mxPoint x="3900" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PpEH4e9-SN8Gfu_vvwJx-3" value="&lt;div&gt;LocalParkingSport[j].maxX = LocalParkingSport[j].minX=0&lt;br&gt;LocalParkingSport[j].maxY = LocalParkingSport[j].minY=0&lt;br&gt; &lt;/div&gt;&lt;div&gt;没有计算该库位的最大外接矩形&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="3472.5" y="1060" width="350" height="180" as="geometry" />
         </mxCell>
@@ -612,6 +622,9 @@
         </mxCell>
         <mxCell id="VgWYN8n7LNtqtZWlq0ul-218" value="&lt;b&gt;&lt;font color=&quot;#FF0000&quot;&gt;假&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="3420" y="650" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PpEH4e9-SN8Gfu_vvwJx-38" value="&lt;b&gt;&lt;font color=&quot;#FF0000&quot;&gt;假&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="3834.25" y="1100" width="40" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
