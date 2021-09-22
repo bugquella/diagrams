@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T06:14:25.222Z" agent="5.0 (Windows)" etag="95YJV6WPhI24L4AHgN9x" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T06:15:49.264Z" agent="5.0 (Windows)" etag="ycqhgncN4RO8r6Jti8WJ" version="15.2.9" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="4063" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="14220" dy="7140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -495,6 +495,9 @@
         </mxCell>
         <mxCell id="jrK2h-31VooN953HkJox-22" value="视觉探测时本车在全局坐标系的朝向yaw" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;gradientColor=#b3b3b3;" parent="jrK2h-31VooN953HkJox-21" vertex="1">
           <mxGeometry y="92" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_mxWHUpELOTDCrx8q8tH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_mxWHUpELOTDCrx8q8tH-38" target="VgWYN8n7LNtqtZWlq0ul-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
