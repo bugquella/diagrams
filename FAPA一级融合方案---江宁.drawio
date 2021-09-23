@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T06:45:01.775Z" agent="5.0 (Windows)" etag="L3me0xbMcPuw8uAS0ZE6" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T07:12:53.320Z" agent="5.0 (Windows)" etag="spqhfbGr1l4JJLzMPMUL" version="15.3.0" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
-    <mxGraphModel dx="2966" dy="1531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1848" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -498,6 +498,9 @@
         </mxCell>
         <mxCell id="_mxWHUpELOTDCrx8q8tH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_mxWHUpELOTDCrx8q8tH-38" target="VgWYN8n7LNtqtZWlq0ul-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHEkFo2X7ZtQmpFh-Sr--2" value="后退时该模块功能暂停" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1374" width="530" height="156" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
