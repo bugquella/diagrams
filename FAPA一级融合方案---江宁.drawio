@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T07:12:53.320Z" agent="5.0 (Windows)" etag="spqhfbGr1l4JJLzMPMUL" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T07:17:12.959Z" agent="5.0 (Windows)" etag="TZ9cX0WvIapRbqF_xhII" version="15.3.0" type="github">
   <diagram id="7hQzBCkBdU_H9w4rOh0N" name="第 1 页">
     <mxGraphModel dx="1848" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -109,6 +109,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="805" y="1060" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sHEkFo2X7ZtQmpFh-Sr--3" value="&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#FF0000&quot;&gt;识别到车位有障碍物的情况下即使车辆倒退之后再前进也不会重新更新障碍物标志位&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VgWYN8n7LNtqtZWlq0ul-238">
+          <mxGeometry x="100" y="1410" width="727.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="37CJagWb4j1WNpY-bCI--22" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;判断每一个本地视觉库位是否需要进行障碍物检测以及使用哪些传感器对该库位进行障碍物检测&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2660" y="144" width="1160" height="142" as="geometry" />
