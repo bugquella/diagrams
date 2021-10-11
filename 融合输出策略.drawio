@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T10:24:02.442Z" agent="5.0 (Windows)" etag="W6_cmsOaSA6UKzZdTY0B" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-11T11:06:47.866Z" agent="5.0 (Windows)" etag="M57ckOsSh1rFOP4jKYaB" version="15.5.0" type="github">
   <diagram id="82PmtIhgX8jkiUEYPpQO" name="第 1 页">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,18 @@
         </mxCell>
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-10" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#F5F5F5;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-7">
           <mxGeometry y="90" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-11" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="199" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-12" value="FirState" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-11">
+          <mxGeometry y="30" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-13" value="Enable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-11">
+          <mxGeometry y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-14" value="SecState：&#xa;二级融合车位有效标识位。角度标签。&#xa;二级融合通过相对夹角判断库位是否有效，不压线情况下打标签，&#xa;压线情况下构造车位会跟无效车位大面积重叠，策略待定）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-11">
+          <mxGeometry y="90" width="360" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
