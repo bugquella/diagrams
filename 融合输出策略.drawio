@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T11:12:12.252Z" agent="5.0 (Windows)" etag="EPDo8bciXfXh8hBAE-Fe" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-11T11:12:40.438Z" agent="5.0 (Windows)" etag="Q1A4zYVZc5I4OHY3eIhS" version="15.5.0" type="github">
   <diagram id="82PmtIhgX8jkiUEYPpQO" name="第 1 页">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,9 +22,6 @@
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-5" value="蓝色 已选择空间车位" style="text;strokeColor=none;fillColor=#0000FF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-1">
           <mxGeometry y="150" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-7" value="黄色   未选择视觉车位 " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFF00;" vertex="1" parent="1">
-          <mxGeometry x="590" y="320" width="330" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-11" value="库位标志位信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="80" y="79" width="360" height="250" as="geometry" />
         </mxCell>
@@ -36,6 +33,18 @@
         </mxCell>
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-14" value="SecState：&#xa;二级融合车位有效标识位。角度标签。&#xa;二级融合通过相对夹角判断库位是否有效，不压线情况下打标签，&#xa;压线情况下构造车位会跟无效车位大面积重叠，策略待定）" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#333333;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-11">
           <mxGeometry y="180" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-15" value="黄色   未选择视觉车位 " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="465" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-16" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-15">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-17" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-15">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-18" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;" vertex="1" parent="EbNDTZ_1CjkCkVcdBUa7-15">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
