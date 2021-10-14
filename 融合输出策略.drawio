@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T07:47:49.627Z" agent="5.0 (Windows)" etag="yoOEIPNe2HP8f235gVg1" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T07:49:33.504Z" agent="5.0 (Windows)" etag="ECbVr_ry36X7WhDEW7GF" version="15.5.2" type="github">
   <diagram id="82PmtIhgX8jkiUEYPpQO" name="第 1 页">
-    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-11" value="库位标志位信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFF00;" parent="1" vertex="1">
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-11" value="1. 库位标志位信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="40" y="79" width="350" height="250" as="geometry" />
         </mxCell>
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-13" value="Enable：&#xa;0-该车位信息无效或车位失效&#xa;1-该车位信息有效" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#333333;" parent="EbNDTZ_1CjkCkVcdBUa7-11" vertex="1">
@@ -16,7 +16,7 @@
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-14" value="SecState：&#xa;0：默认状态()&#xa;1：在MP5可视范围内,距离本车的距离在决策允许的范围内&#xa;2：在MP5可视范围内,距离本车的距离不在决策允许的范围内&#xa;3：不在MP5可视范围内.&#xa;&#xa;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#333333;" parent="EbNDTZ_1CjkCkVcdBUa7-11" vertex="1">
           <mxGeometry y="180" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WpMTkYlcCkgaBXwrseWi-1" value="FirState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFF00;" parent="1" vertex="1">
+        <mxCell id="WpMTkYlcCkgaBXwrseWi-1" value="2. FirState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="480" y="79" width="320" height="270" as="geometry" />
         </mxCell>
         <mxCell id="WpMTkYlcCkgaBXwrseWi-5" value="0" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WpMTkYlcCkgaBXwrseWi-1" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="WpMTkYlcCkgaBXwrseWi-18" value="自车没有驶过第一个角点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="WpMTkYlcCkgaBXwrseWi-17" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WpMTkYlcCkgaBXwrseWi-21" value="SecState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFF00;" parent="1" vertex="1">
+        <mxCell id="WpMTkYlcCkgaBXwrseWi-21" value="3. SecState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="840" y="79" width="360" height="450" as="geometry" />
         </mxCell>
         <mxCell id="WpMTkYlcCkgaBXwrseWi-25" value="0" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WpMTkYlcCkgaBXwrseWi-21" vertex="1">
@@ -88,17 +88,11 @@
         <mxCell id="WpMTkYlcCkgaBXwrseWi-40" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="WpMTkYlcCkgaBXwrseWi-37" vertex="1">
           <mxGeometry y="90" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K-upvyzo8_QFyM9ZJRda-1" value="显示" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFF00;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="79" width="409" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="K-upvyzo8_QFyM9ZJRda-2" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="K-upvyzo8_QFyM9ZJRda-1">
-          <mxGeometry y="30" width="409" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K-upvyzo8_QFyM9ZJRda-3" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="K-upvyzo8_QFyM9ZJRda-1">
-          <mxGeometry y="60" width="409" height="30" as="geometry" />
+        <mxCell id="K-upvyzo8_QFyM9ZJRda-1" value="4. 显示" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="79" width="409" height="360" as="geometry" />
         </mxCell>
         <mxCell id="K-upvyzo8_QFyM9ZJRda-5" value="允许显示" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="K-upvyzo8_QFyM9ZJRda-1">
-          <mxGeometry y="90" width="409" height="120" as="geometry" />
+          <mxGeometry y="30" width="409" height="120" as="geometry" />
         </mxCell>
         <mxCell id="K-upvyzo8_QFyM9ZJRda-6" value="Enable=1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="K-upvyzo8_QFyM9ZJRda-5">
           <mxGeometry y="30" width="409" height="30" as="geometry" />
@@ -110,24 +104,24 @@
           <mxGeometry y="90" width="409" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K-upvyzo8_QFyM9ZJRda-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="K-upvyzo8_QFyM9ZJRda-1">
-          <mxGeometry y="210" width="409" height="30" as="geometry" />
+          <mxGeometry y="150" width="409" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-1" value="显示状态" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="K-upvyzo8_QFyM9ZJRda-1" vertex="1">
-          <mxGeometry y="240" width="409" height="180" as="geometry" />
+          <mxGeometry y="180" width="409" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-2" value="黄色   未选择视觉车位 " style="text;strokeColor=none;fillColor=#FFFF00;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-2" value="黄色   未选择视觉车位 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
           <mxGeometry y="30" width="409" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-3" value="绿色 已选择视觉车位" style="text;strokeColor=none;fillColor=#00FF00;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-3" value="绿色 已选择视觉车位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
           <mxGeometry y="60" width="409" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-6" value="红色  视觉车位有障碍物 ， 可能是未选择或已选择状态" style="text;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-6" value="红色  视觉车位有障碍物 ， 可能是未选择或已选择状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
           <mxGeometry y="90" width="409" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-4" value="橙色   未选择空间车位" style="text;strokeColor=none;fillColor=#FFA500;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-4" value="橙色   未选择空间车位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
           <mxGeometry y="120" width="409" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-5" value="蓝色 已选择空间车位" style="text;strokeColor=none;fillColor=#0000FF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=1;fontColor=#FFFFFF;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-5" value="蓝色 已选择空间车位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=1;fontColor=#FFFFFF;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
           <mxGeometry y="150" width="409" height="30" as="geometry" />
         </mxCell>
       </root>
