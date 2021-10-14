@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T01:07:00.025Z" agent="5.0 (Windows)" etag="1SmOhD5URxm_LA317FJu" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T01:11:22.931Z" agent="5.0 (Windows)" etag="8RswvxCeyRcwdOqEMJ9E" version="15.5.0" type="github">
   <diagram id="82PmtIhgX8jkiUEYPpQO" name="第 1 页">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-12" value="FirState：一级融合车位有效标识位一级融合打标签，障碍物标签）&#xa;0：视觉原始信号&#xa;1：超声波已扫描，无障碍物&#xa;2：超声波已扫描，有障碍物&#xa;3：超声波未扫描" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#333333;" parent="EbNDTZ_1CjkCkVcdBUa7-11" vertex="1">
           <mxGeometry y="90" width="360" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-14" value="SecState：&#xa;0：默认状态()&#xa;1：在MP5可视范围内&#xa;2：不在MP5可视范围内" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#333333;" parent="EbNDTZ_1CjkCkVcdBUa7-11" vertex="1">
+        <mxCell id="EbNDTZ_1CjkCkVcdBUa7-14" value="SecState：&#xa;0：默认状态()&#xa;1：在MP5可视范围内&#xa;2：不在MP5可视范围内.&#xa;0.5--1.5范围内&#xa;&#xa;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#333333;" parent="EbNDTZ_1CjkCkVcdBUa7-11" vertex="1">
           <mxGeometry y="180" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-15" value="黄色   未选择视觉车位 " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFF00;" parent="1" vertex="1">
