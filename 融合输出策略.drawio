@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-16T03:18:43.186Z" agent="5.0 (Windows)" etag="bdAcxR6_6H4KdcV9Avpz" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T06:27:58.870Z" agent="5.0 (Windows)" etag="r6u_S_TElhk8xgGv9t-S" version="15.5.4" type="github">
   <diagram id="82PmtIhgX8jkiUEYPpQO" name="第 1 页">
-    <mxGraphModel dx="2048" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2557" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,6 +132,18 @@
         </mxCell>
         <mxCell id="EbNDTZ_1CjkCkVcdBUa7-5" value="蓝色 已选择空间车位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=1;fontColor=#FFFFFF;" parent="EbNDTZ_1CjkCkVcdBUa7-1" vertex="1">
           <mxGeometry y="150" width="409" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UjWq3OTvoc2UdcZGDs98-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K-upvyzo8_QFyM9ZJRda-12" target="K-upvyzo8_QFyM9ZJRda-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="650" as="sourcePoint" />
+            <mxPoint x="420" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjWq3OTvoc2UdcZGDs98-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K-upvyzo8_QFyM9ZJRda-9" target="K-upvyzo8_QFyM9ZJRda-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="780" as="sourcePoint" />
+            <mxPoint x="1310" y="730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
