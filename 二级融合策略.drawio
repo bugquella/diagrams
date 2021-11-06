@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T09:48:05.893Z" agent="5.0 (Windows)" etag="azNJVmUf34TaUfdOA3xx" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T09:51:30.751Z" agent="5.0 (Windows)" etag="_EuLP8JHQM9ID6Q-FAnb" version="15.5.4" type="github">
   <diagram id="cVR37ZmWGLsnPl2WjFdK" name="第 1 页">
-    <mxGraphModel dx="716" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,6 +15,15 @@
         </mxCell>
         <mxCell id="-53x6ZhHskoMFxqWoibM-4" value="融合库位：包含视觉库位和空间库位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="-53x6ZhHskoMFxqWoibM-1">
           <mxGeometry y="100" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-53x6ZhHskoMFxqWoibM-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="84" y="260" width="330" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-53x6ZhHskoMFxqWoibM-7" value="超声波库位搜索" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-53x6ZhHskoMFxqWoibM-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="240" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
