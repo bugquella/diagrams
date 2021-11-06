@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T09:44:11.283Z" agent="5.0 (Windows)" etag="VRgmntZo1nnCZy8rkiDw" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T09:48:05.893Z" agent="5.0 (Windows)" etag="azNJVmUf34TaUfdOA3xx" version="15.5.4" type="github">
   <diagram id="cVR37ZmWGLsnPl2WjFdK" name="第 1 页">
-    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-53x6ZhHskoMFxqWoibM-1" value="名词介绍" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="70" y="40" width="560" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="-53x6ZhHskoMFxqWoibM-2" value="空间ROI库位：超声波进行库位检测检测到的库位(此时不清除库位类型，可平行，可垂直、可复合)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="-53x6ZhHskoMFxqWoibM-1">
+        <mxCell id="-53x6ZhHskoMFxqWoibM-2" value="空间ROI库位：超声波进行库位检测检测到的库位(此时不清除库位类型，可平行，可垂直、可复合)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0" vertex="1" parent="-53x6ZhHskoMFxqWoibM-1">
           <mxGeometry y="40" width="560" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-53x6ZhHskoMFxqWoibM-3" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="-53x6ZhHskoMFxqWoibM-1">
+        <mxCell id="-53x6ZhHskoMFxqWoibM-5" value="空间库位：根据一定的策略对 空间ROI库位 进行空间库位的构造到的库位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0" vertex="1" parent="-53x6ZhHskoMFxqWoibM-1">
           <mxGeometry y="70" width="560" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-53x6ZhHskoMFxqWoibM-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="-53x6ZhHskoMFxqWoibM-1">
+        <mxCell id="-53x6ZhHskoMFxqWoibM-4" value="融合库位：包含视觉库位和空间库位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="-53x6ZhHskoMFxqWoibM-1">
           <mxGeometry y="100" width="560" height="30" as="geometry" />
         </mxCell>
       </root>
