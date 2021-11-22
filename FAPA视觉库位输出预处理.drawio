@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T06:38:34.374Z" agent="5.0 (Windows)" etag="L2hmjHwlc_M_xPqRb3zF" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T06:55:14.803Z" agent="5.0 (Windows)" etag="VkUgDGPdioZm-JsrcotA" version="15.8.3" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
-    <mxGraphModel dx="3038" dy="2536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3095" dy="2536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -608,12 +608,6 @@
         <mxCell id="GuE9smHsmDDsnf1vQT-a-44" value="两圆相交面积" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="GuE9smHsmDDsnf1vQT-a-43" vertex="1">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="J6QNZkFJz4BYSSehVcxL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="700" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="J6QNZkFJz4BYSSehVcxL-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="700" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="J6QNZkFJz4BYSSehVcxL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-3" target="J6QNZkFJz4BYSSehVcxL-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -663,6 +657,117 @@
         </mxCell>
         <mxCell id="J6QNZkFJz4BYSSehVcxL-17" value="重定位车位信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="1030" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-18" target="J6QNZkFJz4BYSSehVcxL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-18" value="输入&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;视觉车位列表&lt;/span&gt;&lt;/a&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1290" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-19" target="J6QNZkFJz4BYSSehVcxL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-19" value="&lt;span&gt;&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;视觉车位列表&lt;/span&gt;&lt;/a&gt;有效性判断&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-20" target="J6QNZkFJz4BYSSehVcxL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-20" value="&lt;span&gt;&lt;span&gt;本地车位列表&lt;/span&gt;由车位坐标系转全局坐标系&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-21" target="J6QNZkFJz4BYSSehVcxL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-21" value="&lt;span&gt;本地车位列表与&lt;/span&gt;&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;视觉车位列表中的车位进行重叠、相交、相离判断&lt;/span&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-23" target="J6QNZkFJz4BYSSehVcxL-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-23" value="&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;更新本地车位列表&lt;/span&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-24" value="输出&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;本地车位列表&lt;/span&gt;&lt;/a&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1290" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-31" target="J6QNZkFJz4BYSSehVcxL-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-31" value="输入&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;视觉车位列表和自定义车位信号&lt;/span&gt;&lt;/a&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-309" y="1382" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-33" target="J6QNZkFJz4BYSSehVcxL-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-33" value="&lt;span&gt;&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;视觉车位列表&lt;/span&gt;&lt;/a&gt;有效性判断&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-169" y="1382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-35" target="J6QNZkFJz4BYSSehVcxL-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-35" value="&lt;span&gt;&lt;span&gt;本地车位列表&lt;/span&gt;由车位坐标系转全局坐标系&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-9" y="1382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-37" target="J6QNZkFJz4BYSSehVcxL-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-37" value="清除本地车位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="1382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-39" target="J6QNZkFJz4BYSSehVcxL-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-39" value="&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;更新本地车位列表&lt;/span&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-40" value="输出&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;本地车位列表&lt;/span&gt;&lt;/a&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="471" y="1382" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="J6QNZkFJz4BYSSehVcxL-44" target="J6QNZkFJz4BYSSehVcxL-46" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-44" value="输入&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;视觉车位列表和重定位车位信号&lt;/span&gt;&lt;/a&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-309" y="1480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="J6QNZkFJz4BYSSehVcxL-46" target="J6QNZkFJz4BYSSehVcxL-48" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-46" value="&lt;span&gt;&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;视觉车位列表&lt;/span&gt;&lt;/a&gt;有效性判断&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-169" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="J6QNZkFJz4BYSSehVcxL-48" target="J6QNZkFJz4BYSSehVcxL-50" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-48" value="&lt;span&gt;&lt;span&gt;本地车位列表&lt;/span&gt;由车位坐标系转全局坐标系&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-9" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-50" target="J6QNZkFJz4BYSSehVcxL-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-50" value="清除除已选车位的其他本地车位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="J6QNZkFJz4BYSSehVcxL-56" target="J6QNZkFJz4BYSSehVcxL-58" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-56" value="&lt;span&gt;本地车位列表与&lt;/span&gt;&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;视觉车位列表中的车位进行重叠、相交、相离判断&lt;/span&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="J6QNZkFJz4BYSSehVcxL-58" target="J6QNZkFJz4BYSSehVcxL-59" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-58" value="&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;更新本地车位列表&lt;/span&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-59" value="输出&lt;a name=&quot;OLE_LINK2&quot;&gt;&lt;span&gt;本地车位列表&lt;/span&gt;&lt;/a&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="631" y="1480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J6QNZkFJz4BYSSehVcxL-61" target="J6QNZkFJz4BYSSehVcxL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6QNZkFJz4BYSSehVcxL-61" value="清除大于15米的本地车位列表；航向角大于30度，本地车位列表全部清除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
