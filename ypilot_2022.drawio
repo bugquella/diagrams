@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T09:42:06.990Z" agent="5.0 (Windows)" etag="u6OcGc1apyWF1iApYBOs" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T11:01:54.144Z" agent="5.0 (Windows)" etag="LtmW23HpdGVyw8ZlEl9_" version="16.2.1" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
     <mxGraphModel dx="1298" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,8 +61,8 @@
         <mxCell id="R1_P9dPjUKiN731K27Q3-42" value="输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="155" y="89" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R1_P9dPjUKiN731K27Q3-43" value="AI 车道线特征" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="142.5" y="120" width="85" height="30" as="geometry" />
+        <mxCell id="R1_P9dPjUKiN731K27Q3-44" value="AI 车道线特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
