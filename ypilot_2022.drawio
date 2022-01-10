@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T11:02:58.736Z" agent="5.0 (Windows)" etag="Z8SzKy2OAZeeWXHutOzS" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T11:03:53.657Z" agent="5.0 (Windows)" etag="Taz8ZYgOoAGwXnVJ3o7K" version="16.2.1" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
-    <mxGraphModel dx="1298" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="769" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-44" value="AI 车道线特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="119" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-45" value="本车状态数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
