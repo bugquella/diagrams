@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T04:07:07.944Z" agent="5.0 (Windows)" etag="2uh7Ay6W4FSduNVfJTMv" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T05:47:32.169Z" agent="5.0 (Windows)" etag="HABxxi1XGl1n1xl1teZt" version="16.2.1" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
-    <mxGraphModel dx="989" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1384" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="R1_P9dPjUKiN731K27Q3-7" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="80" y="120" width="160" height="80" as="geometry" />
+          <mxGeometry x="70" y="110" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="R1_P9dPjUKiN731K27Q3-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -42,6 +42,39 @@
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-12" value="AI模型适配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="160" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="R1_P9dPjUKiN731K27Q3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="R1_P9dPjUKiN731K27Q3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="160" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="R1_P9dPjUKiN731K27Q3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="80" as="sourcePoint" />
+            <mxPoint x="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="R1_P9dPjUKiN731K27Q3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-19" value="车辆状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="R1_P9dPjUKiN731K27Q3-14">
+          <mxGeometry x="30" y="25" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
