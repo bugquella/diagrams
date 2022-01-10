@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T05:47:32.169Z" agent="5.0 (Windows)" etag="HABxxi1XGl1n1xl1teZt" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T09:14:39.932Z" agent="5.0 (Windows)" etag="jxQWEnhi03Re_JcpbZrS" version="16.2.1" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
-    <mxGraphModel dx="1384" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1597" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,9 @@
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-19" value="车辆状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="R1_P9dPjUKiN731K27Q3-14">
           <mxGeometry x="30" y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R1_P9dPjUKiN731K27Q3-21" value="内边缘检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="90" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
