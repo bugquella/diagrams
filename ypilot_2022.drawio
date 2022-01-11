@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T06:38:13.832Z" agent="5.0 (Windows)" etag="RLd0F-bBoOhdM0KvpEnB" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-11T06:46:48.365Z" agent="5.0 (Windows)" etag="CH4oQiuxX5qckz4QNwqa" version="16.2.4" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
-    <mxGraphModel dx="1483" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,20 +130,23 @@
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-21" value="本车状态数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="135" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcJchZ4IYqSIbsga3KMb-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JcJchZ4IYqSIbsga3KMb-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="80" width="160" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="JcJchZ4IYqSIbsga3KMb-4" value="线形检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JcJchZ4IYqSIbsga3KMb-4" value="线形检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1210" y="89" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JcJchZ4IYqSIbsga3KMb-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JcJchZ4IYqSIbsga3KMb-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="80" width="160" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="JcJchZ4IYqSIbsga3KMb-6" value="颜色检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JcJchZ4IYqSIbsga3KMb-6" value="颜色检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1410" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JcJchZ4IYqSIbsga3KMb-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="525" width="120" height="60" as="geometry" />
+        <mxCell id="JcJchZ4IYqSIbsga3KMb-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="520" width="205" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-1" value="cv车道线检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="525" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
