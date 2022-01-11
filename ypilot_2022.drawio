@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T07:25:47.078Z" agent="5.0 (Windows)" etag="uNZns8GJhtSqY9ZYPOgp" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-11T07:28:15.728Z" agent="5.0 (Windows)" etag="wK72_hRwA-1Q9pkI54gK" version="16.2.4" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
     <mxGraphModel dx="1221" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry x="160" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1800" y="80" width="160" height="700" as="geometry" />
+          <mxGeometry x="1800" y="80" width="160" height="770" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="82" width="160" height="371" as="geometry" />
@@ -195,6 +195,15 @@
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-57" value="LKA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2021" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-58" value="计算车道线系数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-60" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="77.5" width="140" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-61" value="输出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="86" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
