@@ -1,17 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T07:18:41.628Z" agent="5.0 (Windows)" etag="fKfVfQvM0HWYF603APhA" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-11T07:19:26.826Z" agent="5.0 (Windows)" etag="DXG596000NE6cj9T_OhW" version="16.2.4" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
     <mxGraphModel dx="1730" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="78" width="260" height="750" as="geometry" />
+          <mxGeometry x="480" y="80" width="260" height="750" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="78" width="150" height="562" as="geometry" />
-        </mxCell>
-        <mxCell id="R1_P9dPjUKiN731K27Q3-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="82" width="160" height="376" as="geometry" />
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-37" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="82" width="160" height="371" as="geometry" />
@@ -46,14 +43,11 @@
         <mxCell id="R1_P9dPjUKiN731K27Q3-30" value="车道线定位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="131" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R1_P9dPjUKiN731K27Q3-32" value="跟踪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1870" y="91" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-42" value="输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="82" width="160" height="376" as="geometry" />
+          <mxGeometry x="1800" y="80" width="160" height="376" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="82" width="160" height="371" as="geometry" />
@@ -83,28 +77,28 @@
           <mxGeometry x="1200" y="131" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-16" value="跟踪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1870" y="91" width="60" height="30" as="geometry" />
+          <mxGeometry x="1850" y="89" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-19" value="输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JcJchZ4IYqSIbsga3KMb-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="82" width="160" height="400" as="geometry" />
+          <mxGeometry x="1400" y="78" width="160" height="400" as="geometry" />
         </mxCell>
         <mxCell id="JcJchZ4IYqSIbsga3KMb-4" value="线形检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="91" width="60" height="30" as="geometry" />
+          <mxGeometry x="1450" y="87" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JcJchZ4IYqSIbsga3KMb-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="82" width="160" height="400" as="geometry" />
+          <mxGeometry x="1600" y="78" width="160" height="400" as="geometry" />
         </mxCell>
         <mxCell id="JcJchZ4IYqSIbsga3KMb-6" value="颜色检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="92" width="60" height="30" as="geometry" />
+          <mxGeometry x="1650" y="88" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JcJchZ4IYqSIbsga3KMb-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="455.5" width="160" height="345" as="geometry" />
+          <mxGeometry x="520" y="457.5" width="160" height="345" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-1" value="cv车道线检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="557.5" y="463" width="85" height="30" as="geometry" />
+          <mxGeometry x="557.5" y="465" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-13" value="模块配置数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="120" width="120" height="60" as="geometry" />
@@ -116,7 +110,7 @@
           <mxGeometry x="135" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-18" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="520" y="143" width="160" height="290" as="geometry" />
+          <mxGeometry x="520" y="145" width="160" height="290" as="geometry" />
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="K2Hh94zeVfcskBb1O2Ww-18" vertex="1">
           <mxGeometry width="160" height="290" as="geometry" />
@@ -134,16 +128,16 @@
           <mxGeometry x="22.5" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-24" value="场景检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="500.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="502.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-25" value="特征提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="650.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="652.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-26" value="特征去噪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="730.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="732.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-27" value="图像增强" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="570.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="572.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-34" value="车辆状态数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="370" width="120" height="60" as="geometry" />
@@ -167,7 +161,7 @@
           <mxGeometry x="310" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-46" value="车道线特征提取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="555" y="93" width="90" height="30" as="geometry" />
+          <mxGeometry x="555" y="95" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
