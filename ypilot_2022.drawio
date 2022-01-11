@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T07:00:59.812Z" agent="5.0 (Windows)" etag="6L2TEnWulNgCyOXQvGwN" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-11T07:12:12.128Z" agent="5.0 (Windows)" etag="PeNDYJOpzFGBWzb3rCyD" version="16.2.4" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="320" y="80" width="170" height="145" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="78" width="150" height="302" as="geometry" />
+          <mxGeometry x="120" y="78" width="150" height="452" as="geometry" />
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1680" y="80" width="160" height="376" as="geometry" />
@@ -20,10 +20,10 @@
           <mxGeometry x="840" y="80" width="160" height="381" as="geometry" />
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="78" width="150" height="290" as="geometry" />
+          <mxGeometry x="560" y="78" width="150" height="290" as="geometry" />
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-21" value="内边缘检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="675" y="87" width="80" height="30" as="geometry" />
+          <mxGeometry x="595" y="80" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R1_P9dPjUKiN731K27Q3-23" value="参数化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="890" y="89" width="60" height="30" as="geometry" />
@@ -141,6 +141,30 @@
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-24" value="场景检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-25" value="特征提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-26" value="特征去噪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-27" value="图像增强" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-31" value="定位数据输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="85" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-33" value="定位数据输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="95" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-34" value="状态信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
