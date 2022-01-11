@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T06:46:48.365Z" agent="5.0 (Windows)" etag="CH4oQiuxX5qckz4QNwqa" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-11T06:50:31.345Z" agent="5.0 (Windows)" etag="HGTypbUu7YZjg_nCBnXT" version="16.2.4" type="github">
   <diagram id="SdjUZ_nZgxTXJaho-sEl" name="第 1 页">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,14 +79,8 @@
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="80" width="150" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="fKOg9SKyoz2mw3y8TqCJ-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="325" y="80" width="150" height="290" as="geometry" />
-        </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-6" value="标准化输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="90" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="fKOg9SKyoz2mw3y8TqCJ-7" value="AI模型适配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-8" value="内边缘检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="555" y="89" width="80" height="30" as="geometry" />
@@ -115,11 +109,8 @@
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-16" value="跟踪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1610" y="89" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fKOg9SKyoz2mw3y8TqCJ-17" value="数据有效性验证" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="129" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="150" height="300" as="geometry" />
+          <mxGeometry x="120" y="80" width="150" height="480" as="geometry" />
         </mxCell>
         <mxCell id="fKOg9SKyoz2mw3y8TqCJ-19" value="输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="60" height="30" as="geometry" />
@@ -143,10 +134,19 @@
           <mxGeometry x="1410" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JcJchZ4IYqSIbsga3KMb-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="520" width="205" height="105" as="geometry" />
+          <mxGeometry x="320" y="400" width="160" height="105" as="geometry" />
         </mxCell>
         <mxCell id="K2Hh94zeVfcskBb1O2Ww-1" value="cv车道线检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="185" y="525" width="85" height="30" as="geometry" />
+          <mxGeometry x="360" y="400" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-12" value="模块控制信号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-13" value="模块配置数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K2Hh94zeVfcskBb1O2Ww-14" value="功能配置信号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="461" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
