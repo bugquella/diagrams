@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T06:32:52.879Z" agent="5.0 (Windows)" etag="00AMwcEz_EFiB3poIHz1" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T06:40:53.247Z" agent="5.0 (Windows)" etag="zJIXM0BPHd8tL9SKqTpL" version="16.2.4" type="github">
   <diagram id="cVR37ZmWGLsnPl2WjFdK" name="第 1 页">
     <mxGraphModel dx="1483" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,26 +16,8 @@
         <mxCell id="-53x6ZhHskoMFxqWoibM-4" value="融合库位：包含视觉库位和空间库位" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="-53x6ZhHskoMFxqWoibM-1" vertex="1">
           <mxGeometry y="100" width="560" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vag5pzR2IlvkHYRFwE1v-5" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="700" y="600" width="950" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="vag5pzR2IlvkHYRFwE1v-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="vag5pzR2IlvkHYRFwE1v-5" vertex="1">
-          <mxGeometry width="950" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="vag5pzR2IlvkHYRFwE1v-4" value="重叠滤波操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="vag5pzR2IlvkHYRFwE1v-5" vertex="1">
-          <mxGeometry x="248.2313729577154" y="10" width="437.04600484261493" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vag5pzR2IlvkHYRFwE1v-27" value="二级融合滤波策略" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" parent="vag5pzR2IlvkHYRFwE1v-5" vertex="1">
-          <mxGeometry x="80.04629629629629" y="80" width="773.4143518518517" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="vag5pzR2IlvkHYRFwE1v-28" value="当空间ROI库位与融合库位相交面积小于0.1，则进行空间库位的构造和空间库位入融合队列操作" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="vag5pzR2IlvkHYRFwE1v-27" vertex="1">
-          <mxGeometry y="30" width="773.4143518518517" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vag5pzR2IlvkHYRFwE1v-29" value="当空间ROI库位与融合库位相交面积大于等于0.1，则该空间ROI库位丢弃" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="vag5pzR2IlvkHYRFwE1v-27" vertex="1">
-          <mxGeometry y="60" width="773.4143518518517" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="vag5pzR2IlvkHYRFwE1v-9" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="2000" y="600" width="359" height="300" as="geometry" />
+          <mxGeometry x="1830" y="600" width="359" height="300" as="geometry" />
         </mxCell>
         <mxCell id="vag5pzR2IlvkHYRFwE1v-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vag5pzR2IlvkHYRFwE1v-9" vertex="1">
           <mxGeometry width="359" height="300" as="geometry" />
@@ -50,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vag5pzR2IlvkHYRFwE1v-23" value="空间ROI库位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1830" y="710" width="110" height="30" as="geometry" />
+          <mxGeometry x="1690" y="710" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vag5pzR2IlvkHYRFwE1v-24" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2440" y="600" width="400" height="300" as="geometry" />
@@ -65,7 +47,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vag5pzR2IlvkHYRFwE1v-25" value="融合库位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1115" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="1095" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vag5pzR2IlvkHYRFwE1v-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vag5pzR2IlvkHYRFwE1v-7" target="vag5pzR2IlvkHYRFwE1v-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -74,7 +56,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wFFDldKNsyOkt9aesf2Q-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="370" y="720" width="140" height="60" as="geometry" />
+          <mxGeometry x="480" y="720" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wFFDldKNsyOkt9aesf2Q-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-3">
           <mxGeometry width="140" height="60" as="geometry" />
@@ -84,6 +66,24 @@
         </mxCell>
         <mxCell id="wFFDldKNsyOkt9aesf2Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wFFDldKNsyOkt9aesf2Q-1" target="vag5pzR2IlvkHYRFwE1v-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680" y="650" width="950" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vag5pzR2IlvkHYRFwE1v-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="wFFDldKNsyOkt9aesf2Q-5" vertex="1">
+          <mxGeometry width="950" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vag5pzR2IlvkHYRFwE1v-4" value="重叠滤波操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="wFFDldKNsyOkt9aesf2Q-5" vertex="1">
+          <mxGeometry x="248.2313729577154" y="9" width="437.04600484261493" height="27.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="vag5pzR2IlvkHYRFwE1v-27" value="二级融合滤波策略" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" parent="wFFDldKNsyOkt9aesf2Q-5" vertex="1">
+          <mxGeometry x="80.0462962962963" y="72" width="773.4143518518517" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="vag5pzR2IlvkHYRFwE1v-28" value="当空间ROI库位与融合库位相交面积小于0.1，则进行空间库位的构造和空间库位入融合队列操作" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="vag5pzR2IlvkHYRFwE1v-27" vertex="1">
+          <mxGeometry y="30" width="773.4143518518517" height="27.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="vag5pzR2IlvkHYRFwE1v-29" value="当空间ROI库位与融合库位相交面积大于等于0.1，则该空间ROI库位丢弃" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="vag5pzR2IlvkHYRFwE1v-27" vertex="1">
+          <mxGeometry y="57" width="773.4143518518517" height="27.000000000000004" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
