@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T06:40:53.247Z" agent="5.0 (Windows)" etag="zJIXM0BPHd8tL9SKqTpL" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T06:48:52.498Z" agent="5.0 (Windows)" etag="KOtP6B5aIn3T6cAkLb2Y" version="16.2.4" type="github">
   <diagram id="cVR37ZmWGLsnPl2WjFdK" name="第 1 页">
-    <mxGraphModel dx="1483" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,51 @@
         </mxCell>
         <mxCell id="vag5pzR2IlvkHYRFwE1v-29" value="当空间ROI库位与融合库位相交面积大于等于0.1，则该空间ROI库位丢弃" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" parent="vag5pzR2IlvkHYRFwE1v-27" vertex="1">
           <mxGeometry y="57" width="773.4143518518517" height="27.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-11">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-10" value="空间区域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-11">
+          <mxGeometry x="29" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-14" value="构建空间车位" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1100" width="550" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-18" value="（空间区域中心点与视觉车位中心点X方向距离）&lt;（空间区域宽度+视觉车位宽度)*0.5+2米" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-14">
+          <mxGeometry y="30" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-19" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-18">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-20" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-18">
+          <mxGeometry y="60" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-21" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-18">
+          <mxGeometry y="90" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-22" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-14">
+          <mxGeometry y="150" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-23" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-22">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-24" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-22">
+          <mxGeometry y="60" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-25" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-22">
+          <mxGeometry y="90" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-16" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-14">
+          <mxGeometry y="270" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wFFDldKNsyOkt9aesf2Q-17" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wFFDldKNsyOkt9aesf2Q-14">
+          <mxGeometry y="300" width="550" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
