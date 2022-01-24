@@ -62,3 +62,11 @@ git checkout -b feature-branch    //创建并切换到分支feature-branch
 git checkout  feature-branch    # 创建并切换到分支feature-branch  
 git push origin feature-branch:feature-branch    # 推送本地的feature-branch(冒号前面的)分支到远程origin的feature-branch(冒号后面的)分支(没有会自动创建)
 ```
+
+9、若是只需拉取对应分支的内容
+
+```
+git checkout  feature-branch    # 切换到分支feature-branch  
+git pull origin feature-branch2    # 拉取远程的feature-branch2分支到本地feature-branch 分支中
+```
+
