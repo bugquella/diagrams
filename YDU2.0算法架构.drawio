@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T02:49:38.495Z" agent="5.0 (Windows)" etag="B1iFQQtlPaGH40msmv6z" version="16.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T02:50:16.417Z" agent="5.0 (Windows)" etag="iqpqtMwZFlNaaVpL6F4T" version="16.4.2" type="github" pages="3">
   <diagram id="OsNSjx1kqLn11gIg794z" name="车道线检测">
     <mxGraphModel dx="4152" dy="1980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -494,6 +494,22 @@
         <mxCell id="H7W7E83JojFv2ZeTY5-T-154" value="&lt;h1 style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#ff0000&quot;&gt;备注&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#ff0000&quot;&gt;1. 红色填充内容为功能目标增加内容，暂未进行过方案策划和实践；&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#ff0000&quot;&gt;2. 黄色填充内容为进行过简单方案策划和实践，需要进一步改善；&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot; color=&quot;#ff0000&quot;&gt;3. 绿色填充内容为冗余处理；&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1560" y="460" width="430" height="330" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OLalbrC-j_oRMpUqDN2w" name="障碍物检测">
+    <mxGraphModel dx="1038" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UPlCOH2j74Vt2fCVQCUx-0" />
+        <mxCell id="UPlCOH2j74Vt2fCVQCUx-1" parent="UPlCOH2j74Vt2fCVQCUx-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ju0tlDxFQ6zgH7UntKb1" name="多传感器融合">
+    <mxGraphModel dx="1038" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="crU_J5dLwCAiu_Ir3LPf-0" />
+        <mxCell id="crU_J5dLwCAiu_Ir3LPf-1" parent="crU_J5dLwCAiu_Ir3LPf-0" />
       </root>
     </mxGraphModel>
   </diagram>
