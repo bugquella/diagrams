@@ -20,7 +20,7 @@
 
 - 拉取gitlab的全部数据
 
-```
+```shell
 git pull origin 
 ```
 
@@ -30,7 +30,7 @@ git pull <远程主机名> <远程分支名>
 
 - **切换到你的创建的分支（这个很重要，否则你可能在别的分支进行了修改）**，例如
 
-```
+```shell
 $ git checkout . 
 $ git checkout hotfix-xxx
 ```
@@ -39,7 +39,7 @@ $ git checkout hotfix-xxx
 
 4、将修改好的文件上传git
 
-```
+```shell
 git add *
 git commit -m "Header：fix_xxx；Body：Issue #1, #2 和 Footer：Closes #1" 
 git push origin hotfix-xxx
@@ -49,3 +49,16 @@ git push origin hotfix-xxx
 
 6、您的工作已经结束，感谢您的支持。
 后续的工作是被有权限的开发人员进行文件融合，以及发布Tags，这个您不用担心。他们可以很好的完成这个任务。
+
+7、若是需要创建分支
+
+```shell
+git checkout -b feature-branch    //创建并切换到分支feature-branch  
+```
+
+8、若是只需提交分支对应内容
+
+```shell
+git checkout  feature-branch    # 创建并切换到分支feature-branch  
+git push origin feature-branch:feature-branch    # 推送本地的feature-branch(冒号前面的)分支到远程origin的feature-branch(冒号后面的)分支(没有会自动创建)
+```
