@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T08:00:23.407Z" agent="5.0 (Windows)" etag="keYJebxreMMuBJvQwMQb" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-25T08:03:40.623Z" agent="5.0 (Windows)" etag="ZCSA81LUf2jgEf-Te-Fi" version="16.4.5" type="github" pages="4">
   <diagram id="OsNSjx1kqLn11gIg794z" name="车道线检测">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3212,10 +3212,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
-    <mxGraphModel dx="2211" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-0" />
         <mxCell id="DUzeyda3xibaIFuw_aJ4-1" parent="DUzeyda3xibaIFuw_aJ4-0" />
+        <mxCell id="DUzeyda3xibaIFuw_aJ4-95" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF8000;strokeColor=#000000;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-110" y="620" width="200" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-27" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-100" y="110" width="160" height="160" as="geometry" />
         </mxCell>
@@ -3269,7 +3272,7 @@
         <mxCell id="DUzeyda3xibaIFuw_aJ4-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFB570;" edge="1" parent="DUzeyda3xibaIFuw_aJ4-1" source="DUzeyda3xibaIFuw_aJ4-17" target="DUzeyda3xibaIFuw_aJ4-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DUzeyda3xibaIFuw_aJ4-17" value="车位融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+        <mxCell id="DUzeyda3xibaIFuw_aJ4-17" value="1级车位融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="970" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DUzeyda3xibaIFuw_aJ4-1" source="DUzeyda3xibaIFuw_aJ4-23" target="DUzeyda3xibaIFuw_aJ4-27">
