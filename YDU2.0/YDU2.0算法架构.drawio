@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T07:13:59.833Z" agent="5.0 (Windows)" etag="UItApwF8Jh90r8-Rc0po" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-25T07:21:00.563Z" agent="5.0 (Windows)" etag="W4cdJdynLBfQ4j8u74T3" version="16.4.5" type="github" pages="4">
   <diagram id="OsNSjx1kqLn11gIg794z" name="车道线检测">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3212,7 +3212,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
-    <mxGraphModel dx="1816" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-0" />
         <mxCell id="DUzeyda3xibaIFuw_aJ4-1" parent="DUzeyda3xibaIFuw_aJ4-0" />
@@ -3232,7 +3232,7 @@
           <mxGeometry x="-680" y="255" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-9" value="超声波雷达" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
-          <mxGeometry x="-680" y="700" width="70" height="50" as="geometry" />
+          <mxGeometry x="-680" y="740" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-10" value="车位检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-70" y="640" width="120" height="60" as="geometry" />
@@ -3244,7 +3244,7 @@
           <mxGeometry x="-70" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-13" value="毫米波雷达" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
-          <mxGeometry x="-400" y="920" width="70" height="50" as="geometry" />
+          <mxGeometry x="-680" y="980" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-14" value="雷达数据处理与跟踪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="240" y="1000" width="120" height="60" as="geometry" />
@@ -3318,6 +3318,15 @@
         </mxCell>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-8" value="画线车位检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-80" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUzeyda3xibaIFuw_aJ4-34" value="盲区监测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-80" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUzeyda3xibaIFuw_aJ4-36" value="同频干扰" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-403" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUzeyda3xibaIFuw_aJ4-38" value="超声波雷达预处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-393" y="675" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
