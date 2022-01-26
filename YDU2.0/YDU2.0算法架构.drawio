@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T05:13:30.230Z" agent="5.0 (Windows)" etag="YOsefyYrhWdjkMVYiu0r" version="16.4.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-26T08:03:49.770Z" agent="5.0 (Windows)" etag="0fOdIelYykFx0_WMl-cd" version="16.4.7" type="github" pages="4">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
-    <mxGraphModel dx="7747" dy="4742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3495" dy="2509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-0" />
         <mxCell id="DUzeyda3xibaIFuw_aJ4-1" parent="DUzeyda3xibaIFuw_aJ4-0" />
@@ -161,7 +161,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DUzeyda3xibaIFuw_aJ4-8" value="画线车位/轮挡检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="DUzeyda3xibaIFuw_aJ4-1" vertex="1">
+        <mxCell id="DUzeyda3xibaIFuw_aJ4-8" value="画线车位/轮挡/地锁检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="DUzeyda3xibaIFuw_aJ4-1" vertex="1">
           <mxGeometry x="-102.5" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="DUzeyda3xibaIFuw_aJ4-1" source="DUzeyda3xibaIFuw_aJ4-34" target="DUzeyda3xibaIFuw_aJ4-77" edge="1">
