@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T05:49:38.864Z" agent="5.0 (Windows)" etag="5GJr3FQXwwaLpVeo_jFp" version="16.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-23T05:50:42.138Z" agent="5.0 (Windows)" etag="SsyksHur9iDRoWvJPBHO" version="16.6.2" type="github" pages="5">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4287" dy="2956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -519,40 +519,40 @@
           <mxGeometry x="880" y="160" width="72.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-2" value="数据接收" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="705" y="230" width="90" height="50" as="geometry" />
+          <mxGeometry x="720" y="210" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-3" value="模块启动配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="855" y="230" width="90" height="50" as="geometry" />
+          <mxGeometry x="870" y="210" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-4" value="模块通讯配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="1005" y="230" width="90" height="50" as="geometry" />
+          <mxGeometry x="1020" y="210" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-5" value="车道线" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
           <mxGeometry x="330" y="320" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-6" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="440" y="320" width="90" height="50" as="geometry" />
+          <mxGeometry x="450" y="320" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-7" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="557.5" y="320" width="90" height="50" as="geometry" />
+          <mxGeometry x="560" y="320" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-8" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
           <mxGeometry x="680" y="320" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-9" value="车位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="800" y="320" width="90" height="50" as="geometry" />
+          <mxGeometry x="1290" y="320" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-10" value="可行驶区域" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="920" y="320" width="90" height="50" as="geometry" />
+          <mxGeometry x="800" y="320" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-11" value="前摄-动态障碍物分割" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="1030" y="320" width="120" height="50" as="geometry" />
+          <mxGeometry x="1040" y="320" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-13" value="地面标识" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="1170" y="320" width="90" height="50" as="geometry" />
+          <mxGeometry x="1180" y="320" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-14" value="场景感知" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
-          <mxGeometry x="1290" y="320" width="90" height="50" as="geometry" />
+          <mxGeometry x="920" y="320" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
