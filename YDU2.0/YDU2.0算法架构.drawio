@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T09:12:24.880Z" agent="5.0 (Windows)" etag="ouUC1lpft918e7V9PkUL" version="16.6.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-24T09:13:50.948Z" agent="5.0 (Windows)" etag="IuA_x9lKtrupQVNSfkgb" version="16.6.3" type="github" pages="5">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="2714" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -629,7 +629,7 @@
         <mxCell id="Dii2Rvlum2QvnfyezTw9-69" value="&lt;font style=&quot;font-size: 22px&quot;&gt;融合&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
           <mxGeometry x="1770" y="110" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-70" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=22;exitX=1.001;exitY=0.441;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=11;" parent="9WtLPpMzkSN9Yo5GJeaF-1" source="hk0V1lLq0mBdqVWZ1DLX-0" target="Dii2Rvlum2QvnfyezTw9-17" edge="1">
+        <mxCell id="Dii2Rvlum2QvnfyezTw9-70" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=22;exitX=1.001;exitY=0.441;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=11;entryX=-0.009;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" parent="9WtLPpMzkSN9Yo5GJeaF-1" source="hk0V1lLq0mBdqVWZ1DLX-0" target="Dii2Rvlum2QvnfyezTw9-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1440" y="300" as="sourcePoint" />
             <mxPoint x="1480" y="290" as="targetPoint" />
@@ -711,7 +711,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1630" y="180" width="450" height="250" as="geometry" />
+          <mxGeometry x="1630" y="180" width="450" height="330" as="geometry" />
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-21" value="融合(SOC)&amp;nbsp; " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
           <mxGeometry x="1760" y="180" width="170" height="30" as="geometry" />
@@ -733,6 +733,12 @@
         </mxCell>
         <mxCell id="Dii2Rvlum2QvnfyezTw9-30" value="障碍物车道融合" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
           <mxGeometry x="1960" y="340" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2WE5fsUTRnOymXfkBtuf-53" value="传感器状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
+          <mxGeometry x="1650" y="430" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2WE5fsUTRnOymXfkBtuf-54" value="异常处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="9WtLPpMzkSN9Yo5GJeaF-1">
+          <mxGeometry x="1810" y="430" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
