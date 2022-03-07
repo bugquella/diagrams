@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T09:26:00.266Z" agent="5.0 (Windows)" etag="lhqlPyUYqmI5AFKuMsaq" version="16.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-07T09:29:49.090Z" agent="5.0 (Windows)" etag="nekeFfBAyiaMB4-fnqdp" version="16.6.6" type="github" pages="5">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="1980" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-0" />
         <mxCell id="DUzeyda3xibaIFuw_aJ4-1" parent="DUzeyda3xibaIFuw_aJ4-0" />
+        <mxCell id="s5GwrNrdEDG9CEldv-zS-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-140" y="-840" width="310" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="s5GwrNrdEDG9CEldv-zS-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-330" y="-1000" width="170" height="260" as="geometry" />
         </mxCell>
@@ -529,7 +532,7 @@
           <mxGeometry x="-295" y="-990" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s5GwrNrdEDG9CEldv-zS-22" value="雷达目标构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
-          <mxGeometry x="-120" y="-890" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="-1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s5GwrNrdEDG9CEldv-zS-23" value="雷达硬件跟踪时长滤波(&amp;lt;4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-120" y="-800" width="120" height="60" as="geometry" />
@@ -548,6 +551,24 @@
         </mxCell>
         <mxCell id="s5GwrNrdEDG9CEldv-zS-28" value="根据目标位置进行滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="30" y="-720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5GwrNrdEDG9CEldv-zS-31" value="滤波" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-20" y="-835" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s5GwrNrdEDG9CEldv-zS-33" value="计算目标各类属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-430" y="-670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5GwrNrdEDG9CEldv-zS-34" value="长宽高" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-430" y="-560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5GwrNrdEDG9CEldv-zS-36" value="目标类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-430" y="-480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5GwrNrdEDG9CEldv-zS-37" value="传感器类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-430" y="-400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5GwrNrdEDG9CEldv-zS-38" value="置信度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-430" y="-320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
