@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T09:40:54.612Z" agent="5.0 (Windows)" etag="cdwhMlDXrDsFB1Yh0vKu" version="16.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-07T09:41:01.842Z" agent="5.0 (Windows)" etag="8G8XP2FE-7GDkyoxYmlM" version="16.6.6" type="github" pages="5">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="2714" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -527,9 +527,6 @@
         </mxCell>
         <mxCell id="s5GwrNrdEDG9CEldv-zS-20" value="雷达数据预处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-295" y="-990" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="s5GwrNrdEDG9CEldv-zS-22" value="雷达目标构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
-          <mxGeometry x="20" y="-1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s5GwrNrdEDG9CEldv-zS-52" value="" style="group" vertex="1" connectable="0" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-140" y="-740" width="780" height="520" as="geometry" />
