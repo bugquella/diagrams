@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T06:31:36.976Z" agent="5.0 (Windows)" etag="iUgaf7NWA8sRhtyq-9QP" version="16.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-08T06:36:47.799Z" agent="5.0 (Windows)" etag="lABZwhpWApfnwVW7VbFv" version="16.6.6" type="github" pages="5">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="2952" dy="3008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -813,9 +813,6 @@
         <mxCell id="gtIm2WRd1mogve3Y_uj1-35" value="适配层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-470.5" y="70" width="73" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gtIm2WRd1mogve3Y_uj1-36" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;0.10&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;: -1.6&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;: true&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;: 30.0&lt;br&gt;: 4&lt;br&gt;: true&lt;br&gt;probexist_vehicle: 0.9&lt;br&gt;probexist_pedestrian: 0.25&lt;br&gt;probexist_bicycle: 0.25&lt;br&gt;probexist_unknown: 0.99&lt;br&gt;lo_vel_rms_vehicle: 0.2&lt;br&gt;la_vel_rms_vehicle: 0.3&lt;br&gt;lo_dist_rms_vehicle: 0.15&lt;br&gt;la_dist_rms_vehicle: 0.2&lt;br&gt;lo_vel_rms_pedestrian: 0.5&lt;br&gt;la_vel_rms_pedestrian: 0.8&lt;br&gt;lo_dist_rms_pedestrian: 0.5&lt;br&gt;la_dist_rms_pedestrian: 0.8&lt;br&gt;lo_vel_rms_bicycle: 0.5&lt;br&gt;la_vel_rms_bicycle: 0.8&lt;br&gt;lo_dist_rms_bicycle: 0.5&lt;br&gt;la_dist_rms_bicycle: 0.8&lt;br&gt;lo_vel_rms_unknown: 0.2&lt;br&gt;la_vel_rms_unknown: 0.3&lt;br&gt;lo_dist_rms_unknown: 0.2&lt;br&gt;la_dist_rms_unknown: 0.3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
-          <mxGeometry x="-1050" y="250" width="600" height="730" as="geometry" />
-        </mxCell>
         <mxCell id="gtIm2WRd1mogve3Y_uj1-37" value="&lt;font style=&quot;font-size: 12px&quot;&gt;object_height_threshold&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-1250" y="140" width="130" height="60" as="geometry" />
         </mxCell>
@@ -833,6 +830,69 @@
         </mxCell>
         <mxCell id="gtIm2WRd1mogve3Y_uj1-43" value="&lt;font style=&quot;font-size: 12px&quot;&gt;delay_frames&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
           <mxGeometry x="-1245" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-44" value="&lt;font style=&quot;font-size: 12px&quot;&gt;probexist_vehicle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1245" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-45" value="&lt;font style=&quot;font-size: 12px&quot;&gt;probexist_vehicle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1245" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-46" value="&lt;font style=&quot;font-size: 12px&quot;&gt;probexist_bicycle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-47" value="&lt;font style=&quot;font-size: 12px&quot;&gt;probexist_unknown&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-48" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_vel_rms_vehicle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-49" value="&lt;font style=&quot;font-size: 12px&quot;&gt;la_vel_rms_vehicle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-50" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_dist_rms_vehicle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-51" value="&lt;font style=&quot;font-size: 12px&quot;&gt;la_dist_rms_vehicle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-52" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_vel_rms_pedestrian&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-53" value="&lt;font style=&quot;font-size: 12px&quot;&gt;la_vel_rms_pedestrian&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-54" value="&lt;font style=&quot;font-size: 12px&quot;&gt;la_vel_rms_pedestrian&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1245" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-55" value="&lt;font style=&quot;font-size: 12px&quot;&gt;la_vel_rms_pedestrian&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1245" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-56" value="&lt;font style=&quot;font-size: 12px&quot;&gt;la_dist_rms_pedestrian&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1245" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-57" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_vel_rms_bicycle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-58" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_vel_rms_bicycle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1245" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-59" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_dist_rms_bicycle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-60" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_dist_rms_bicycle&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1245" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-61" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_vel_rms_unknown&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-62" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_vel_rms_unknown&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1245" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-63" value="&lt;font style=&quot;font-size: 12px&quot;&gt;lo_vel_rms_unknown&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-1080" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtIm2WRd1mogve3Y_uj1-64" value="&lt;font style=&quot;font-size: 12px&quot;&gt;la_dist_rms_unknown&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="DUzeyda3xibaIFuw_aJ4-1">
+          <mxGeometry x="-890" y="1049" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
