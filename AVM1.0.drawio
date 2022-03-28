@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T15:51:52.095Z" agent="5.0 (Windows)" etag="Zc-PtmbjIu8EzSzpBo-2" version="17.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-28T15:53:19.622Z" agent="5.0 (Windows)" etag="cOeBBm6sDtI58RxnwUKi" version="17.2.4" type="github" pages="2">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
-    <mxGraphModel dx="97" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,6 +226,12 @@
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-100" value="&lt;b&gt;AVM SDK&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="MbrAVtmnNedSVLk-zFgN-102" vertex="1">
           <mxGeometry x="20" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-Vi0gOeTKu8q-YHSVdK-1" value="钉钉" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-Vi0gOeTKu8q-YHSVdK-2" value="dd" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#ffffff;strokeColor=#005700;fillColor=#008a00;" vertex="1" parent="1">
+          <mxGeometry x="170" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
