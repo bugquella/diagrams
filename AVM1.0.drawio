@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T11:31:06.015Z" agent="5.0 (Windows)" etag="p4PpCEMmBmSoVrjDh1zX" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-28T11:32:24.317Z" agent="5.0 (Windows)" etag="O6IrN-4Xl3FWbgB3J62I" version="17.1.2" type="github" pages="2">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
     <mxGraphModel dx="577" dy="1467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -309,6 +309,15 @@
         </mxCell>
         <mxCell id="fF-TlLDlSucphrJspko1-34" value="GPIO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
           <mxGeometry x="130" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fF-TlLDlSucphrJspko1-36" value="电源" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
+          <mxGeometry x="490" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fF-TlLDlSucphrJspko1-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;strokeWidth=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;entryX=0.716;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fF-TlLDlSucphrJspko1-1" source="fF-TlLDlSucphrJspko1-36" target="fF-TlLDlSucphrJspko1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="295" as="sourcePoint" />
+            <mxPoint x="240" y="295" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
