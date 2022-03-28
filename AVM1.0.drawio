@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T15:39:20.986Z" agent="5.0 (Windows)" etag="Qz4qCgEeWwaemKp3Cyas" version="17.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-28T15:40:50.189Z" agent="5.0 (Windows)" etag="0a0ky65lpCnjwp-9R_pG" version="17.2.4" type="github" pages="2">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
     <mxGraphModel dx="1038" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -372,6 +372,9 @@
         </mxCell>
         <mxCell id="ZkPRYomNT2LJzUIy38p6-23" value="SPI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
           <mxGeometry x="550" y="377.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkPRYomNT2LJzUIy38p6-24" value="SD卡" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
+          <mxGeometry x="640" y="420" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
