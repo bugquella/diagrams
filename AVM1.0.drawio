@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T09:58:05.614Z" agent="5.0 (Windows)" etag="XSy95R1ZTNehHHOj5jYo" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T10:05:07.236Z" agent="5.0 (Windows)" etag="hRSL7x68HSCIj-hwNDmw" version="17.1.2" type="github">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
-    <mxGraphModel dx="1483" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="959" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,6 +202,9 @@
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-90" value="Input" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="390" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-91" value="Camera Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-210" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
