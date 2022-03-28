@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T11:28:18.995Z" agent="5.0 (Windows)" etag="HgEb040hd4es1PI73fmj" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-28T11:31:06.015Z" agent="5.0 (Windows)" etag="p4PpCEMmBmSoVrjDh1zX" version="17.1.2" type="github" pages="2">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
     <mxGraphModel dx="577" dy="1467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -231,7 +231,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z3Klrh0bSa6ooiFNfHZ1" name="硬件架构">
-    <mxGraphModel dx="1420" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fF-TlLDlSucphrJspko1-0" />
         <mxCell id="fF-TlLDlSucphrJspko1-1" parent="fF-TlLDlSucphrJspko1-0" />
@@ -289,7 +289,7 @@
         <mxCell id="fF-TlLDlSucphrJspko1-19" value="&lt;font style=&quot;font-size: 16px&quot;&gt;CAN&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="fF-TlLDlSucphrJspko1-20">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fF-TlLDlSucphrJspko1-29" value="I2C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
+        <mxCell id="fF-TlLDlSucphrJspko1-29" value="I2C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
           <mxGeometry x="130" y="260" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fF-TlLDlSucphrJspko1-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="fF-TlLDlSucphrJspko1-1" source="fF-TlLDlSucphrJspko1-13">
@@ -297,6 +297,18 @@
             <mxPoint x="140" y="420" as="sourcePoint" />
             <mxPoint x="230" y="285" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fF-TlLDlSucphrJspko1-31" value="AVM按键" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
+          <mxGeometry x="30" y="320" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fF-TlLDlSucphrJspko1-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;entryX=-0.006;entryY=0.914;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fF-TlLDlSucphrJspko1-1" source="fF-TlLDlSucphrJspko1-31" target="fF-TlLDlSucphrJspko1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="295" as="sourcePoint" />
+            <mxPoint x="240" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fF-TlLDlSucphrJspko1-34" value="GPIO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
+          <mxGeometry x="130" y="320" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
