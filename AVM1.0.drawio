@@ -1,29 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T03:57:00.727Z" agent="5.0 (Windows)" etag="rFzHMuJuE_fz9jkj15i4" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T03:59:06.689Z" agent="5.0 (Windows)" etag="CyY9Xf2mEeOHWJILWK7e" version="17.1.2" type="github">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
-    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-1" value="Touch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-1" value="Touch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="90" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-2" value="Camera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-2" value="Camera" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="90" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-3" value="CCI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-3" value="CCI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-4" value="Screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-4" value="Screen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-5" value="Deserializers " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-5" value="Deserializers " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="390" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-6" value="Can" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-6" value="Can" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="390" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-38" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;align=left;" vertex="1" parent="1">
-          <mxGeometry x="730" y="210" width="290" height="420" as="geometry" />
+          <mxGeometry x="951" y="240" width="290" height="420" as="geometry" />
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-38">
           <mxGeometry width="290" height="70" as="geometry" />
@@ -102,6 +105,9 @@
           <mxGeometry x="80" width="210" height="70" as="geometry">
             <mxRectangle width="210" height="70" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-62" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Kernel&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
