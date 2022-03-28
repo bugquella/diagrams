@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T03:49:08.610Z" agent="5.0 (Windows)" etag="c9Tyn2RZ6Y9VRsNcfWI3" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T03:50:30.409Z" agent="5.0 (Windows)" etag="bfaOqWXaU8Sk4vpwPWp2" version="17.1.2" type="github">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,45 +23,45 @@
           <mxGeometry x="390" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-38" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="730" y="210" width="120" height="120" as="geometry" />
+          <mxGeometry x="730" y="210" width="290" height="210" as="geometry" />
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-38">
-          <mxGeometry width="120" height="40" as="geometry" />
+          <mxGeometry width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-40" value="Camera" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-39">
-          <mxGeometry width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
+          <mxGeometry width="80" height="70" as="geometry">
+            <mxRectangle width="80" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-41" value="相机驱动" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-39">
-          <mxGeometry x="60" width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-41" value="&lt;div align=&quot;left&quot;&gt;相机驱动&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-39">
+          <mxGeometry x="80" width="210" height="70" as="geometry">
+            <mxRectangle width="210" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-38">
-          <mxGeometry y="40" width="120" height="40" as="geometry" />
+          <mxGeometry y="70" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-44" value="CCI" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-43">
-          <mxGeometry width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
+          <mxGeometry width="80" height="70" as="geometry">
+            <mxRectangle width="80" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-45" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-43">
-          <mxGeometry x="60" width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-45" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;camera control interface， 由i2c和gpio两部分组成。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-43">
+          <mxGeometry x="80" width="210" height="70" as="geometry">
+            <mxRectangle width="210" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-38">
-          <mxGeometry y="80" width="120" height="40" as="geometry" />
+          <mxGeometry y="140" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-48" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-47">
-          <mxGeometry width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
+          <mxGeometry width="80" height="70" as="geometry">
+            <mxRectangle width="80" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-49" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="MbrAVtmnNedSVLk-zFgN-47">
-          <mxGeometry x="60" width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
+          <mxGeometry x="80" width="210" height="70" as="geometry">
+            <mxRectangle width="210" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
