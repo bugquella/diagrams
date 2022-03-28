@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T10:07:36.988Z" agent="5.0 (Windows)" etag="2--5nj7TFEHGi-c7-1PY" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T10:11:51.414Z" agent="5.0 (Windows)" etag="XRP8zdubgZhp7iaeWQS9" version="17.1.2" type="github">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
     <mxGraphModel dx="959" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,8 +206,11 @@
         <mxCell id="MbrAVtmnNedSVLk-zFgN-91" value="Camera Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="90" y="-130" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-93" value="Camera参数保持" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-210" width="140" height="60" as="geometry" />
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-94" value="Calibration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-95" value="Settings AVM " style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
