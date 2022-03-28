@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T09:57:38.660Z" agent="5.0 (Windows)" etag="ebE83y1gacHGKsbKSX8b" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T09:58:05.614Z" agent="5.0 (Windows)" etag="XSy95R1ZTNehHHOj5jYo" version="17.1.2" type="github">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
     <mxGraphModel dx="1483" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
         <mxCell id="MbrAVtmnNedSVLk-zFgN-88" value="AVM Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="40" y="-310" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MbrAVtmnNedSVLk-zFgN-89" value="Ev" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="MbrAVtmnNedSVLk-zFgN-89" value="Event" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="90" y="-210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MbrAVtmnNedSVLk-zFgN-90" value="Input" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
