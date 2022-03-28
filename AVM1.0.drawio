@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T15:38:05.535Z" agent="5.0 (Windows)" etag="OjviN_EX7f8JPjh7qQT-" version="17.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-28T15:39:20.986Z" agent="5.0 (Windows)" etag="Qz4qCgEeWwaemKp3Cyas" version="17.2.4" type="github" pages="2">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
     <mxGraphModel dx="1038" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -231,7 +231,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z3Klrh0bSa6ooiFNfHZ1" name="硬件架构">
-    <mxGraphModel dx="865" dy="1616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="593" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fF-TlLDlSucphrJspko1-0" />
         <mxCell id="fF-TlLDlSucphrJspko1-1" parent="fF-TlLDlSucphrJspko1-0" />
@@ -284,16 +284,16 @@
           <mxGeometry x="500" y="40" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fF-TlLDlSucphrJspko1-36" value="电源" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="fF-TlLDlSucphrJspko1-1" vertex="1">
-          <mxGeometry x="490" y="420" width="110" height="50" as="geometry" />
+          <mxGeometry x="380" y="420" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fF-TlLDlSucphrJspko1-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;strokeWidth=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;" parent="fF-TlLDlSucphrJspko1-1" source="fF-TlLDlSucphrJspko1-36" edge="1">
+        <mxCell id="fF-TlLDlSucphrJspko1-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;strokeWidth=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;entryX=0.399;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" parent="fF-TlLDlSucphrJspko1-1" source="fF-TlLDlSucphrJspko1-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="295" as="sourcePoint" />
-            <mxPoint x="545" y="370" as="targetPoint" />
+            <mxPoint x="100" y="295" as="sourcePoint" />
+            <mxPoint x="435.46000000000004" y="369.44000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZkPRYomNT2LJzUIy38p6-2" value="显示器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
-          <mxGeometry x="640" y="420" width="120" height="50" as="geometry" />
+          <mxGeometry x="500" y="420" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZkPRYomNT2LJzUIy38p6-12" value="" style="group;fontSize=16;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" connectable="0" parent="fF-TlLDlSucphrJspko1-1">
           <mxGeometry x="240" y="250" width="520" height="110" as="geometry" />
@@ -334,10 +334,10 @@
         <mxCell id="ZkPRYomNT2LJzUIy38p6-17" value="Power management" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
           <mxGeometry x="250" y="110" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ZkPRYomNT2LJzUIy38p6-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;strokeWidth=3;fillColor=#008a00;strokeColor=#005700;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.87;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fF-TlLDlSucphrJspko1-1" source="fF-TlLDlSucphrJspko1-4" target="ZkPRYomNT2LJzUIy38p6-2">
+        <mxCell id="ZkPRYomNT2LJzUIy38p6-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;strokeWidth=3;fillColor=#008a00;strokeColor=#005700;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.87;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fF-TlLDlSucphrJspko1-1" target="ZkPRYomNT2LJzUIy38p6-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="770" y="250" as="sourcePoint" />
-            <mxPoint x="555" y="380" as="targetPoint" />
+            <mxPoint x="559.8" y="370" as="sourcePoint" />
+            <mxPoint x="415" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fF-TlLDlSucphrJspko1-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;fillColor=#008a00;strokeColor=#005700;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="fF-TlLDlSucphrJspko1-1" target="fF-TlLDlSucphrJspko1-14" edge="1">
@@ -369,6 +369,9 @@
         </mxCell>
         <mxCell id="ZkPRYomNT2LJzUIy38p6-0" value="超声波雷达" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="ZkPRYomNT2LJzUIy38p6-22">
           <mxGeometry x="20" y="10" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkPRYomNT2LJzUIy38p6-23" value="SPI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="fF-TlLDlSucphrJspko1-1">
+          <mxGeometry x="550" y="377.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
