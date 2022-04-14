@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T10:16:02.286Z" agent="5.0 (Windows)" etag="JHqiGQqAJ3gbsxFVuQSi" version="17.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-14T10:16:20.013Z" agent="5.0 (Windows)" etag="Rhx_Dl6UWa1M7K6cymVq" version="17.4.4" type="github" pages="2">
   <diagram id="iMgpQa16oVP87e5fw9eG" name="软件架构">
     <mxGraphModel dx="10380" dy="6529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,7 +234,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z3Klrh0bSa6ooiFNfHZ1" name="硬件架构">
-    <mxGraphModel dx="103" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="50" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fF-TlLDlSucphrJspko1-0" />
         <mxCell id="fF-TlLDlSucphrJspko1-1" parent="fF-TlLDlSucphrJspko1-0" />
