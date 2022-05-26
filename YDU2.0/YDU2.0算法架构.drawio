@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T07:14:44.762Z" agent="5.0 (Windows)" etag="InPNNwlrbecCW4AFaU0k" version="17.4.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-26T07:43:22.841Z" agent="5.0 (Windows)" etag="-OQeGck2EIwNhHjslVyb" version="17.4.6" type="github" pages="8">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4368" dy="3313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5720,10 +5720,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HAg-zijZtwfEAYGYk2Oa" name="1V1R障碍物融合">
-    <mxGraphModel dx="2370" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GlQrqJslY1lpycv7Be6c-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-75" target="GlQrqJslY1lpycv7Be6c-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="620" y="1050" width="1140" height="500" as="geometry" />
         </mxCell>
@@ -5757,11 +5760,17 @@
         <mxCell id="GlQrqJslY1lpycv7Be6c-3" value="视觉目标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="720" y="950" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-4" target="GlQrqJslY1lpycv7Be6c-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-4" value="视觉车道线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="390" y="1570" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-5" target="GlQrqJslY1lpycv7Be6c-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-5" value="视觉交通标识" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1640" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-6" target="GlQrqJslY1lpycv7Be6c-62">
           <mxGeometry relative="1" as="geometry" />
@@ -5865,17 +5874,51 @@
         <mxCell id="GlQrqJslY1lpycv7Be6c-58" value="航迹融合管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1460" y="1120" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GlQrqJslY1lpycv7Be6c-68" value="前视觉&amp;amp;前雷达数据处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="GlQrqJslY1lpycv7Be6c-68" value="前视觉&amp;amp;前雷达目标处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="800" y="1120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GlQrqJslY1lpycv7Be6c-69" value="前视觉数据处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="GlQrqJslY1lpycv7Be6c-69" value="前视觉目标处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="735" y="1169" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GlQrqJslY1lpycv7Be6c-71" value="前雷达数据处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="GlQrqJslY1lpycv7Be6c-71" value="前雷达目标处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="910" y="1169" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-77" value="1V1R障碍物融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1060" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-82" target="GlQrqJslY1lpycv7Be6c-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="1600" />
+              <mxPoint x="1900" y="1395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-82" target="GlQrqJslY1lpycv7Be6c-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="1600" />
+              <mxPoint x="1900" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-82" value="车道线后处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="825" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-84" value="车道融合" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1310" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-87" value="车道线输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-89" target="GlQrqJslY1lpycv7Be6c-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-89" value="坐标变换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-91" value="TSR输出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
