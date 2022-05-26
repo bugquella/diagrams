@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T08:57:26.323Z" agent="5.0 (Windows)" etag="ASkpg97KgtMXKIzfY2Uv" version="17.4.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-26T09:10:49.948Z" agent="5.0 (Windows)" etag="a0XFxxUB2YNeUmk2UOgs" version="17.4.6" type="github" pages="8">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4368" dy="3313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5720,17 +5720,29 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HAg-zijZtwfEAYGYk2Oa" name="1V1R障碍物融合">
-    <mxGraphModel dx="1422" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4063" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GlQrqJslY1lpycv7Be6c-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-133" target="GlQrqJslY1lpycv7Be6c-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-133" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1050" width="190" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-121" target="GlQrqJslY1lpycv7Be6c-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-121" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="620" y="1800" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-115" target="GlQrqJslY1lpycv7Be6c-87">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-115" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="620" y="1620" width="360" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="GlQrqJslY1lpycv7Be6c-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-75" target="GlQrqJslY1lpycv7Be6c-84">
+        <mxCell id="GlQrqJslY1lpycv7Be6c-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="GlQrqJslY1lpycv7Be6c-75" target="GlQrqJslY1lpycv7Be6c-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
@@ -5886,14 +5898,11 @@
         <mxCell id="GlQrqJslY1lpycv7Be6c-77" value="1V1R障碍物融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1060" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GlQrqJslY1lpycv7Be6c-84" value="车道融合" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="1270" width="120" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-87" value="车道线输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2052" y="2160" width="120" height="60" as="geometry" />
+          <mxGeometry x="2550" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-91" value="TSR输出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="2290" width="120" height="60" as="geometry" />
+          <mxGeometry x="2550" y="1830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-108" value="视觉目标时间同步" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="720" y="1370" width="120" height="60" as="geometry" />
@@ -5918,6 +5927,24 @@
         </mxCell>
         <mxCell id="GlQrqJslY1lpycv7Be6c-122" value="视觉交通标识处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="730" y="1810" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-127" value="目标-车道关联" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-129" value="融合目标危险性排序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-130" value="CIPV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-131" value="目标输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-132" value="障碍物输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GlQrqJslY1lpycv7Be6c-134" value="目标&amp;amp;车道线融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="1070" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
