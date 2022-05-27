@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T01:25:19.254Z" agent="5.0 (Windows)" etag="4Cqvc0JS6Xo9xK6BBCum" version="18.1.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-27T01:27:58.203Z" agent="5.0 (Windows)" etag="ocgNyv2hx8RfDZHa4jeI" version="18.1.2" type="github" pages="8">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="3903" dy="3052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6060,10 +6060,10 @@
         <mxCell id="5cXJNvZJkp7GwvXoWlpV-13" value="前雷达2车辆外参" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cXJNvZJkp7GwvXoWlpV-14" value="融合控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cXJNvZJkp7GwvXoWlpV-14" value="融合控制开发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="2110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cXJNvZJkp7GwvXoWlpV-15" value="融合控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cXJNvZJkp7GwvXoWlpV-15" value="线程通信" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="2110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
