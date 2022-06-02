@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T09:39:43.265Z" agent="5.0 (Windows)" etag="q2dOrbjRpr1Jbq9x2MZg" version="18.1.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-02T01:33:04.950Z" agent="5.0 (Windows)" etag="EgWBZ5wTFuy0vpy2ztBm" version="18.1.3" type="github" pages="9">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="3903" dy="3052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6308,6 +6308,47 @@
           <mxGeometry x="-0.3045" y="1" relative="1" as="geometry">
             <mxPoint x="17" y="2" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ijAim92dFezQM42T3PXV" name="第 9 页">
+    <mxGraphModel dx="1808" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F2vCVNADCxCamXFafY5t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-1" target="F2vCVNADCxCamXFafY5t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-2" target="F2vCVNADCxCamXFafY5t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-2" target="F2vCVNADCxCamXFafY5t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-2" target="F2vCVNADCxCamXFafY5t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-2" target="F2vCVNADCxCamXFafY5t-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-2" value="开启传感器融合进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-3" value="开启EQ4数据解析和后处理线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-4" value="开启前毫米波雷达数据处理线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-8" value="开启融合功能控制线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-11" value="开启融合功能线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
