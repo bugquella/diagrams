@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T03:15:46.864Z" agent="5.0 (Windows)" etag="NWsGEcj0KDmkMtOl_dww" version="18.1.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-02T03:31:49.218Z" agent="5.0 (Windows)" etag="txaW8tt1aFMhiEMec0a7" version="18.1.3" type="github" pages="9">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="3903" dy="3052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6313,7 +6313,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ijAim92dFezQM42T3PXV" name="第 9 页">
-    <mxGraphModel dx="1808" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2012" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6338,17 +6338,20 @@
         <mxCell id="F2vCVNADCxCamXFafY5t-2" value="开启传感器融合进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-3" target="F2vCVNADCxCamXFafY5t-13">
+        <mxCell id="F2vCVNADCxCamXFafY5t-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-3" target="F2vCVNADCxCamXFafY5t-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-3" value="开启EQ4数据解析和后处理线程并初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="-370" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-4" target="F2vCVNADCxCamXFafY5t-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-4" value="开启前毫米波雷达数据处理线程并初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-8" target="F2vCVNADCxCamXFafY5t-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-8" value="开启融合功能控制线程并初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="210" width="120" height="60" as="geometry" />
@@ -6358,58 +6361,50 @@
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-13" target="F2vCVNADCxCamXFafY5t-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-140" y="399.9999999999999" as="targetPoint" />
+            <mxPoint x="-302.5" y="499.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-13" value="实时接收CAN报文并解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="-370" y="370" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-17" target="F2vCVNADCxCamXFafY5t-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-17" target="F2vCVNADCxCamXFafY5t-13">
+        <mxCell id="F2vCVNADCxCamXFafY5t-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-17">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-60" y="440" />
-              <mxPoint x="-60" y="340" />
+              <mxPoint x="-380" y="470" />
+              <mxPoint x="-380" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-17" value="是否完整帧信号" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="400" width="120" height="80" as="geometry" />
+          <mxGeometry x="-370" y="450" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-18" target="F2vCVNADCxCamXFafY5t-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-18" value="车道线后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-370" y="530" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-20" target="F2vCVNADCxCamXFafY5t-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-20" value="障碍物后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.009;exitY=0.392;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-33" target="F2vCVNADCxCamXFafY5t-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-201" y="790" />
-              <mxPoint x="-240" y="790" />
-              <mxPoint x="-240" y="325" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="-370" y="585" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-23" target="F2vCVNADCxCamXFafY5t-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-23" value="交通标识后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="-370" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-27" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-145" y="480" width="30" height="20" as="geometry" />
+          <mxGeometry x="-320" y="500" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-28" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="380" width="30" height="20" as="geometry" />
+        <mxCell id="F2vCVNADCxCamXFafY5t-28" value="&lt;font color=&quot;#6C8EBF&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="430" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-29" target="F2vCVNADCxCamXFafY5t-31">
           <mxGeometry relative="1" as="geometry" />
@@ -6423,8 +6418,17 @@
         <mxCell id="F2vCVNADCxCamXFafY5t-31" value="雷达目标后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="390" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-400" y="715" />
+              <mxPoint x="-400" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-33" value="数据发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="-370" y="700" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-35" target="F2vCVNADCxCamXFafY5t-29">
           <mxGeometry relative="1" as="geometry">
@@ -6436,6 +6440,46 @@
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-35" value="数据发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-38" target="F2vCVNADCxCamXFafY5t-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="369.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-38" value="等待接收和缓存最新传感器数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-40" value="等待接收和缓存最新传感器数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-43" target="F2vCVNADCxCamXFafY5t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-43" value="EQ4后处理功能开启" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-48" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-165" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-55" value="休眠定时查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="305" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-250" y="305" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="F2vCVNADCxCamXFafY5t-59" source="F2vCVNADCxCamXFafY5t-43" target="F2vCVNADCxCamXFafY5t-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-58" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F2vCVNADCxCamXFafY5t-59">
+          <mxGeometry width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
