@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T07:45:43.076Z" agent="5.0 (Windows)" etag="rPXVndbvePxpvv0WRfcI" version="18.1.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-02T07:50:24.766Z" agent="5.0 (Windows)" etag="cuVANqFxTp3QcqZ7R2xu" version="18.1.3" type="github" pages="9">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="3903" dy="3052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6313,7 +6313,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ijAim92dFezQM42T3PXV" name="第 9 页">
-    <mxGraphModel dx="2012" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6409,8 +6409,8 @@
         <mxCell id="F2vCVNADCxCamXFafY5t-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-29" target="F2vCVNADCxCamXFafY5t-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-29" value="接收ROS2前雷达Topic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="370" width="120" height="40" as="geometry" />
+        <mxCell id="F2vCVNADCxCamXFafY5t-29" value="开启接收ROS2前雷达Topic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-31" target="F2vCVNADCxCamXFafY5t-35">
           <mxGeometry relative="1" as="geometry" />
@@ -6430,11 +6430,11 @@
         <mxCell id="F2vCVNADCxCamXFafY5t-33" value="数据发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-370" y="700" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-35" target="F2vCVNADCxCamXFafY5t-29">
+        <mxCell id="F2vCVNADCxCamXFafY5t-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-35" target="F2vCVNADCxCamXFafY5t-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="10" y="525" />
-              <mxPoint x="10" y="387" />
+              <mxPoint x="30" y="525" />
+              <mxPoint x="30" y="385" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -6484,8 +6484,35 @@
         <mxCell id="F2vCVNADCxCamXFafY5t-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#6C8EBF;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-60" target="F2vCVNADCxCamXFafY5t-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-60" value="前雷达处理功能" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F2vCVNADCxCamXFafY5t-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-60" target="F2vCVNADCxCamXFafY5t-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-60" value="前雷达处理功能开启" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-63" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="335" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-64" target="F2vCVNADCxCamXFafY5t-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-64" value="关闭接收ROS2前雷达Topic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="463" />
+              <mxPoint x="340" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-66" value="休眠等待信号触发前雷达处理功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="440" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-68" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="325" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
