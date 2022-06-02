@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T01:33:04.950Z" agent="5.0 (Windows)" etag="EgWBZ5wTFuy0vpy2ztBm" version="18.1.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-02T01:44:18.027Z" agent="5.0 (Windows)" etag="gbg_Qas8wvJwYdu_v4t3" version="18.1.3" type="github" pages="9">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="3903" dy="3052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6338,17 +6338,83 @@
         <mxCell id="F2vCVNADCxCamXFafY5t-2" value="开启传感器融合进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-3" value="开启EQ4数据解析和后处理线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="F2vCVNADCxCamXFafY5t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-3" target="F2vCVNADCxCamXFafY5t-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F2vCVNADCxCamXFafY5t-4" value="开启前毫米波雷达数据处理线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="F2vCVNADCxCamXFafY5t-3" value="开启EQ4数据解析和后处理线程并初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-4" target="F2vCVNADCxCamXFafY5t-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-4" value="开启前毫米波雷达数据处理线程并初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-8" value="开启融合功能控制线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F2vCVNADCxCamXFafY5t-11" value="开启融合功能线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-13" target="F2vCVNADCxCamXFafY5t-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="399.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-13" value="实时接收CAN报文并解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-17" target="F2vCVNADCxCamXFafY5t-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-17" target="F2vCVNADCxCamXFafY5t-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-60" y="440" />
+              <mxPoint x="-60" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-17" value="是否完整帧信号" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-18" target="F2vCVNADCxCamXFafY5t-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-18" value="车道线后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-20" target="F2vCVNADCxCamXFafY5t-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-20" value="障碍物后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-23" target="F2vCVNADCxCamXFafY5t-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="720" />
+              <mxPoint x="-240" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-23" value="交通标识后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-27" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-28" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2vCVNADCxCamXFafY5t-29" target="F2vCVNADCxCamXFafY5t-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-29" value="接收ROS2前雷达Topic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2vCVNADCxCamXFafY5t-31" value="雷达目标后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
