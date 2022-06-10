@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T06:34:02.074Z" agent="5.0 (Windows)" etag="0NRxH1iW9M5DnTemorxd" version="19.0.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-10T08:43:19.665Z" agent="5.0 (Windows)" etag="9-n9Wa8Wmpup3DKr0WsE" version="19.0.1" type="github" pages="10">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="7221" dy="4718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5720,7 +5720,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HAg-zijZtwfEAYGYk2Oa" name="1V1R障碍物融合">
-    <mxGraphModel dx="1187" dy="198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2554" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6791,6 +6791,9 @@
         </mxCell>
         <mxCell id="AWzozC-NHX-YngGZFboX-11" value="粉色：模块内输入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="725" y="3300" width="105" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzozC-NHX-YngGZFboX-13" value="自身运动状态管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="3110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
