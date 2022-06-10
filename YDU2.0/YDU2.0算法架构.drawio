@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T04:00:55.906Z" agent="5.0 (Windows)" etag="ku06yqtFqjzB9PyZKmoj" version="19.0.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-10T05:56:30.407Z" agent="5.0 (Windows)" etag="JMXGNIjNoVEj1g5plwm2" version="19.0.1" type="github" pages="10">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="7221" dy="4718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6464,7 +6464,7 @@
         <mxCell id="S8DPChbR8QP9f-0rT0dU-54" value="航迹融合管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1050" y="2809" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S8DPChbR8QP9f-0rT0dU-55" value="前视觉&amp;amp;前雷达目标处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="S8DPChbR8QP9f-0rT0dU-55" value="目标处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="390" y="2809" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S8DPChbR8QP9f-0rT0dU-58" value="1V1R障碍物融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
@@ -6773,6 +6773,15 @@
         </mxCell>
         <mxCell id="S8DPChbR8QP9f-0rT0dU-196" value="前雷达目标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-240" y="3159" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzozC-NHX-YngGZFboX-6" value="目标帧数据缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="395" y="2863" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzozC-NHX-YngGZFboX-7" value="目标帧时间排序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="395" y="2950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzozC-NHX-YngGZFboX-8" value="历史航迹运动补偿" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="395" y="3039" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
