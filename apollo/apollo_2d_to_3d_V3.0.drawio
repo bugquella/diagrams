@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T06:08:07.988Z" agent="5.0 (Windows)" etag="mdBJDRwQc0mTY5rRmRKk" version="19.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-14T06:39:08.518Z" agent="5.0 (Windows)" etag="kgeZcDvSLxjGRbS8iETU" version="19.0.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nQkH-CrOsasp9GFXLlY7" name="第 2 页">
-    <mxGraphModel dx="828" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="686" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -307,6 +307,113 @@
         </mxCell>
         <mxCell id="Pkdxxxdbt_dBAfZ66-lr-22" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pkdxxxdbt_dBAfZ66-lr-28" target="Pkdxxxdbt_dBAfZ66-lr-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="150" />
+              <mxPoint x="690" y="36" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-28" value="1. 关联匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-29" value="2. 更新匹配的航迹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-30" value="3. 更新未匹配的航迹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-31" value="4. 创建新的航迹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-32" value="返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pkdxxxdbt_dBAfZ66-lr-33" target="Pkdxxxdbt_dBAfZ66-lr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pkdxxxdbt_dBAfZ66-lr-33" target="Pkdxxxdbt_dBAfZ66-lr-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-33" value="&amp;nbsp;关联匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="877" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-34" value="航迹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-35" value="观测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-40" value="1.IDAssign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-41" value="assignments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-42" value="unassigned Tracks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="877" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-43" value="unassigned meas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-44" value="2. 计算关联矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pkdxxxdbt_dBAfZ66-lr-45" target="Pkdxxxdbt_dBAfZ66-lr-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pkdxxxdbt_dBAfZ66-lr-45" target="Pkdxxxdbt_dBAfZ66-lr-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-45" value="3. 最小化匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-46" value="匈牙利匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-48" value="assignments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="811" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-49" value="unassigned Tracks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-50" value="unassigned meas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pkdxxxdbt_dBAfZ66-lr-53" target="Pkdxxxdbt_dBAfZ66-lr-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-53" value="4. PostInAssign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-54" value="assignments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-55" value="unassigned Tracks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-56" value="unassigned meas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-58" value="5.生成未匹配数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-59" value="assignments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-60" value="unassigned Tracks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-61" value="unassigned meas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-62" value="6.保存各自距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pkdxxxdbt_dBAfZ66-lr-64" value="返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
