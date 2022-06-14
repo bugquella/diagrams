@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T02:44:47.146Z" agent="5.0 (Windows)" etag="Sb4QDP73o1Zc5vTAUkXF" version="19.0.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-14T02:44:56.707Z" agent="5.0 (Windows)" etag="oNxH1ux0e3stQS7vcSMD" version="19.0.3" type="github" pages="10">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
-    <mxGraphModel dx="4154" dy="3178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2613" dy="2404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DUzeyda3xibaIFuw_aJ4-0" />
         <mxCell id="DUzeyda3xibaIFuw_aJ4-1" parent="DUzeyda3xibaIFuw_aJ4-0" />
