@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T02:38:38.993Z" agent="5.0 (Windows)" etag="OA_maCzmQ7GwgkcFe3mA" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-15T03:18:48.312Z" agent="5.0 (Windows)" etag="y7lT21aKgUx0HJVbZbn0" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2585" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nQkH-CrOsasp9GFXLlY7" name="第 2 页">
-    <mxGraphModel dx="1111" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -974,6 +974,42 @@
         </mxCell>
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-73" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1750" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-75" target="4qVyWYOQ_H-MjT7jH4a1-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-75" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-76" value="接收航迹目标数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-77" target="4qVyWYOQ_H-MjT7jH4a1-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-77" value="判定目标位置是否车道左车道线的右边" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-78" target="4qVyWYOQ_H-MjT7jH4a1-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-78" value="判定目标位置是否车道右车道线的右边" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-79" target="4qVyWYOQ_H-MjT7jH4a1-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-79" value="目标在左车道线右边&amp;amp;&amp;amp;目标在右车道线左边" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="1810" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-82" target="4qVyWYOQ_H-MjT7jH4a1-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-82" value="目标打车道标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-84" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="2040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
