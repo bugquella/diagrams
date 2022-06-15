@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T03:30:38.720Z" agent="5.0 (Windows)" etag="YwJRETZfy3RjLe3fy-LB" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-15T03:58:19.601Z" agent="5.0 (Windows)" etag="KiX5JpjygjBIMwH9syoI" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2585" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nQkH-CrOsasp9GFXLlY7" name="第 2 页">
-    <mxGraphModel dx="1640" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1022,6 +1022,81 @@
         </mxCell>
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-88" value="使用该车道的右车道线的起点和终点，构造左车道线直线RLine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2250" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-92" target="4qVyWYOQ_H-MjT7jH4a1-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-92" value="EQ4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-93" target="4qVyWYOQ_H-MjT7jH4a1-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-93" value="数据解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.187;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-94" target="4qVyWYOQ_H-MjT7jH4a1-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-94" value="ros2Topic数据发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-95" target="4qVyWYOQ_H-MjT7jH4a1-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-95" value="前雷达" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-96" target="4qVyWYOQ_H-MjT7jH4a1-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-96" value="数据解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="3040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-97" target="4qVyWYOQ_H-MjT7jH4a1-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-97" value="ros2Topic数据发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="3040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-98" target="4qVyWYOQ_H-MjT7jH4a1-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-98" value="自车信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-99" target="4qVyWYOQ_H-MjT7jH4a1-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-99" value="数据解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="3120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-100" target="4qVyWYOQ_H-MjT7jH4a1-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-100" value="ros2Topic数据发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="3120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-101" target="4qVyWYOQ_H-MjT7jH4a1-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-101" value="EQ4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-102" target="4qVyWYOQ_H-MjT7jH4a1-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-102" value="数据解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="3200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-103" target="4qVyWYOQ_H-MjT7jH4a1-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-103" value="ros2Topic数据发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="3200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-110" value="PC端ROS2 数据采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="3020" width="220" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
