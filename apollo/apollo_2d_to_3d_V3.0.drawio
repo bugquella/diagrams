@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T03:18:59.189Z" agent="5.0 (Windows)" etag="xYkaRst8AwgHERKepcmT" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-15T03:28:52.676Z" agent="5.0 (Windows)" etag="hHOufiLgeL7YpHECEsBI" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2585" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -975,11 +975,8 @@
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-73" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1750" y="2110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-75" target="4qVyWYOQ_H-MjT7jH4a1-77">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-75" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2250" y="1530" width="120" height="60" as="geometry" />
+          <mxGeometry x="2250" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-76" value="接收航迹目标数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1630" y="1640" width="120" height="60" as="geometry" />
@@ -987,7 +984,7 @@
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-77" target="4qVyWYOQ_H-MjT7jH4a1-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-77" value="判定目标位置是否车道左车道线的右边" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-77" value="判定目标位置是否车道左车道线直线LLine的右边" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2250" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-78" target="4qVyWYOQ_H-MjT7jH4a1-79">
@@ -1010,6 +1007,9 @@
         </mxCell>
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-84" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2250" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-87" value="使用该车道的左车道线的起点和终点，构造左车道线直线LLine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
