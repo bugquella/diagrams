@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T01:09:26.776Z" agent="5.0 (Windows)" etag="XysiPwnVfQvKT5Trdxr9" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-15T01:40:45.134Z" agent="5.0 (Windows)" etag="LJ6otbHLWKyxPIUw6u-M" version="20.0.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2585" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nQkH-CrOsasp9GFXLlY7" name="第 2 页">
-    <mxGraphModel dx="2064" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -850,6 +850,45 @@
         </mxCell>
         <mxCell id="4qVyWYOQ_H-MjT7jH4a1-27" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="2520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-34" target="4qVyWYOQ_H-MjT7jH4a1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-34" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-35" target="4qVyWYOQ_H-MjT7jH4a1-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-35" value="获取航迹列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-37" target="4qVyWYOQ_H-MjT7jH4a1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-37" value="航迹发布?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-40" target="4qVyWYOQ_H-MjT7jH4a1-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-40" value="赋值当前帧时间戳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-41" target="4qVyWYOQ_H-MjT7jH4a1-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-41" value="赋值跟踪时长" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qVyWYOQ_H-MjT7jH4a1-42" target="4qVyWYOQ_H-MjT7jH4a1-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-42" value="数据发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="2030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qVyWYOQ_H-MjT7jH4a1-43" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="2120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
