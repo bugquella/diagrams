@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T04:14:19.554Z" agent="5.0 (Windows)" etag="7J7t7jrET2IkkECWb8GG" version="20.0.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-07-13T04:16:13.991Z" agent="5.0 (Windows)" etag="TSAIZwu4nT20kxvvNMby" version="20.0.3" type="github" pages="10">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="3903" dy="3052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6057,7 +6057,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HAg-zijZtwfEAYGYk2Oa" name="1V1R障碍物融合">
-    <mxGraphModel dx="7937" dy="3570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7282,7 +7282,7 @@
         <mxCell id="yVV-d-QqjFxfsViaI2aB-51" value="应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4520" y="2010" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fzo5w0Fr-9dlOxZokpTB-127" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="fzo5w0Fr-9dlOxZokpTB-127" value="" style="group;strokeWidth=3;perimeterSpacing=1;strokeColor=default;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="2660" y="2570" width="1160" height="590" as="geometry" />
         </mxCell>
         <mxCell id="fzo5w0Fr-9dlOxZokpTB-128" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="fzo5w0Fr-9dlOxZokpTB-127">
