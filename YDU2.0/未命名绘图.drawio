@@ -1,41 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T02:54:21.232Z" agent="5.0 (Windows)" version="20.6.0" etag="5--r4T0y5RCze6EzK0ih" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T03:00:20.124Z" agent="5.0 (Windows)" version="20.6.0" etag="61iPdS30u4oAqsQWVYN-" type="github">
   <diagram id="mb-tZgp3zU6TYsqnozkC" name="第 1 页">
-    <mxGraphModel dx="1422" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3015" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="66FuJ6tfi-zrDr_wdLSn-44" target="66FuJ6tfi-zrDr_wdLSn-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-44" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00CC66;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="510" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="66FuJ6tfi-zrDr_wdLSn-1" target="66FuJ6tfi-zrDr_wdLSn-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-1" value="12*超声波雷达传感器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="230" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="66FuJ6tfi-zrDr_wdLSn-4" target="66FuJ6tfi-zrDr_wdLSn-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-4" value="超声波雷达标定" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00CC66;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-6" value="标定参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="150" y="120" width="60" height="30" as="geometry" />
+          <mxGeometry x="130" y="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="66FuJ6tfi-zrDr_wdLSn-8" target="66FuJ6tfi-zrDr_wdLSn-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-8" value="G35" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="400" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-10" value="黑芝麻/397" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="560" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-12" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00CC66;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="240" width="600" height="270" as="geometry" />
+          <mxGeometry y="220" width="720" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="66FuJ6tfi-zrDr_wdLSn-14" target="66FuJ6tfi-zrDr_wdLSn-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-14" value="超声波雷达滤波" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="110" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="357.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-24" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="70" y="570" width="310" height="255" as="geometry" />
+          <mxGeometry x="220" y="260" width="310" height="255" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-15" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
           <mxGeometry width="310" height="255" as="geometry" />
@@ -61,53 +70,76 @@
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-23" value="重定义车位" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
           <mxGeometry x="170" y="185" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-26" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="460" y="570" width="310" height="280" as="geometry" />
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-45" value="硬件数据流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="404" y="20" width="86" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-28" value="一级融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="570" y="570" width="80" height="30" as="geometry" />
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-46" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="560" width="310" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-29" value="超声波坐标系变换" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="480" y="615" width="120" height="60" as="geometry" />
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-26" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-46">
+          <mxGeometry width="310" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-30" value="构建超声波点云图" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="480" y="685" width="120" height="60" as="geometry" />
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-28" value="一级融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-46">
+          <mxGeometry x="110" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-31" value="视觉车位内障碍物检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="480" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-29" value="超声波坐标系变换" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-46">
+          <mxGeometry x="20" y="45" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-32" value="可泊状态检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="630" y="615" width="120" height="60" as="geometry" />
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-30" value="构建超声波点云图" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-46">
+          <mxGeometry x="20" y="115" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-33" value="超声波路沿检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="630" y="685" width="120" height="60" as="geometry" />
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-31" value="视觉车位内障碍物检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-46">
+          <mxGeometry x="20" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-32" value="可泊状态检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-46">
+          <mxGeometry x="170" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-33" value="超声波路沿检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-46">
+          <mxGeometry x="170" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="370" y="700" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-38" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-48">
+          <mxGeometry width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-39" value="默认车位选择" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-48">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-40" value="车位选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-48">
+          <mxGeometry x="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-41" value="一般车位选择" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-48">
+          <mxGeometry x="170" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-42" value="车位选择保持" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-48">
+          <mxGeometry x="20" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-51" value="算法层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="66FuJ6tfi-zrDr_wdLSn-15" target="66FuJ6tfi-zrDr_wdLSn-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="66FuJ6tfi-zrDr_wdLSn-26" target="66FuJ6tfi-zrDr_wdLSn-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;entryX=0.629;entryY=-0.135;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="66FuJ6tfi-zrDr_wdLSn-34" target="66FuJ6tfi-zrDr_wdLSn-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="690" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-34" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="60" y="880" width="310" height="110" as="geometry" />
+          <mxGeometry x="370" y="560" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-35" value="二级融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="175" y="890" width="80" height="30" as="geometry" />
+          <mxGeometry x="485" y="570" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-36" value="车位有效性判定" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="70" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-37" value="有效车位统计" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="230" y="920" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-38" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="460" y="880" width="310" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-39" value="默认车位选择" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="480" y="920" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-40" value="车位选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="560" y="880" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-41" value="一般车位选择" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="630" y="920" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="66FuJ6tfi-zrDr_wdLSn-42" value="车位选择保持" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="480" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
