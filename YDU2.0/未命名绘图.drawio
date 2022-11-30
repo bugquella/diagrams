@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T02:32:39.921Z" agent="5.0 (Windows)" version="20.6.0" etag="OaJN_6eF_aEFVoto6MyT" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T02:54:21.232Z" agent="5.0 (Windows)" version="20.6.0" etag="5--r4T0y5RCze6EzK0ih" type="github">
   <diagram id="mb-tZgp3zU6TYsqnozkC" name="第 1 页">
     <mxGraphModel dx="1422" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,82 @@
           <mxGeometry x="80" y="240" width="600" height="270" as="geometry" />
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-14" value="超声波雷达滤波" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="50" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="570" width="310" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-15" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
+          <mxGeometry width="310" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-16" value="车位有效性判定" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
+          <mxGeometry x="20" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-17" value="视觉车位处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
+          <mxGeometry x="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-19" value="空间对齐" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
+          <mxGeometry x="20" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-20" value="车位关联匹配" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
+          <mxGeometry x="20" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-21" value="车位跟踪滤波" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
+          <mxGeometry x="170" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-22" value="自定义车位" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
+          <mxGeometry x="170" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-23" value="重定义车位" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="66FuJ6tfi-zrDr_wdLSn-24">
+          <mxGeometry x="170" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-26" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="460" y="570" width="310" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-28" value="一级融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="570" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-29" value="超声波坐标系变换" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="480" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-30" value="构建超声波点云图" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="480" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-31" value="视觉车位内障碍物检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-32" value="可泊状态检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="630" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-33" value="超声波路沿检测" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="630" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-34" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="60" y="880" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-35" value="二级融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="175" y="890" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-36" value="车位有效性判定" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="70" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-37" value="有效车位统计" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="230" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-38" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006666;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="460" y="880" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-39" value="默认车位选择" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="480" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-40" value="车位选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="560" y="880" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-41" value="一般车位选择" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="630" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66FuJ6tfi-zrDr_wdLSn-42" value="车位选择保持" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9933FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="480" y="990" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
