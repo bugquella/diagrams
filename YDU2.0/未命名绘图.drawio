@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T03:45:24.846Z" agent="5.0 (Windows)" etag="Sw3yVFi6-nvvPNUEgeGD" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-01T03:46:35.116Z" agent="5.0 (Windows)" etag="UkHlrDzDv1dHaRo5OJax" version="20.6.0" type="github">
   <diagram id="mb-tZgp3zU6TYsqnozkC" name="第 1 页">
-    <mxGraphModel dx="3160" dy="2756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="169" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,12 +151,6 @@
         </mxCell>
         <mxCell id="66uwE7xsd6B0Ab2ovtFj-3" value="视觉障碍物+视觉车位+超声波障碍物输出" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=3;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1700" y="-50" width="190" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="66uwE7xsd6B0Ab2ovtFj-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="540" as="sourcePoint" />
-            <mxPoint x="1090" y="490" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="66FuJ6tfi-zrDr_wdLSn-1" value="12*超声波雷达传感器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="910" y="-30" width="120" height="60" as="geometry" />
