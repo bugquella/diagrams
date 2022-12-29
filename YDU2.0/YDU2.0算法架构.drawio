@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T07:41:11.471Z" agent="5.0 (Windows)" etag="ilrDfQK3EJio_cmzHcEe" version="20.7.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-29T07:42:01.740Z" agent="5.0 (Windows)" etag="bFU8C88WHwVFRQvWtlEY" version="20.7.4" type="github" pages="6">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="17648" dy="9498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1388,274 +1388,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="dYPXDvi3RBkDcJ7qZYEb" name="感知融合工程架构">
-    <mxGraphModel dx="9560" dy="5942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="9WtLPpMzkSN9Yo5GJeaF-0" />
-        <mxCell id="9WtLPpMzkSN9Yo5GJeaF-1" parent="9WtLPpMzkSN9Yo5GJeaF-0" />
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#d5e8d4;strokeColor=#82b366;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1590" y="90" width="530" height="820" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="260" y="90" width="1220" height="820" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-10" value="" style="group" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="160" width="130" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry width="130" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-2" value="&lt;font style=&quot;font-size: 19px&quot;&gt;输入&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry x="35" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;传感器数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry x="27.5" y="40" width="75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-4" value="本车数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry x="27.5" y="100" width="75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-5" value="本车数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry x="27.5" y="160" width="75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-6" value="定位数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry x="27.5" y="220" width="75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-7" value="地图数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry x="27.5" y="280" width="75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-8" value="功能配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry x="27.5" y="340" width="75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-9" value="算法配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="hk0V1lLq0mBdqVWZ1DLX-10" vertex="1">
-          <mxGeometry x="27.5" y="400" width="75" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-44" value="" style="group" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1" connectable="0">
-          <mxGeometry x="1630" y="560" width="450" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="Dii2Rvlum2QvnfyezTw9-44" vertex="1">
-          <mxGeometry width="450" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-36" value="融合(MCU)&amp;nbsp; " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="Dii2Rvlum2QvnfyezTw9-44" vertex="1">
-          <mxGeometry x="130" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-37" value="车位融合" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-44" vertex="1">
-          <mxGeometry x="90" y="130" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-38" value="数据接收" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-44" vertex="1">
-          <mxGeometry x="90" y="50" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-39" value="模块启动配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-44" vertex="1">
-          <mxGeometry x="240" y="50" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-41" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-44" vertex="1">
-          <mxGeometry x="240" y="130" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-65" value="车位障碍物" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-44" vertex="1">
-          <mxGeometry x="90" y="190" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-47" value="" style="group" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1" connectable="0">
-          <mxGeometry x="280" y="160" width="1160" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry width="1160" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="hk0V1lLq0mBdqVWZ1DLX-21" value="AI&amp;amp;感知(SOC)&amp;nbsp; " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="590" y="10" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-2" value="数据接收" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="385" y="70" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-3" value="模块启动配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="535" y="70" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-4" value="模块通讯配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="685" y="70" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-5" value="车道线" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="55" y="170" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-6" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="175" y="170" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-7" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="285" y="170" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-8" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="405" y="170" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-9" value="车位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="1015" y="170" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-10" value="可行驶区域" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="525" y="170" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-11" value="前摄-动态障碍物分割" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="765" y="170" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-13" value="地面标识" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="905" y="170" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-14" value="场景感知-传感器状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="645" y="170" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-15" value="数据发送" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="535" y="260" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2WE5fsUTRnOymXfkBtuf-16" value="异常处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="55" y="250" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2WE5fsUTRnOymXfkBtuf-33" value="在线标定" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-47" vertex="1">
-          <mxGeometry x="175" y="250" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-49" value="" style="group" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1" connectable="0">
-          <mxGeometry x="280" y="530" width="1160" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="Dii2Rvlum2QvnfyezTw9-49" vertex="1">
-          <mxGeometry width="1160" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-51" value="AI&amp;amp;感知(MCU)&amp;nbsp; " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="Dii2Rvlum2QvnfyezTw9-49" vertex="1">
-          <mxGeometry x="590" y="10" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-52" value="数据接收" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-49" vertex="1">
-          <mxGeometry x="385" y="70" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-53" value="模块启动配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-49" vertex="1">
-          <mxGeometry x="535" y="70" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-55" value="空间车位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-49" vertex="1">
-          <mxGeometry x="380" y="160" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-56" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-49" vertex="1">
-          <mxGeometry x="490" y="160" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-57" value="路沿" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-49" vertex="1">
-          <mxGeometry x="610" y="160" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-64" value="数据发送" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="Dii2Rvlum2QvnfyezTw9-49" vertex="1">
-          <mxGeometry x="490" y="230" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-67" value="&lt;font style=&quot;font-size: 22px&quot;&gt;AI&amp;amp;感知 &lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="785" y="100" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-69" value="&lt;font style=&quot;font-size: 22px&quot;&gt;融合&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1770" y="110" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-70" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=22;exitX=1.001;exitY=0.441;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=11;entryX=-0.009;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" parent="9WtLPpMzkSN9Yo5GJeaF-1" source="hk0V1lLq0mBdqVWZ1DLX-0" target="Dii2Rvlum2QvnfyezTw9-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1440" y="300" as="sourcePoint" />
-            <mxPoint x="1480" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-71" value="&lt;font style=&quot;font-size: 19px&quot;&gt;进程间通信&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" parent="Dii2Rvlum2QvnfyezTw9-70" vertex="1" connectable="0">
-          <mxGeometry x="-0.165" y="-2" relative="1" as="geometry">
-            <mxPoint x="10" y="-37" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#d5e8d4;strokeColor=#82b366;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="940" y="-90" width="410" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-73" value="&lt;font style=&quot;font-size: 22px&quot;&gt;定位&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1200" y="-70" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-74" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=22;exitX=1.001;exitY=0.441;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=11;" parent="9WtLPpMzkSN9Yo5GJeaF-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1441.16" y="694.72" as="sourcePoint" />
-            <mxPoint x="1630.0000000000002" y="694.4781548424512" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-75" value="API调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" parent="Dii2Rvlum2QvnfyezTw9-74" vertex="1" connectable="0">
-          <mxGeometry x="-0.165" y="-2" relative="1" as="geometry">
-            <mxPoint x="10" y="-37" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-79" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=11;entryX=-0.009;entryY=0.449;entryDx=0;entryDy=0;entryPerimeter=0;" parent="9WtLPpMzkSN9Yo5GJeaF-1" target="Dii2Rvlum2QvnfyezTw9-35" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1450" y="300" as="sourcePoint" />
-            <mxPoint x="1608.84" y="419.99815484245113" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-80" value="SPI通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" parent="Dii2Rvlum2QvnfyezTw9-79" vertex="1" connectable="0">
-          <mxGeometry x="-0.165" y="-2" relative="1" as="geometry">
-            <mxPoint x="10" y="-37" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-83" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=22;strokeWidth=11;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.94;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="9WtLPpMzkSN9Yo5GJeaF-1" source="hk0V1lLq0mBdqVWZ1DLX-0" target="Dii2Rvlum2QvnfyezTw9-72" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1390" y="60" as="sourcePoint" />
-            <mxPoint x="1490" y="-40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-84" value="进程间通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" parent="Dii2Rvlum2QvnfyezTw9-83" vertex="1" connectable="0">
-          <mxGeometry x="0.1766" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-85" value="规控" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#d5e8d4;strokeColor=#82b366;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="2330" y="90" width="120" height="820" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-89" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=11;" parent="9WtLPpMzkSN9Yo5GJeaF-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2080" y="312" as="sourcePoint" />
-            <mxPoint x="2320" y="312" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-90" value="SPI通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" parent="Dii2Rvlum2QvnfyezTw9-89" vertex="1" connectable="0">
-          <mxGeometry x="-0.165" y="-2" relative="1" as="geometry">
-            <mxPoint x="10" y="-37" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-93" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=22;exitX=1.001;exitY=0.441;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=11;" parent="9WtLPpMzkSN9Yo5GJeaF-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2080" y="680.24" as="sourcePoint" />
-            <mxPoint x="2320" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-94" value="模块调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" parent="Dii2Rvlum2QvnfyezTw9-93" vertex="1" connectable="0">
-          <mxGeometry x="-0.165" y="-2" relative="1" as="geometry">
-            <mxPoint x="10" y="-37" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-95" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=22;strokeWidth=11;entryX=0;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="9WtLPpMzkSN9Yo5GJeaF-1" target="Dii2Rvlum2QvnfyezTw9-66" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="410" as="sourcePoint" />
-            <mxPoint x="210" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1630" y="180" width="450" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-21" value="融合(SOC)&amp;nbsp; " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1760" y="180" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-22" value="障碍物融合" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1650" y="340" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-26" value="数据接收" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1650" y="230" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-27" value="模块启动配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1800" y="230" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-28" value="模块通讯配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1950" y="230" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-29" value="车道融合" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1810" y="340" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dii2Rvlum2QvnfyezTw9-30" value="障碍物车道融合" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1960" y="340" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2WE5fsUTRnOymXfkBtuf-53" value="传感器状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1650" y="430" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2WE5fsUTRnOymXfkBtuf-54" value="异常处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="9WtLPpMzkSN9Yo5GJeaF-1" vertex="1">
-          <mxGeometry x="1810" y="430" width="90" height="50" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="OsNSjx1kqLn11gIg794z" name="车道线检测">
-    <mxGraphModel dx="9560" dy="4773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7170" dy="3580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1852,14 +1586,8 @@
         <mxCell id="H7W7E83JojFv2ZeTY5-T-59" value="coefs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1170" y="200" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="H7W7E83JojFv2ZeTY5-T-60" value="车道线特征处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="1046" width="70" height="69" as="geometry" />
-        </mxCell>
         <mxCell id="H7W7E83JojFv2ZeTY5-T-61" value="&amp;nbsp;Laneline Points Sets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="885" y="194" width="120" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="H7W7E83JojFv2ZeTY5-T-62" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="940" width="150" height="281" as="geometry" />
         </mxCell>
         <mxCell id="H7W7E83JojFv2ZeTY5-T-63" value="预处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="717" y="98" width="120" height="30" as="geometry" />
@@ -2150,112 +1878,112 @@
           <mxGeometry x="1560" y="460" width="430" height="330" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="1312.5" width="260" height="750" as="geometry" />
+          <mxGeometry x="400" y="952.5" width="260" height="750" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1310.5" width="150" height="562" as="geometry" />
+          <mxGeometry x="40" y="950.5" width="150" height="562" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="1314.5" width="160" height="371" as="geometry" />
+          <mxGeometry x="1100" y="954.5" width="160" height="371" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="890" y="1314.5" width="160" height="381" as="geometry" />
+          <mxGeometry x="900" y="954.5" width="160" height="381" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="1312.5" width="150" height="290" as="geometry" />
+          <mxGeometry x="720" y="952.5" width="150" height="290" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-6" value="内边缘检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="745" y="1314.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="755" y="954.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-7" value="参数化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="940" y="1323.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="950" y="963.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-8" value="抽样" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1364.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="1004.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-9" value="图像坐标系车道线参数拟合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1444.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="1084.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-10" value="车辆坐标系车道线拟合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1524.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="1164.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-11" value="历史数据修正车道线" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1594.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="1234.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-12" value="定位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="1323.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1150" y="963.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-13" value="车道线定位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="1363.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1120" y="1003.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-14" value="输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1312.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="80" y="952.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="1312.5" width="160" height="770" as="geometry" />
+          <mxGeometry x="1720" y="952.5" width="160" height="770" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="1314.5" width="160" height="371" as="geometry" />
+          <mxGeometry x="1100" y="954.5" width="160" height="371" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="890" y="1314.5" width="160" height="381" as="geometry" />
+          <mxGeometry x="900" y="954.5" width="160" height="381" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-18" value="参数化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="940" y="1323.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="950" y="963.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-19" value="抽样" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1364.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="1004.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-20" value="图像坐标系车道线参数拟合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1444.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="1084.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-21" value="车辆坐标系车道线拟合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1524.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="1164.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-22" value="历史数据修正车道线" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1594.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="1234.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-23" value="定位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="1323.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1150" y="963.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-24" value="车道线定位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="1363.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1120" y="1003.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-25" value="跟踪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="1321.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1770" y="961.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-26" value="输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1312.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="80" y="952.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="1310.5" width="160" height="400" as="geometry" />
+          <mxGeometry x="1320" y="950.5" width="160" height="400" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-28" value="线形检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1319.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1370" y="959.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="1310.5" width="160" height="400" as="geometry" />
+          <mxGeometry x="1520" y="950.5" width="160" height="400" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-30" value="颜色检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="1320.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1570" y="960.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-31" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="1690" width="160" height="345" as="geometry" />
+          <mxGeometry x="440" y="1330" width="160" height="345" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-32" value="cv车道线检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="467.5" y="1697.5" width="85" height="30" as="geometry" />
+          <mxGeometry x="477.5" y="1337.5" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-33" value="模块配置数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1352.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="992.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-34" value="全局配置信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1432.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="1072.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-35" value="标定数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1522.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="1162.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-36" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="430" y="1377.5" width="160" height="290" as="geometry" />
+          <mxGeometry x="440" y="1017.5" width="160" height="290" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-37" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="MngH1dSkYIS05_fxqza1-36" vertex="1">
           <mxGeometry width="160" height="290" as="geometry" />
@@ -2273,82 +2001,88 @@
           <mxGeometry x="22.5" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-42" value="场景检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1735" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="1375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-43" value="特征提取" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1885" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="1525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-44" value="特征去噪" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1965" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="1605" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-45" value="图像增强" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1805" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="1445" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-46" value="车辆状态数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1602.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="1242.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-47" value="域控状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1683.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="1323.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-48" value="传感器状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="45" y="1767.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="1407.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-49" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="1312.5" width="140" height="560" as="geometry" />
+          <mxGeometry x="220" y="952.5" width="140" height="560" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-50" value="输入处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="250" y="1322.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="260" y="962.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-51" value="异常处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1361.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="1001.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-52" value="参数设置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1442.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="1082.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-53" value="车道线特征提取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="465" y="1327.5" width="90" height="30" as="geometry" />
+          <mxGeometry x="475" y="967.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-54" value="计算系数标准差" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="1352.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="992.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-55" value="计算状态标志位(路口、转弯)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="1432.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="1072.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-56" value="车道线系数离散化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="1512.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="1152.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-57" value="kf/ekf" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="1594.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="1234.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-58" value="最小二乘拟合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="1675" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="1315" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-59" value="c2c3五点三次滤波" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="1757.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="1397.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-60" value="均值滤波更新车道宽度" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="1842.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="1482.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-61" value="计算车道线中心线系数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="1932.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="1572.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-62" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="1310" width="162" height="425" as="geometry" />
+          <mxGeometry x="1920" y="950" width="162" height="425" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-63" value="功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1961" y="1319.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1971" y="959.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-64" value="LKA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1931" y="1357.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1941" y="997.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-65" value="计算车道线系数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="2012.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1740" y="1652.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-66" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2130" y="1530" width="140" height="435" as="geometry" />
+          <mxGeometry x="2140" y="1170" width="140" height="435" as="geometry" />
         </mxCell>
         <mxCell id="MngH1dSkYIS05_fxqza1-67" value="输出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2150" y="1318.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="2160" y="958.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nLwTkI1XNKfwC1tkSfY3-3" value="车道线特征处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1931" y="430" width="70" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="nLwTkI1XNKfwC1tkSfY3-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2021" y="324" width="150" height="281" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
