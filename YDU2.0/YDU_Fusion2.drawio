@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T08:48:02.212Z" agent="5.0 (Windows)" version="20.7.4" etag="jdq-22W0IyIFfLLQuNFI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:53:38.878Z" agent="5.0 (Windows)" version="20.7.4" etag="ZDhiPAF2-Ip8Kb0KSNTS" type="github">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
-    <mxGraphModel dx="3383" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4343" dy="2529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KagueDXsl2RoDiGK6Tea-347" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-349" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="-300" width="1630" height="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-347" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-875" y="710" width="1495" height="545" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-340" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
@@ -13,7 +16,7 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-313" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="-850" y="725" width="410" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-310" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-310" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-875" y="-230" width="1490" height="890" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-283" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
@@ -955,6 +958,9 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-348" value="泊车感知融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="235" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-350" value="行泊感知融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-181" y="-280" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
