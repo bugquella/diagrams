@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T18:54:38.450Z" agent="5.0 (Windows)" etag="gq1JgE1lGL_Gxcr_fDCC" version="20.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-09T18:56:08.128Z" agent="5.0 (Windows)" etag="5wOE6h_xgk2EJeL7W8HY" version="20.7.4" type="github" pages="2">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
     <mxGraphModel dx="7704" dy="4229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1134,12 +1134,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZemDvEckYTRyPs_sbpMM" name="第 2 页">
-    <mxGraphModel dx="5687" dy="3209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6494" dy="3617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="I11cwIQykDUJyyKI9_pE-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-1030" y="-340" width="2810" height="1500" as="geometry" />
+          <mxGeometry x="-1030" y="-320" width="2810" height="1480" as="geometry" />
         </mxCell>
         <mxCell id="I11cwIQykDUJyyKI9_pE-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-980" y="-230" width="550" height="1360" as="geometry" />
@@ -1700,6 +1700,9 @@
         </mxCell>
         <mxCell id="I11cwIQykDUJyyKI9_pE-19" value="感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-727" y="-220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I11cwIQykDUJyyKI9_pE-22" value="感知融合算法设计" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="-280" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
