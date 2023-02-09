@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T18:56:08.128Z" agent="5.0 (Windows)" etag="5wOE6h_xgk2EJeL7W8HY" version="20.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-09T19:05:00.188Z" agent="5.0 (Windows)" etag="HyQQE2YwbRqiBqP22MAH" version="20.7.4" type="github" pages="2">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
-    <mxGraphModel dx="7704" dy="4229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2998" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,6 +74,9 @@
           <mxGeometry x="0.2835" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BaBVRbpDQHT4dSPGbszx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-12" target="KagueDXsl2RoDiGK6Tea-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-570" y="4059" width="1220" height="580" as="geometry" />
@@ -213,7 +216,7 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-49" value="目标处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-400" y="4779" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-50" value="1V1R障碍物融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-50" value="障碍物融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-70" y="4719" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-51" value="车道线输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#000000;" parent="1" vertex="1">
@@ -304,36 +307,6 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-75" value="EQ4报文" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-1030" y="4479" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KagueDXsl2RoDiGK6Tea-79" target="KagueDXsl2RoDiGK6Tea-81" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KagueDXsl2RoDiGK6Tea-79" target="KagueDXsl2RoDiGK6Tea-83" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KagueDXsl2RoDiGK6Tea-79" target="KagueDXsl2RoDiGK6Tea-85" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-79" value="报文解析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-515" y="4354" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KagueDXsl2RoDiGK6Tea-81" target="KagueDXsl2RoDiGK6Tea-86" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-81" value="EQ4目标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="4224" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KagueDXsl2RoDiGK6Tea-83" target="KagueDXsl2RoDiGK6Tea-93" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-83" value="EQ4车道线" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="4354" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KagueDXsl2RoDiGK6Tea-85" target="KagueDXsl2RoDiGK6Tea-94" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-85" value="EQ4交通标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="4469" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-86" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="30" y="4199" width="350" height="110" as="geometry" />
         </mxCell>
@@ -367,11 +340,8 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-96" value="交通标识处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="150" y="4439" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-97" value="EQ4数据处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-97" value="视觉数据处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="4159" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-98" value="EQ4数据解析和处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5" y="4049" width="380" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KagueDXsl2RoDiGK6Tea-101" target="KagueDXsl2RoDiGK6Tea-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -564,7 +534,7 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-143" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-815" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-144" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-144" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-675" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-145" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
@@ -602,7 +572,7 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-151" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-815" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-152" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-152" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-675" y="245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-153" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
@@ -741,7 +711,7 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-191" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="135" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-192" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-192" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="280" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-193" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
@@ -775,7 +745,7 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-208" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-357.5" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-209" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-209" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-217.5" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-210" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
@@ -796,7 +766,7 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-220" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="45" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-221" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-221" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="185" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-222" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
@@ -1130,11 +1100,29 @@
         <mxCell id="koIoTJj5VjrnLWlxHX2L-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="koIoTJj5VjrnLWlxHX2L-26" target="KagueDXsl2RoDiGK6Tea-340">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BaBVRbpDQHT4dSPGbszx-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="4010" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BaBVRbpDQHT4dSPGbszx-7" value="红绿灯处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1460" y="4019" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BaBVRbpDQHT4dSPGbszx-8" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1530" y="4049" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BaBVRbpDQHT4dSPGbszx-10" value="红绿灯道后处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BaBVRbpDQHT4dSPGbszx-11" value="交通标志道后处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="4290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BaBVRbpDQHT4dSPGbszx-12" value="路面标识道后处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="4385" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ZemDvEckYTRyPs_sbpMM" name="第 2 页">
-    <mxGraphModel dx="6494" dy="3617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3383" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1206,7 +1194,7 @@
         <mxCell id="DE5koMyMQwbKPmNg74Yx-17" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-815" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-18" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="DE5koMyMQwbKPmNg74Yx-18" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-812.5" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DE5koMyMQwbKPmNg74Yx-19" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
@@ -1230,7 +1218,7 @@
         <mxCell id="DE5koMyMQwbKPmNg74Yx-27" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-815" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-28" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="DE5koMyMQwbKPmNg74Yx-28" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-815" y="175" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DE5koMyMQwbKPmNg74Yx-29" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
@@ -1238,21 +1226,6 @@
         </mxCell>
         <mxCell id="DE5koMyMQwbKPmNg74Yx-30" value="可通行区域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-675" y="315" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-842.5" y="1540" width="290" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-36" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-832.5" y="1570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-37" value="4*鱼眼感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-732.5" y="1540" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-38" value="视觉车位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-692.5" y="1570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-39" value="AVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-832.5" y="1640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DE5koMyMQwbKPmNg74Yx-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-822.5" y="405" width="290" height="100" as="geometry" />
@@ -1271,18 +1244,6 @@
         </mxCell>
         <mxCell id="DE5koMyMQwbKPmNg74Yx-49" value="4*角毫米波雷达感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-727.5" y="535" width="125" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-842.5" y="1430" width="290" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-53" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-832.5" y="1460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-54" value="12超声波雷达感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-747.5" y="1430" width="105" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-55" value="空间车位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-692.5" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DE5koMyMQwbKPmNg74Yx-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" parent="1" source="DE5koMyMQwbKPmNg74Yx-73" target="DE5koMyMQwbKPmNg74Yx-141" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1320,13 +1281,13 @@
         <mxCell id="DE5koMyMQwbKPmNg74Yx-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" parent="1" source="DE5koMyMQwbKPmNg74Yx-145" target="DE5koMyMQwbKPmNg74Yx-148" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-145" value="红绿灯道后处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="DE5koMyMQwbKPmNg74Yx-145" value="交通灯道后处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-102.5" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DE5koMyMQwbKPmNg74Yx-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" parent="1" source="DE5koMyMQwbKPmNg74Yx-147" target="DE5koMyMQwbKPmNg74Yx-145" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-147" value="融合视觉红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="DE5koMyMQwbKPmNg74Yx-147" value="融合视觉交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-340" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tI25CvbmlSmO922o3aB8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="DE5koMyMQwbKPmNg74Yx-148" target="tI25CvbmlSmO922o3aB8-3">
@@ -1335,7 +1296,7 @@
         <mxCell id="I11cwIQykDUJyyKI9_pE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=-0.005;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DE5koMyMQwbKPmNg74Yx-148" target="0pQdOWbOOhDd7QV4ZvYL-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DE5koMyMQwbKPmNg74Yx-148" value="融合视觉和地图红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="DE5koMyMQwbKPmNg74Yx-148" value="融合视觉和地图交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="277.5" y="30" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DE5koMyMQwbKPmNg74Yx-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" parent="1" source="DE5koMyMQwbKPmNg74Yx-150" target="DE5koMyMQwbKPmNg74Yx-153" edge="1">
@@ -1425,93 +1386,6 @@
         <mxCell id="DE5koMyMQwbKPmNg74Yx-169" value="车位融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="974" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-30" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="960" y="1570" width="740" height="479" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry width="740" height="479" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="20" y="79" width="130" height="370" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="345" y="59" width="380" height="410" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="535" y="99" width="160" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="355" y="99" width="160" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" source="nNDmgDMOw3DfOQE0_dU8-8" target="nNDmgDMOw3DfOQE0_dU8-4" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-8" value="目标数据关联" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="193.75" y="234" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" source="nNDmgDMOw3DfOQE0_dU8-3" target="nNDmgDMOw3DfOQE0_dU8-8" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-10" value="目标运动状态融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="375" y="129" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-12" value="目标存在性融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="375" y="209" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" source="nNDmgDMOw3DfOQE0_dU8-10" target="nNDmgDMOw3DfOQE0_dU8-12" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-14" value="目标类别融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="375" y="289" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" source="nNDmgDMOw3DfOQE0_dU8-12" target="nNDmgDMOw3DfOQE0_dU8-14" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-15" value="目标尺寸融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="375" y="369" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" source="nNDmgDMOw3DfOQE0_dU8-14" target="nNDmgDMOw3DfOQE0_dU8-15" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-16" value="航迹融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="405" y="109" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-17" value="系统航迹生成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="555" y="129" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-18" value="新目标ID分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="555" y="209" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-19" value="系统航迹消亡" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="555" y="289" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-20" value="系统航迹预测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="555" y="379" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-21" value="航迹管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="585" y="99" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-22" value="航迹融合管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="495" y="59" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-23" value="目标处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="20" y="79" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-24" value="障碍物融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="330" y="19" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-25" value="目标帧数据缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="25" y="133" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-26" value="目标帧时间排序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="25" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-27" value="历史航迹运动补偿" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="25" y="309" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nNDmgDMOw3DfOQE0_dU8-28" value="自身运动状态管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#000000;" vertex="1" parent="nNDmgDMOw3DfOQE0_dU8-30">
-          <mxGeometry x="27.5" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="0pQdOWbOOhDd7QV4ZvYL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="nNDmgDMOw3DfOQE0_dU8-31" target="tI25CvbmlSmO922o3aB8-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1542,7 +1416,7 @@
         <mxCell id="tI25CvbmlSmO922o3aB8-7" value="车道" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1293.5" y="-60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xoGuA_c_76lULK0y5vnM-1" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="xoGuA_c_76lULK0y5vnM-1" value="交通灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1293.5" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xoGuA_c_76lULK0y5vnM-2" value="交通标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
