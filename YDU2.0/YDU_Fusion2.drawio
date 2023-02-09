@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T16:50:20.699Z" agent="5.0 (Windows)" etag="_aigpSvefOpcb4b7C6Z1" version="20.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-09T17:03:24.765Z" agent="5.0 (Windows)" etag="YfCqdV9FfcPhR3DrPwGh" version="20.7.4" type="github" pages="2">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
-    <mxGraphModel dx="3383" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2864" dy="1781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -287,7 +287,7 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-70" value="融合算法配置参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KagueDXsl2RoDiGK6Tea-69" vertex="1" connectable="0">
           <mxGeometry x="0.3273" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="27" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-71" value="目标融合算法配置标定参数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
@@ -503,7 +503,7 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-126" value="EQ4目标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KagueDXsl2RoDiGK6Tea-125" vertex="1" connectable="0">
           <mxGeometry x="0.2445" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-127" value="EQ4目标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
@@ -749,29 +749,6 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-193" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="KagueDXsl2RoDiGK6Tea-197" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-157" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-315" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;entryX=1.002;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KagueDXsl2RoDiGK6Tea-197" target="KagueDXsl2RoDiGK6Tea-283" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-197" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-302.5" y="-150" width="290" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-198" value="速度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-292.5" y="-110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-199" value="整车" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-192.5" y="-140" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-200" value="加速度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-292.5" y="-40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-201" value="航向" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-147.5" y="-110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="KagueDXsl2RoDiGK6Tea-204" target="KagueDXsl2RoDiGK6Tea-272" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1066,6 +1043,65 @@
           <mxGeometry x="0.2857" y="2" relative="1" as="geometry">
             <mxPoint y="-8" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="koIoTJj5VjrnLWlxHX2L-13" target="KagueDXsl2RoDiGK6Tea-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.258;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="koIoTJj5VjrnLWlxHX2L-13" target="KagueDXsl2RoDiGK6Tea-278">
+          <mxGeometry x="-0.0031" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-328" y="-130" width="348" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-195" y="-90" width="195" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="koIoTJj5VjrnLWlxHX2L-10">
+          <mxGeometry width="195" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-2" value="标定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="koIoTJj5VjrnLWlxHX2L-10">
+          <mxGeometry x="15" y="35" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-4" value="模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="koIoTJj5VjrnLWlxHX2L-10">
+          <mxGeometry x="106.5" y="35" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-5" value="功能" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="koIoTJj5VjrnLWlxHX2L-10">
+          <mxGeometry x="15" y="75" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-6" value="算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="koIoTJj5VjrnLWlxHX2L-10">
+          <mxGeometry x="106.5" y="75" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-7" value="系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="koIoTJj5VjrnLWlxHX2L-10">
+          <mxGeometry x="15" y="115" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-8" value="参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="koIoTJj5VjrnLWlxHX2L-10">
+          <mxGeometry x="50" y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-310" y="-90" width="102.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-197" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="koIoTJj5VjrnLWlxHX2L-12" vertex="1">
+          <mxGeometry width="102.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-11" value="" style="group" vertex="1" connectable="0" parent="koIoTJj5VjrnLWlxHX2L-12">
+          <mxGeometry x="12" width="81" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-198" value="速度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="koIoTJj5VjrnLWlxHX2L-11" vertex="1">
+          <mxGeometry y="30" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-199" value="整车" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="koIoTJj5VjrnLWlxHX2L-11" vertex="1">
+          <mxGeometry x="5.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-200" value="加速度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="koIoTJj5VjrnLWlxHX2L-11" vertex="1">
+          <mxGeometry x="0.5" y="110" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-201" value="航向" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" parent="koIoTJj5VjrnLWlxHX2L-11" vertex="1">
+          <mxGeometry x="0.5" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="koIoTJj5VjrnLWlxHX2L-14" value="行车感知融合全局输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-217.5" y="-130" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
