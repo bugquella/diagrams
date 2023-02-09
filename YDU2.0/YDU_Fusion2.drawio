@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T07:02:10.254Z" agent="5.0 (Windows)" version="20.7.4" etag="FjJwnDOSZJxCBxWS910K" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T07:04:02.566Z" agent="5.0 (Windows)" version="20.7.4" etag="WmaiuhnEZdH7IKFbGF_t" type="github">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
-    <mxGraphModel dx="3027" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2101" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -621,20 +621,17 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-197" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="30" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-198" value="车道" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-198" value="速度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="270" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-199" value="高精度地图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-199" value="整车" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="40" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-200" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-200" value="加速度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-201" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-201" value="航向" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="415" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-202" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="415" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
