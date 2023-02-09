@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T06:43:40.591Z" agent="5.0 (Windows)" version="20.7.4" etag="APd6pS9FISJ489lMgk32" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T06:46:17.932Z" agent="5.0 (Windows)" version="20.7.4" etag="regbnuCVvC8MMu-X1qpe" type="github">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
-    <mxGraphModel dx="2620" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2336" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -569,6 +569,24 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-167" value="AVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-760" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-170" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1060" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-171" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-172" value="1*前毫米波雷达" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="1060" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-176" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1190" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-177" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-178" value="4*角毫米波雷达" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="1190" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
