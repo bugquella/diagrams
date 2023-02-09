@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T09:04:58.066Z" agent="5.0 (Windows)" version="20.7.4" etag="TvgCgsJtIWseRRN_wCKi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T09:09:35.142Z" agent="5.0 (Windows)" version="20.7.4" etag="txNbV2axb-eoNzEdxaCq" type="github">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
-    <mxGraphModel dx="3516" dy="2111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2138" dy="1414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -980,7 +980,7 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.331;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#000000;exitPerimeter=0;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-310">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="825" y="65" as="targetPoint" />
+            <mxPoint x="830" y="65" as="targetPoint" />
             <mxPoint x="650" y="69.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
@@ -1024,7 +1024,7 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;exitX=1;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-310">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="310" as="targetPoint" />
+            <mxPoint x="830" y="310" as="targetPoint" />
             <mxPoint x="623.5099999999998" y="249.0300000000002" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="717" y="309" />
@@ -1035,6 +1035,39 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-364" value="可行驶区域" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="KagueDXsl2RoDiGK6Tea-363">
           <mxGeometry x="0.2272" y="3" relative="1" as="geometry">
             <mxPoint x="-20" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-387" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;jumpStyle=arc;exitX=1;exitY=0.449;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-347">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="1030" as="sourcePoint" />
+            <mxPoint x="830" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-388" value="融合视觉障碍物" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="KagueDXsl2RoDiGK6Tea-387">
+          <mxGeometry x="0.2857" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-389" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;jumpStyle=arc;exitX=1;exitY=0.607;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-347">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="1040" as="sourcePoint" />
+            <mxPoint x="830" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-390" value="超声波障碍物" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="KagueDXsl2RoDiGK6Tea-389">
+          <mxGeometry x="0.2668" y="1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-391" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#000000;jumpStyle=arc;exitX=1;exitY=0.706;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-347">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="1094.605" as="sourcePoint" />
+            <mxPoint x="830" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-392" value="融合车位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="KagueDXsl2RoDiGK6Tea-391">
+          <mxGeometry x="0.2857" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
