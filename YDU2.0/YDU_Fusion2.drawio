@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T07:47:20.383Z" agent="5.0 (Windows)" version="20.7.4" etag="TCqYBIx68774ErpXcNES" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T07:52:06.646Z" agent="5.0 (Windows)" version="20.7.4" etag="1T-8sWl94hdFRL-bHm48" type="github">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
-    <mxGraphModel dx="2556" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2251" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KagueDXsl2RoDiGK6Tea-272" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="510" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-790" y="1700" width="2370" height="1650" as="geometry" />
         </mxCell>
@@ -576,11 +579,12 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-167" value="AVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-760" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-170" target="KagueDXsl2RoDiGK6Tea-251">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-170" target="KagueDXsl2RoDiGK6Tea-272">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="640" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="220" y="895" />
-              <mxPoint x="220" y="560" />
+              <mxPoint x="-10" y="895" />
+              <mxPoint x="-10" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -593,11 +597,11 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-172" value="1*前毫米波雷达感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-672.5" y="845" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-176" target="KagueDXsl2RoDiGK6Tea-251">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.892;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-176" target="KagueDXsl2RoDiGK6Tea-272">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="1025" />
-              <mxPoint x="240" y="590" />
+              <mxPoint x="10" y="1025" />
+              <mxPoint x="10" y="715" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -621,14 +625,6 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-183" value="空间车位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-620" y="1380" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-187" target="KagueDXsl2RoDiGK6Tea-216">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="20" y="120" />
-              <mxPoint x="20" y="375" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-187" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-770" y="90" width="290" height="170" as="geometry" />
@@ -663,18 +659,8 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-201" value="航向" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="405" y="-340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-204" target="KagueDXsl2RoDiGK6Tea-216">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="20" y="605" />
-              <mxPoint x="20" y="375" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=-0.012;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-204" target="KagueDXsl2RoDiGK6Tea-251">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="605" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-204" target="KagueDXsl2RoDiGK6Tea-272">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-204" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-322.5" y="480" width="290" height="250" as="geometry" />
@@ -701,25 +687,25 @@
           <mxGeometry x="-172.5" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-216" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="250" width="290" height="250" as="geometry" />
+          <mxGeometry x="80" y="480" width="275" height="250" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-217" value="车道" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-218" value="行车视觉+地图融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="260" width="125" height="30" as="geometry" />
+          <mxGeometry x="180" y="480" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-220" value="交通标志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="90" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-221" value="红绿灯" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="230" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-222" value="路面标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="230" y="295" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="515" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-223" value="可通行区域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="90" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-228" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-222.5" y="1355" width="170" height="100" as="geometry" />
@@ -740,13 +726,16 @@
           <mxGeometry x="-200" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-251" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="530" width="140" height="120" as="geometry" />
+          <mxGeometry x="395" y="480" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-252" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="460" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="405" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-253" value="行车障碍物融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="457.5" y="535" width="125" height="30" as="geometry" />
+          <mxGeometry x="402.5" y="485" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-273" value="雷达+视觉+地图融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="440" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
