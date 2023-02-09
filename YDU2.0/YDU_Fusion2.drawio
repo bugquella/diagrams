@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T07:21:41.759Z" agent="5.0 (Windows)" version="20.7.4" etag="tHFu-_Q6pulHpMiddaU1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T07:23:15.530Z" agent="5.0 (Windows)" version="20.7.4" etag="QNzn7Yso3GjKmpPS6Wc-" type="github">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
-    <mxGraphModel dx="1661" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1835" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -597,6 +597,14 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-157" value="4*鱼眼感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-660" y="900" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-158" target="KagueDXsl2RoDiGK6Tea-241">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-440" y="960" />
+              <mxPoint x="-440" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-158" value="视觉车位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-620" y="930" width="120" height="60" as="geometry" />
         </mxCell>
@@ -620,6 +628,15 @@
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-178" value="4*角毫米波雷达感知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-675" y="1230" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KagueDXsl2RoDiGK6Tea-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KagueDXsl2RoDiGK6Tea-180">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-380" y="1400" />
+              <mxPoint x="-380" y="1180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="KagueDXsl2RoDiGK6Tea-180" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-770" y="1350" width="290" height="100" as="geometry" />
@@ -748,10 +765,10 @@
         <mxCell id="KagueDXsl2RoDiGK6Tea-241" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-320" y="1120" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-242" value="泊车视觉融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-242" value="泊车车位融合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-215" y="1120" width="102.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KagueDXsl2RoDiGK6Tea-243" value="障碍物" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KagueDXsl2RoDiGK6Tea-243" value="融合车位" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#000000;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-226.25" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
