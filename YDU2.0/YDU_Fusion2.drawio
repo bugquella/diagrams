@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T19:31:08.669Z" agent="5.0 (Windows)" etag="ztsQwyb6NkD0OyC0pYUt" version="20.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-09T19:33:13.999Z" agent="5.0 (Windows)" etag="FM0B56-R6GRbUfPV6J6g" version="20.7.4" type="github" pages="4">
   <diagram id="IhsJzOfJpi32SxIDnvag" name="第 1 页">
     <mxGraphModel dx="6494" dy="3617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1768,46 +1768,46 @@
           <mxGeometry x="1133.75" y="-950" width="102.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-31" value="视觉&amp;amp;地图融合" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="845" y="-800" width="120" height="50" as="geometry" />
+          <mxGeometry x="1115" y="-800" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-32" value="前视&amp;amp;周视融合" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-800" width="120" height="50" as="geometry" />
+          <mxGeometry x="965" y="-800" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-33" value="前雷达后处理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1137.5" y="-800" width="120" height="50" as="geometry" />
+          <mxGeometry x="827.5" y="-920" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-34" value="障碍物融合" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1410" y="-800" width="120" height="50" as="geometry" />
+          <mxGeometry x="1411.5" y="-800" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-95" value="融合视觉可通行区域" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=default;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-96" value="角雷达后处理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1290" y="-800" width="91" height="50" as="geometry" />
+          <mxGeometry x="962.5" y="-920" width="122.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-97" value="超声波后处理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="845" y="-865" width="120" height="50" as="geometry" />
+          <mxGeometry x="1118.5" y="-920" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-98" value="车道线后处理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-865" width="120" height="50" as="geometry" />
+          <mxGeometry x="1118.5" y="-865" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-99" value="视觉障碍物后处理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1137.5" y="-865" width="120" height="50" as="geometry" />
+          <mxGeometry x="1257.5" y="-865" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-100" value="视觉交通灯/交通标志/路面标识" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1291.5" y="-865" width="120" height="50" as="geometry" />
+          <mxGeometry x="1410" y="-865" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-103" value="空间车位检测和处理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1422.5" y="-865" width="120" height="50" as="geometry" />
+          <mxGeometry x="827.5" y="-865" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-104" value="视觉车位后处理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1422.5" y="-920" width="120" height="50" as="geometry" />
+          <mxGeometry x="965" y="-865" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-105" value="车位融合" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1290" y="-920" width="120" height="50" as="geometry" />
+          <mxGeometry x="827.5" y="-800" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XWCOJLS9-OtnLwXKcL9-106" value="车道融合" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#008a00;fontColor=#000000;strokeColor=#005700;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1153" y="-920" width="120" height="50" as="geometry" />
+          <mxGeometry x="1257.5" y="-800" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
