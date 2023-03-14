@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T09:15:41.906Z" agent="5.0 (Windows)" etag="tC8butre7dynajKjxmh1" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T09:16:58.775Z" agent="5.0 (Windows)" etag="H1ima3BwzysGdCYzl_hR" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GNdxrq70I4Zjj6fFbSw7">
-    <mxGraphModel dx="1424" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,12 @@
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-8" value="根据常数标定变量和算法标定标量构建模型标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="910" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-11" value="驱动返回的驱动标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="910" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-12" value="根据常数标定变量和算法标定标量构建模型标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
