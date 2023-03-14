@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T09:22:14.865Z" agent="5.0 (Windows)" etag="aQr0irEB-kTUrkZHX8aw" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T09:28:02.011Z" agent="5.0 (Windows)" etag="rfz_DaU0mCPaehTuJHL2" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GNdxrq70I4Zjj6fFbSw7">
-    <mxGraphModel dx="2200" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1052" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,10 +53,16 @@
           <mxGeometry x="1290" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-15" value="&lt;font face=&quot;Georgia&quot;&gt;驱动&amp;amp;硬件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;fontSize=34;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="-10" width="170" height="650" as="geometry" />
+          <mxGeometry x="1530" y="-10" width="170" height="650" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-19" value="时序控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontFamily=Georgia;" vertex="1" parent="1">
           <mxGeometry x="560" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-20" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Georgia;fontSize=29;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.269;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;shape=arrow;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-2" target="wWjRpoS9oS6jAllnNnww-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280" y="460" as="sourcePoint" />
+            <mxPoint x="1330" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
