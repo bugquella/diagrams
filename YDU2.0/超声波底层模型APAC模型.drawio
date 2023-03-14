@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T10:01:33.709Z" agent="5.0 (Windows)" etag="KGrcObCREW6WrVcqCGQl" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T10:04:37.700Z" agent="5.0 (Windows)" etag="2f3gWedMwcUhmFy4v__d" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GNdxrq70I4Zjj6fFbSw7">
     <mxGraphModel dx="1334" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-38" value="雷达状态对各指令错误计数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="1190" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-39" value="根据标志位执行复位操作(清除解析的测量、阈值、暂存器数据)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
