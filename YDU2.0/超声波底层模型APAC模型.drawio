@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T11:00:25.557Z" agent="5.0 (Windows)" etag="dv4jICORPMXff5CIONaR" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T11:00:52.980Z" agent="5.0 (Windows)" etag="AZLFSTpYvIRJ8ZezLQqd" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GNdxrq70I4Zjj6fFbSw7">
-    <mxGraphModel dx="3361" dy="2393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4447" dy="2918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,9 +31,6 @@
         <mxCell id="wWjRpoS9oS6jAllnNnww-64" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.159;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=6;fontFamily=Georgia;fontSize=29;shape=arrow;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-2" target="wWjRpoS9oS6jAllnNnww-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-10" width="1200" height="350" as="geometry" />
-        </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fontFamily=Georgia;fontSize=29;entryX=-0.001;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-1" target="wWjRpoS9oS6jAllnNnww-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="70" as="targetPoint" />
@@ -42,47 +39,8 @@
         <mxCell id="wWjRpoS9oS6jAllnNnww-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="-740" y="-10" width="890" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-6" target="wWjRpoS9oS6jAllnNnww-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-6" value="根据常量标定参数构建常数标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="740" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-7" target="wWjRpoS9oS6jAllnNnww-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-7" value="创建算法标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="740" y="140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=34;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-8" target="wWjRpoS9oS6jAllnNnww-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-8" value="根据常数标定变量和算法标定标量构建模型标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="910" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=34;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-11" target="wWjRpoS9oS6jAllnNnww-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-11" value="驱动返回的驱动标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="910" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-12" value="模型配置参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=34;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-13" target="wWjRpoS9oS6jAllnNnww-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-13" value="异常检测状态量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="910" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-14" value="模型配置命令和数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-15" value="&lt;font face=&quot;Georgia&quot;&gt;驱动&amp;amp;硬件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;fontSize=34;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="1530" y="-10" width="170" height="1100" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-19" value="时序控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontFamily=Georgia;" vertex="1" parent="1">
-          <mxGeometry x="329" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-22" value="距离输出控制" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="244" y="540" width="120" height="60" as="geometry" />
@@ -183,11 +141,56 @@
         <mxCell id="wWjRpoS9oS6jAllnNnww-68" value="异常检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontFamily=Georgia;" vertex="1" parent="1">
           <mxGeometry x="-750" y="410" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-72" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=6;fontFamily=Georgia;fontSize=29;exitX=1.002;exitY=0.139;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-4" target="wWjRpoS9oS6jAllnNnww-2">
+        <mxCell id="wWjRpoS9oS6jAllnNnww-72" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=6;fontFamily=Georgia;fontSize=29;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="wWjRpoS9oS6jAllnNnww-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-30" y="240" as="sourcePoint" />
+            <mxPoint x="-230" y="260" as="sourcePoint" />
             <mxPoint x="20" y="190" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-74" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="-10" width="1200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry width="1200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-6" value="根据常量标定参数构建常数标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry x="500" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-7" value="创建算法标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry x="500" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-8" value="根据常数标定变量和算法标定标量构建模型标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry x="670" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wWjRpoS9oS6jAllnNnww-74" source="wWjRpoS9oS6jAllnNnww-6" target="wWjRpoS9oS6jAllnNnww-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wWjRpoS9oS6jAllnNnww-74" source="wWjRpoS9oS6jAllnNnww-7" target="wWjRpoS9oS6jAllnNnww-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-11" value="驱动返回的驱动标定变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry x="670" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-12" value="模型配置参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry x="850" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=34;" edge="1" parent="wWjRpoS9oS6jAllnNnww-74" source="wWjRpoS9oS6jAllnNnww-8" target="wWjRpoS9oS6jAllnNnww-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=34;" edge="1" parent="wWjRpoS9oS6jAllnNnww-74" source="wWjRpoS9oS6jAllnNnww-11" target="wWjRpoS9oS6jAllnNnww-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=34;" edge="1" parent="wWjRpoS9oS6jAllnNnww-74" source="wWjRpoS9oS6jAllnNnww-13" target="wWjRpoS9oS6jAllnNnww-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-13" value="异常检测状态量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry x="670" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-14" value="模型配置命令和数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry x="1050" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-19" value="时序控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontFamily=Georgia;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-74">
+          <mxGeometry x="89" y="10" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
