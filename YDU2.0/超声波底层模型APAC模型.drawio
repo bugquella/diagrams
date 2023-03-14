@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T10:04:37.700Z" agent="5.0 (Windows)" etag="2f3gWedMwcUhmFy4v__d" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T10:30:33.947Z" agent="5.0 (Windows)" etag="KFiqn6kHb853ti-z3vGP" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GNdxrq70I4Zjj6fFbSw7">
-    <mxGraphModel dx="1334" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1102" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wWjRpoS9oS6jAllnNnww-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="375" width="160" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontFamily=Georgia;fontSize=13;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-48" target="wWjRpoS9oS6jAllnNnww-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="370" width="580" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;fontFamily=Georgia;fontSize=13;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-43" target="wWjRpoS9oS6jAllnNnww-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="-10" width="890" height="350" as="geometry" />
         </mxCell>
@@ -14,7 +26,7 @@
           <mxGeometry x="160" y="190" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-4" value="异常检测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="550" y="610" width="220" height="70" as="geometry" />
+          <mxGeometry x="610" y="910" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-6" target="wWjRpoS9oS6jAllnNnww-8">
           <mxGeometry relative="1" as="geometry" />
@@ -65,55 +77,70 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-22" value="距离输出控制" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="274" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;fontFamily=Georgia;fontSize=13;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-23" target="wWjRpoS9oS6jAllnNnww-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-23" value="根据工作模式切换故障判断参数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="760" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-24" value="自发自收测距指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="920" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-26" value="创建命令、数据、长度组" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-27" value="他发自收测距指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="920" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-28" value="阈值寄存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-29" value="测量寄存器指令数据的解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="525" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-30" value="校准暂存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-31" value="校准频率寄存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="920" y="525" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-32" value="雷达温度寄存器指令解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="525" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-33" value="校准暂存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-34" value="状态寄存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="920" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-35" value="雷达ID寄存器指令解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-36" value="读近场分析寄存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-37" value="各指令解析成功次数计数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="1100" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-38" value="雷达状态对各指令错误计数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="475" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-39" value="根据标志位执行复位操作(清除解析的测量、阈值、暂存器数据)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1270" y="360" width="170" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-51">
+          <mxGeometry width="170" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-40" value="创建命令组" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-51">
+          <mxGeometry x="30" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-41" value="创建数据组" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-51">
+          <mxGeometry x="30" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-42" value="创建数据长度组" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="wWjRpoS9oS6jAllnNnww-51">
+          <mxGeometry x="30" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-24" value="自发自收测距指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="640" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-27" value="他发自收测距指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="640" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-28" value="阈值寄存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="780" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-29" value="测量寄存器指令数据的解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="780" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-30" value="校准暂存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="780" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-31" value="校准频率寄存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-32" value="雷达温度寄存器指令解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="910" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-33" value="校准暂存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="780" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-34" value="状态寄存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="640" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-35" value="雷达ID寄存器指令解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="910" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-36" value="读近场分析寄存器指令数据解析" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="910" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-37" value="各指令解析成功次数计数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="910" y="635" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
