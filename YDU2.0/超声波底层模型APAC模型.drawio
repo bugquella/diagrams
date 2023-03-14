@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T10:32:00.412Z" agent="5.0 (Windows)" etag="en1SrrcS0nPgsnMk1qeg" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T10:35:27.651Z" agent="5.0 (Windows)" etag="b48rWxcWG721PjOb2b9W" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GNdxrq70I4Zjj6fFbSw7">
-    <mxGraphModel dx="1584" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1841" dy="1659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wWjRpoS9oS6jAllnNnww-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="377.5" width="170" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-61" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontFamily=Georgia;fontSize=13;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-52" target="wWjRpoS9oS6jAllnNnww-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="250" y="375" width="160" height="335" as="geometry" />
         </mxCell>
@@ -142,14 +148,20 @@
         <mxCell id="wWjRpoS9oS6jAllnNnww-37" value="各指令解析成功次数计数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="910" y="635" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-54" value="距离" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="wWjRpoS9oS6jAllnNnww-54" value="距离" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="10" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-55" value="测量、阈值、暂存器参数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="80" y="475" width="120" height="60" as="geometry" />
+        <mxCell id="wWjRpoS9oS6jAllnNnww-55" value="测量、阈值、暂存器参数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="10" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWjRpoS9oS6jAllnNnww-56" value="雷达状态错误次数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="80" y="575" width="120" height="60" as="geometry" />
+        <mxCell id="wWjRpoS9oS6jAllnNnww-56" value="雷达状态错误次数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="10" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-57" value="测量、阈值、暂存器指令解析次数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="10" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=4;fontFamily=Georgia;fontSize=13;" edge="1" parent="1" source="wWjRpoS9oS6jAllnNnww-56" target="wWjRpoS9oS6jAllnNnww-56">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
