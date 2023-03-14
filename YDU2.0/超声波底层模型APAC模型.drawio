@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T09:10:05.026Z" agent="5.0 (Windows)" etag="DM3ZBkeYUtKdW-afZsqi" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T09:12:54.386Z" agent="5.0 (Windows)" etag="nALJ30s6sMHfmkNOz8sD" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GNdxrq70I4Zjj6fFbSw7">
-    <mxGraphModel dx="1210" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="834" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wWjRpoS9oS6jAllnNnww-1" value="常量标定参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="wWjRpoS9oS6jAllnNnww-1" value="常数标定参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="160" y="40" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-2" value="时序控制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -15,6 +15,9 @@
         </mxCell>
         <mxCell id="wWjRpoS9oS6jAllnNnww-4" value="异常检测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="480" y="190" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wWjRpoS9oS6jAllnNnww-6" value="根据常量标定参数构建常数标定变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
