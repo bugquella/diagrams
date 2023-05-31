@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T03:49:27.348Z" agent="5.0 (Windows)" etag="2UBwHm0SUmMFgdJg_YNw" version="21.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-31T03:53:40.738Z" agent="5.0 (Windows)" etag="4Vi54dihjzo7hQFcVqWp" version="21.0.6" type="github" pages="4">
   <diagram name="空间车位搜索" id="rTubMK2wZoEOYcJF3hK4">
     <mxGraphModel dx="1424" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,6 +144,18 @@
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-68" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;输入&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-70" value="坐标系变换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-71" value="雷达数据记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-72" value="是否满足车位搜索条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-74" value="具有跳变边沿(具有下降沿或上升沿)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
