@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T03:48:43.325Z" agent="5.0 (Windows)" etag="cuRTkHBw4hAFpdFYuyTO" version="21.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-31T03:49:27.348Z" agent="5.0 (Windows)" etag="2UBwHm0SUmMFgdJg_YNw" version="21.0.6" type="github" pages="4">
   <diagram name="空间车位搜索" id="rTubMK2wZoEOYcJF3hK4">
-    <mxGraphModel dx="1729" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,16 +32,16 @@
           <mxGeometry width="440" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-12" value="空间车位搜索使能信号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="_BkGIYK7mURFWtTrtGZU-58">
-          <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="10" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-13" value="模块控制参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_BkGIYK7mURFWtTrtGZU-58">
-          <mxGeometry x="30" y="70" width="80" height="30" as="geometry" />
+          <mxGeometry x="160" y="70" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-15" value="跳变点和画圆开关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="_BkGIYK7mURFWtTrtGZU-58">
-          <mxGeometry x="140" y="10" width="90" height="60" as="geometry" />
+          <mxGeometry x="160" y="10" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-28" value="水平路沿车位偏移开关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="_BkGIYK7mURFWtTrtGZU-58">
-          <mxGeometry x="250" y="10" width="90" height="60" as="geometry" />
+          <mxGeometry x="290" y="10" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-59" value="" style="group" vertex="1" connectable="0" parent="_BkGIYK7mURFWtTrtGZU-66">
           <mxGeometry y="160" width="410" height="310" as="geometry" />
