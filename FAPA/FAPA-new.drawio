@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T05:46:42.625Z" agent="5.0 (Windows)" etag="pNhqB44Cn6WoH9IWkxD2" version="21.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-31T05:49:28.387Z" agent="5.0 (Windows)" etag="xQ29MujVEtdz7lHHecx5" version="21.0.6" type="github" pages="4">
   <diagram name="空间车位搜索" id="rTubMK2wZoEOYcJF3hK4">
     <mxGraphModel dx="1424" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-79" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="380" width="320" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="210" width="890" height="600" as="geometry" />
         </mxCell>
@@ -161,10 +164,16 @@
           <mxGeometry x="1380" y="200" width="140" height="45" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-76" value="下降沿则检查历史数据是否有足够空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="1220" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-77" value="上升沿则判断后续是否有足够的空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="275" width="120" height="60" as="geometry" />
+          <mxGeometry x="1220" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-78" value="车速" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-80" value="判断是否有车位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="390" width="140" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
