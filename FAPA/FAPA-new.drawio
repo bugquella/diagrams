@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T03:34:57.675Z" agent="5.0 (Windows)" etag="xDHLpDBUVlNsXmgeXbfn" version="21.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-31T03:35:06.388Z" agent="5.0 (Windows)" etag="1iOdxpApVU9uncyFE9Bt" version="21.0.6" type="github" pages="4">
   <diagram name="空间车位搜索" id="rTubMK2wZoEOYcJF3hK4">
     <mxGraphModel dx="1008" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
           <mxGeometry x="490" y="180" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-30" value="水平路沿车位Y方向偏移值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="390" y="520" width="90" height="60" as="geometry" />
+          <mxGeometry x="390" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
