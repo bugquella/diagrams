@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T03:35:06.388Z" agent="5.0 (Windows)" etag="1iOdxpApVU9uncyFE9Bt" version="21.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-31T03:37:46.283Z" agent="5.0 (Windows)" etag="UoJmKctiWQOPL7SeOOzt" version="21.0.6" type="github" pages="4">
   <diagram name="空间车位搜索" id="rTubMK2wZoEOYcJF3hK4">
     <mxGraphModel dx="1008" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="240" y="170" width="440" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-5" value="车位参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="280" width="160" height="60" as="geometry" />
+          <mxGeometry x="70" y="620" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-6" value="雷达数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="360" width="160" height="60" as="geometry" />
@@ -78,6 +78,24 @@
         </mxCell>
         <mxCell id="_BkGIYK7mURFWtTrtGZU-30" value="水平路沿车位Y方向偏移值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="390" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-32" value="垂直车位最小宽度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-34" value="垂直车位默认宽度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-35" value="平行车位最小宽度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-36" value="最小平行车位深度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-38" value="平行车位默认宽度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_BkGIYK7mURFWtTrtGZU-40" value="平行车位默认深度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
