@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T09:57:08.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="zKnT7tuFci8mt8Uaf9Vp" version="21.3.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-06-29T09:57:27.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="bSQQJB7Fi90FRbY48kYA" version="21.3.6" type="github" pages="6">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4518" dy="2950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7818,7 +7818,7 @@
           <mxGeometry x="-130" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-10" value="其他输入(底盘、功能开关、APA状态等)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="-130" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-11" value="读雷达数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-260" y="150" width="120" height="60" as="geometry" />
