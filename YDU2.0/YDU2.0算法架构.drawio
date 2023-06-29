@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T10:03:09.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="ZbsMirupp4ztP5McM8gq" version="21.3.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-06-29T10:03:25.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="9KFPwIYiDWHSUJwRsHYv" version="21.3.6" type="github" pages="6">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4518" dy="2950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7864,6 +7864,9 @@
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-33" value="CMDState" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-34" value="times" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="195" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
