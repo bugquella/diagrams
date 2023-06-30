@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T02:50:41.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="PrIfCEBXydHZoa_Yxl2F" version="21.3.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-06-30T03:08:11.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="ZSuDMMhJ3NibvXYDDA02" version="21.3.6" type="github" pages="6">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4518" dy="2950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7777,137 +7777,62 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ijAim92dFezQM42T3PXV" name="第 9 页">
-    <mxGraphModel dx="2706" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3167" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="-795" y="-370" width="1045" height="340" as="geometry" />
+          <mxGeometry x="-1060" y="-340" width="1310" height="340" as="geometry" />
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="-830" y="-1160" width="1080" height="740" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="-1090" width="290" height="660" as="geometry" />
+          <mxGeometry x="-1060" y="-1020" width="1310" height="625" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-775" y="-320" width="306" height="250" as="geometry" />
+          <mxGeometry x="-870" y="-290" width="306" height="250" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="-325" width="306" height="250" as="geometry" />
+          <mxGeometry x="-270" y="-290" width="306" height="250" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-4" value="RTE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-244" y="-255" width="120" height="60" as="geometry" />
+          <mxGeometry x="-257" y="-225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-5" value="写雷达" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-84" y="-255" width="120" height="60" as="geometry" />
+          <mxGeometry x="-90" y="-225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-6" value="其他数据(APA、HMI、数采等)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-244" y="-175" width="120" height="60" as="geometry" />
+          <mxGeometry x="-170" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-9" value="雷达数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-605" y="-250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-690" y="-220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-10" value="其他输入(底盘、功能开关、APA状态等)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-605" y="-170" width="120" height="60" as="geometry" />
+          <mxGeometry x="-777" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-11" value="读雷达数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-765" y="-250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-860" y="-220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-19" value="底软" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" parent="1" vertex="1">
-          <mxGeometry x="-465" y="-360" width="60" height="30" as="geometry" />
+          <mxGeometry x="-580" y="-330" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T4OOVNFbH59CJoSAk5R0-11" target="T4OOVNFbH59CJoSAk5R0-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-475" y="-210" as="sourcePoint" />
-            <mxPoint x="-605" y="-220" as="targetPoint" />
+            <mxPoint x="-590" y="-180" as="sourcePoint" />
+            <mxPoint x="-720" y="-190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-57" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-750" y="-1060" width="260" height="614" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-16" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry y="54" width="260" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-54" value="Runablele_URP_Step" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;horizontal=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="175" y="114" width="75" height="176" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-31" value="底盘数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry y="554" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-32" value="空气温度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="130" y="554" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-39" value="" style="group" vertex="1" connectable="0" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry y="334" width="220" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-39">
-          <mxGeometry width="220" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-35" value="控制器电源电压" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-39">
-          <mxGeometry x="12" y="30" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-36" value="各雷达传感器电压" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-39">
-          <mxGeometry x="122" y="30" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-37" value="各雷达传感器电流" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-39">
-          <mxGeometry x="12" y="80" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-38" value="电流电压" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-39">
-          <mxGeometry x="81" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-45" value="FAPA输出信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="2" y="484" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-46" value="LAPA输出信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="130" y="484" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-48" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;应用层输入&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="50" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="20" y="114" width="150" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-18" value="CMD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="30" y="144" width="55" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-19" value="UsslData" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="100" y="144" width="55" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-20" value="UsslDataLen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="30" y="194" width="55" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-21" value="CMDState" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="100" y="194" width="55" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-22" value="times" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="30" y="244" width="55" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-23" value="CMDCount" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="100" y="244" width="55" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-24" value="RTE:Ultrasonic01_CpltInd * 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="15" y="114" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-25" value="雷达执行CMD命令后返回的数据(RTE)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="70" y="70" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-59" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;应用层&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-495" y="-1150" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-64" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="-520" width="60" height="30" as="geometry" />
+          <mxGeometry x="-450" y="-1000" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-65" value="输出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-675" y="-300" width="60" height="30" as="geometry" />
+          <mxGeometry x="-750" y="-275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-66" value="输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-137" y="-305" width="60" height="30" as="geometry" />
+          <mxGeometry x="-252" y="-275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T4OOVNFbH59CJoSAk5R0-4" target="T4OOVNFbH59CJoSAk5R0-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-67" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.48;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T4OOVNFbH59CJoSAk5R0-20" target="iZ5ewsuIFmka8se5Dk9W-47">
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-67" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.48;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="T4OOVNFbH59CJoSAk5R0-20" target="iZ5ewsuIFmka8se5Dk9W-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-650" y="-260" as="sourcePoint" />
             <mxPoint x="-600" y="-310" as="targetPoint" />
@@ -7919,134 +7844,203 @@
             <mxPoint x="-100" y="-320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-85" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-410" y="-1090" width="620" height="650" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-99" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1030" y="-940" width="610" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry width="620" height="650" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry width="610" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-15" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="51" y="20" width="560" height="340" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-16" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="20" y="20" width="570" height="334" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="261" y="70" width="280" height="270" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="35" y="64" width="280" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-28" value="" style="group" vertex="1" connectable="0" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="30" y="370" width="190" height="230" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-88" value="命令组：CMDGroup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="45" y="114" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-11" value="" style="group;fillColor=#b1ddf0;strokeColor=#10739e;container=0;" vertex="1" connectable="0" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry width="190" height="230" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-89" value="雷达序号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="45" y="264" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-9" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry width="190" height="230" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-90" value="CMDGroupData" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="185" y="114" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-2" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;雷达全部距离&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry x="10" y="30" width="80" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-91" value="CMDGroupState" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="185" y="184" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;雷达自发自收距离&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry x="10" y="80" width="80" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-92" value="CMDGroupDataLen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="45" y="194" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;PDC报警等级&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry x="10" y="130" width="80" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-93" value="CMDGroupCount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="185" y="254" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;雷达故障状态&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry x="100" y="80" width="80" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-94" value="命令组回调指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="124" y="64" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-6" value="雷达原始距离信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry x="100" y="30" width="80" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-95" value="&lt;a name=&quot;OLE_LINK37&quot;&gt;RTE:UltrasonicGroup_CpltInd * 12&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="84" y="84" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;版本号&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry x="10" y="180" width="80" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-54" value="Runablele_URP_Step" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;horizontal=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="505" y="154" width="75" height="176" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-8" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;调试buffer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry x="100" y="130" width="80" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-31" value="底盘数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="328" y="361" width="82" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-10" value="输出其他数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-28">
-          <mxGeometry x="60" width="90" height="30" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-32" value="空气温度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="505" y="361" width="82" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-52" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;应用层输出&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="391" y="500" width="80" height="30" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-45" value="FAPA输出信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="240" y="361" width="82" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="96" y="70" width="150" height="270" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-46" value="LAPA输出信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="417" y="361" width="82" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-28" value="CMD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="106" y="190" width="55" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-48" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;应用层输入&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="364" y="450" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-29" value="CmdData" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="106" y="140" width="55" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="350" y="60" width="150" height="274" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-32" value="CmdDataLen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="106" y="240" width="55" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-18" value="CMD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="355" y="64" width="55" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-33" value="CMDState" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="106" y="90" width="55" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-19" value="UsslData" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="355" y="120" width="55" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-34" value="delayTimes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="106" y="290" width="55" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-20" value="UsslDataLen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="355" y="174" width="55" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-35" value="CMDCount" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="176" y="290" width="55" height="40" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-21" value="CMDState" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="355" y="230" width="55" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T4OOVNFbH59CJoSAk5R0-37" value="Ultrasonic01_CommandRequest * 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;horizontal=0;" parent="iZ5ewsuIFmka8se5Dk9W-85" vertex="1">
-          <mxGeometry x="140" y="70" width="160" height="220" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-22" value="times" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="432.5" y="284" width="55" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;调用底软RTE函数进行雷达通信&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="246" y="30" width="140" height="30" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-23" value="CMDCount" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="355" y="284" width="55" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-70" value="命令组：CMDGroup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="271" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-24" value="RTE:Ultrasonic01_CpltInd * 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;horizontal=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="465" y="65" width="30" height="194" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-73" value="雷达序号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="271" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-25" value="雷达执行CMD命令后返回的数据(RTE)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="220" y="30" width="245" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-74" value="CMDGroupData" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="411" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-98" value="单命令回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="444" y="82" width="32" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-75" value="CMDGroupState" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="411" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="20" y="360" width="210" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-77" value="CMDGroupDataLen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="271" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-35" value="控制器电源电压" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="32" y="390" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-78" value="CMDGroupCount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="411" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-36" value="各雷达传感器电压" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="130" y="390" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-80" value="命令组配置指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="350" y="70" width="110" height="30" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-37" value="各雷达传感器电流" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="32" y="440" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-84" value="单命令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="176" y="90" width="60" height="160" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-38" value="电流电压" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-99">
+          <mxGeometry x="95" y="360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-86" value="Ultrasonic_CommandGroup&lt;a name=&quot;OLE_LINK37&quot;&gt;Request&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="310" y="90" width="210" height="30" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="-940" width="600" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
-          <mxGeometry x="-1190" y="-1010" width="280" height="270" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-52" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;应用层输出&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="-480" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-88" value="命令组：CMDGroup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1180" y="-960" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-101" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-386.5" y="-570" width="559" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-89" value="雷达序号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1180" y="-810" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-11" value="" style="group;fillColor=#b1ddf0;strokeColor=#10739e;container=0;" vertex="1" connectable="0" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry width="559" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-90" value="CMDGroupData" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="-960" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-2" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;雷达全部距离&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry x="5" y="30" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-91" value="CMDGroupState" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="-890" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;雷达自发自收距离&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry x="180" y="30" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-92" value="CMDGroupDataLen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1180" y="-880" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;PDC报警等级&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry x="415" y="30" width="65" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-93" value="CMDGroupCount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="-820" width="120" height="60" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;雷达故障状态&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry x="269" y="30" width="65" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-94" value="命令组配置指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1101" y="-1010" width="110" height="30" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-6" value="雷达原始距离信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry x="89" y="30" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-95" value="&lt;a name=&quot;OLE_LINK37&quot;&gt;RTE:UltrasonicGroup_CpltInd * 12&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1141" y="-990" width="210" height="30" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;版本&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry x="499" y="30" width="52" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-8" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;调试buffer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry x="341" y="30" width="64" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-10" value="输出其他数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-101">
+          <mxGeometry x="234.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-102" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-390" y="-924" width="560" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-15" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry width="560" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="210" y="50" width="280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry x="45" y="50" width="150" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-28" value="CMD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry x="55" y="170" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-29" value="CmdData" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry x="55" y="120" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-32" value="CmdDataLen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry x="55" y="220" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-33" value="CMDState" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry x="55" y="70" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-34" value="delayTimes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry x="55" y="270" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-35" value="CMDCount" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry x="125" y="270" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4OOVNFbH59CJoSAk5R0-37" value="Ultrasonic01_CommandRequest * 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;horizontal=0;" parent="iZ5ewsuIFmka8se5Dk9W-102" vertex="1">
+          <mxGeometry x="89" y="50" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;调用底软RTE函数进行雷达通信&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="195" y="10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-70" value="命令组：CMDGroup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="220" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-73" value="雷达序号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="220" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-74" value="CMDGroupData" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="360" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-75" value="CMDGroupState" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="360" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-77" value="CMDGroupDataLen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="220" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-78" value="CMDGroupCount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-80" value="命令组请求指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="299" y="50" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-84" value="单命令请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="125" y="70" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-86" value="Ultrasonic_CommandGroup&lt;a name=&quot;OLE_LINK37&quot;&gt;Request&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-102">
+          <mxGeometry x="259" y="70" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
