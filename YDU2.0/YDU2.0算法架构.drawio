@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T01:11:19.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="_ysH5-tXbESFwyAlrl0D" version="21.3.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-06-30T01:13:15.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="Mu8PHd5FMbcIUfWEJ7Tl" version="21.3.6" type="github" pages="6">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4518" dy="2950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7777,21 +7777,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ijAim92dFezQM42T3PXV" name="第 9 页">
-    <mxGraphModel dx="1835" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="T4OOVNFbH59CJoSAk5R0-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="80" width="306" height="250" as="geometry" />
+          <mxGeometry x="-640" y="80" width="306" height="250" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="360" width="306" height="240" as="geometry" />
+          <mxGeometry x="-640" y="360" width="306" height="240" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="20" width="130" height="220" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="430" width="300" height="490" as="geometry" />
+          <mxGeometry x="120" y="690" width="300" height="230" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-3" value="输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="30" width="60" height="30" as="geometry" />
@@ -7800,46 +7800,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-4" value="RTE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-284" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="-624" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-5" value="写雷达" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-124" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="-464" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-6" value="其他数据(APA、HMI、数采等)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-284" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-624" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-9" value="雷达数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="-470" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-10" value="其他输入(底盘、功能开关、APA状态等)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="-470" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-11" value="读雷达数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="-630" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-12" value="写雷达之后返回的雷达相关数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="265" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-13" value="其他输入(底盘、功能开关、APA状态等)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="265" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-19" value="底软" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-177" y="380" width="60" height="30" as="geometry" />
+          <mxGeometry x="-517" y="380" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="T4OOVNFbH59CJoSAk5R0-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="120" as="sourcePoint" />
-            <mxPoint x="414" y="106.74157303370794" as="targetPoint" />
+            <mxPoint x="414" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T4OOVNFbH59CJoSAk5R0-11" target="T4OOVNFbH59CJoSAk5R0-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="190" as="sourcePoint" />
-            <mxPoint x="-130" y="180" as="targetPoint" />
+            <mxPoint x="-340" y="190" as="sourcePoint" />
+            <mxPoint x="-470" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T4OOVNFbH59CJoSAk5R0-27" value="SPI/DSI3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="165" width="60" height="30" as="geometry" />
+          <mxGeometry x="-530" y="165" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-11" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="540" y="400" width="190" height="230" as="geometry" />
@@ -7903,6 +7903,36 @@
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;调用底软RTE函数进行雷达通信&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-13">
           <mxGeometry x="20" y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-16" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="240" width="190" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="300" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-18" value="CMD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry y="330" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-19" value="UsslData" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-20" value="len" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry y="380" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-21" value="CMDState" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-22" value="times" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry y="430" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-23" value="CMDCount" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-24" value="Ultrasonic01_CpltInd * 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="300" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;调用底软RTE函数进行雷达通信&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="260" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
