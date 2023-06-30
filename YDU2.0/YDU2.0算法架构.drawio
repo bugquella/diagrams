@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T02:15:31.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="fwFPEaSP0GY_lwK4D2Ir" version="21.3.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-06-30T02:22:46.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="1hJ8Pv3UVQ4iRCyf_7ll" version="21.3.6" type="github" pages="6">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4518" dy="2950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7777,7 +7777,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ijAim92dFezQM42T3PXV" name="第 9 页">
-    <mxGraphModel dx="3854" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2706" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8013,10 +8013,13 @@
           <mxGeometry x="411" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-80" value="命令组配置指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
-          <mxGeometry x="361" y="80" width="110" height="30" as="geometry" />
+          <mxGeometry x="350" y="70" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-84" value="单命令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
           <mxGeometry x="176" y="90" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-86" value="Ultrasonic_CommandGroup&lt;a name=&quot;OLE_LINK37&quot;&gt;Request&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
+          <mxGeometry x="310" y="90" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
