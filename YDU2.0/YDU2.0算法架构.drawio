@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T02:23:01.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="oCNKceXPZgGiL3oIxJjs" version="21.3.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-06-30T02:49:46.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="Qr7TCtVj94ZiJb5L9Ngt" version="21.3.6" type="github" pages="6">
   <diagram id="lATCPpsy5ZSrmrmuy6q1" name="感知融合">
     <mxGraphModel dx="4518" dy="2950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7777,7 +7777,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ijAim92dFezQM42T3PXV" name="第 9 页">
-    <mxGraphModel dx="3854" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2706" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7889,8 +7889,8 @@
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-24" value="RTE:Ultrasonic01_CpltInd * 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
           <mxGeometry x="15" y="114" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZ5ewsuIFmka8se5Dk9W-25" value="雷达执行CMD命令后返回的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
-          <mxGeometry x="20" y="74" width="140" height="30" as="geometry" />
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-25" value="雷达执行CMD命令后返回的数据(RTE)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-57">
+          <mxGeometry x="70" y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-59" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;应用层&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-495" y="-1150" width="120" height="30" as="geometry" />
@@ -8020,6 +8020,33 @@
         </mxCell>
         <mxCell id="iZ5ewsuIFmka8se5Dk9W-86" value="Ultrasonic_CommandGroup&lt;a name=&quot;OLE_LINK37&quot;&gt;Request&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iZ5ewsuIFmka8se5Dk9W-85">
           <mxGeometry x="310" y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="-1010" width="280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-88" value="命令组：CMDGroup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="-960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-89" value="雷达序号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="-810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-90" value="CMDGroupData" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="-960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-91" value="CMDGroupState" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="-890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-92" value="CMDGroupDataLen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-93" value="CMDGroupCount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="-820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-94" value="命令组配置指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1101" y="-1010" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iZ5ewsuIFmka8se5Dk9W-95" value="Ultrasonic_CommandGroup&lt;a name=&quot;OLE_LINK37&quot;&gt;Request&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1141" y="-990" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
