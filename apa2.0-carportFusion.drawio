@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T02:57:45.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="MQ_tTMEaLEkl7QKiQnc3" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T03:00:13.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="D43_0BItZwqCu9_tZzHJ" version="22.1.17" type="github">
   <diagram name="第 1 页" id="v2VoE6i0zB2rasKz2DNC">
     <mxGraphModel dx="1646" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,10 +313,22 @@
         <mxCell id="D35mGMn1QWTD8DkZdU1f-46" value="视觉车位与超声波障碍物融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="720" y="660" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D35mGMn1QWTD8DkZdU1f-47" target="D35mGMn1QWTD8DkZdU1f-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D35mGMn1QWTD8DkZdU1f-47" target="D35mGMn1QWTD8DkZdU1f-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D35mGMn1QWTD8DkZdU1f-47" value="视觉车位与空间车位融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="720" y="820" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="D35mGMn1QWTD8DkZdU1f-48" value="视觉车位与空间车位融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D35mGMn1QWTD8DkZdU1f-48" target="D35mGMn1QWTD8DkZdU1f-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D35mGMn1QWTD8DkZdU1f-48" target="D35mGMn1QWTD8DkZdU1f-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-48" value="融合车位列表输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="720" y="880" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="D35mGMn1QWTD8DkZdU1f-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.601;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="1" source="D35mGMn1QWTD8DkZdU1f-22" target="D35mGMn1QWTD8DkZdU1f-46">
@@ -400,6 +412,18 @@
         </mxCell>
         <mxCell id="D35mGMn1QWTD8DkZdU1f-106" value="空间车位构造" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="880" y="760" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-109" value="匹配度计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="810" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-110" value="融合" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="840" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-111" value="融合车位输出有效性判定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="880" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="D35mGMn1QWTD8DkZdU1f-112" value="融合车位有效车位状态判定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="910" width="80" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
